@@ -216,7 +216,7 @@ exec --no-startup-id i3-msg restart
 exec --no-startup-id killall -USR1 termite
 exec --no-startup-id xrdb -load ~/.xresources.conf
 exec --no-startup-id setxkbmap no
-exec --no-startup-id compton -bc --config ~/.config/compton/config
+exec --no-startup-id compton -bc --config ~/.config/compton.conf
 exec --no-startup-id xrandr --output DVI-D-0 --mode 1920x1080 --rate 60.00 --rotate left --left-of DVI-I-1
 exec --no-startup-id xrandr --output DVI-I-1 --mode 1920x1080 --rate 144.00 --primary
 exec discord
@@ -225,9 +225,8 @@ exec chromium
 exec termite
 exec spotify
 exec code
-exec_always ~/.config/polybar/launch.sh
-exec_always feh --bg-fill '~/background.jpg'
-exec_always compton
+exec_always bash ~/.config/polybar/launch.sh
+exec_always feh --bg-fill ~/background.jpg
 
 #--[ GAPS and BORDERS ]--#
 
