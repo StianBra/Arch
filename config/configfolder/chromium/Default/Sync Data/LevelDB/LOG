@@ -1,0 +1,12 @@
+2019/10/10-00:49:24.696 4cc Reusing MANIFEST /home/raidendude/.config/chromium/Default/Sync Data/LevelDB/MANIFEST-000001
+2019/10/10-00:49:24.696 4cc Recovering log #53
+2019/10/10-00:49:25.682 4cc Reusing old log /home/raidendude/.config/chromium/Default/Sync Data/LevelDB/000053.log 
+2019/10/10-00:49:33.201 842 Level-0 table #58: started
+2019/10/10-00:49:33.369 842 Level-0 table #58: 284089 bytes OK
+2019/10/10-00:49:33.572 842 Delete type=0 #53
+2019/10/10-00:49:40.660 842 Level-0 table #60: started
+2019/10/10-00:49:40.842 842 Level-0 table #60: 328994 bytes OK
+2019/10/10-00:49:41.188 842 Delete type=0 #57
+2019/10/09-22:54:15.358 842 Level-0 table #62: started
+2019/10/09-22:54:15.404 842 Level-0 table #62: 213083 bytes OK
+2019/10/09-22:54:15.449 842 Delete type=0 #59

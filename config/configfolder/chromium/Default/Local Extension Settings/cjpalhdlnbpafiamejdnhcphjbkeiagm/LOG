@@ -1,0 +1,30 @@
+2019/10/10-00:49:32.467 59a Reusing MANIFEST /home/raidendude/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/MANIFEST-000001
+2019/10/10-00:49:32.467 59a Recovering log #37
+2019/10/10-00:49:32.514 59a Reusing old log /home/raidendude/.config/chromium/Default/Local Extension Settings/cjpalhdlnbpafiamejdnhcphjbkeiagm/000037.log 
+2019/10/10-00:49:42.597 842 Level-0 table #41: started
+2019/10/10-00:49:42.763 842 Level-0 table #41: 2678301 bytes OK
+2019/10/10-00:49:42.909 842 Delete type=0 #37
+2019/10/09-22:52:45.368 842 Level-0 table #43: started
+2019/10/09-22:52:45.460 842 Level-0 table #43: 2721072 bytes OK
+2019/10/09-22:52:45.492 842 Delete type=0 #40
+2019/10/09-22:52:45.494 842 Compacting 4@0 + 4@1 files
+2019/10/09-22:52:45.593 842 Generated table #44@0: 10 keys, 2184051 bytes
+2019/10/09-22:52:45.693 842 Generated table #45@0: 13 keys, 2319698 bytes
+2019/10/09-22:52:45.809 842 Generated table #46@0: 7 keys, 2730623 bytes
+2019/10/09-22:52:45.868 842 Generated table #47@0: 12 keys, 499967 bytes
+2019/10/09-22:52:45.868 842 Compacted 4@0 + 4@1 files => 7734339 bytes
+2019/10/09-22:52:45.897 842 compacted to: files[ 0 4 1 0 0 0 0 ]
+2019/10/09-22:52:45.897 842 Delete type=2 #31
+2019/10/09-22:52:45.897 842 Delete type=2 #33
+2019/10/09-22:52:45.898 842 Delete type=2 #32
+2019/10/09-22:52:45.898 842 Delete type=2 #38
+2019/10/09-22:52:45.899 842 Delete type=2 #36
+2019/10/09-22:52:45.899 842 Delete type=2 #30
+2019/10/09-22:52:45.899 842 Delete type=2 #43
+2019/10/09-22:52:45.900 842 Delete type=2 #41
+2019/10/09-22:54:46.059 842 Level-0 table #49: started
+2019/10/09-22:54:46.148 842 Level-0 table #49: 1853583 bytes OK
+2019/10/09-22:54:46.181 842 Delete type=0 #42
+2019/10/09-22:56:45.730 842 Level-0 table #51: started
+2019/10/09-22:56:45.813 842 Level-0 table #51: 1519056 bytes OK
+2019/10/09-22:56:45.850 842 Delete type=0 #48

@@ -1,0 +1,29 @@
+{
+   "couponCodes": {
+      "message": "Coupon Codes"
+   },
+   "earn500G": {
+      "message": "Earn 500 Gold!"
+   },
+   "earn500HG": {
+      "message": "Get 500 Honey Gold for every friend."
+   },
+   "extensionDesc": {
+      "message": "Automatically find and apply coupon codes when you shop online!"
+   },
+   "honeyAutomaticallyTrying": {
+      "message": "Honey is automatically trying the best coupon codes for you."
+   },
+   "inviteFriends": {
+      "message": "Love Honey? Get 500 Gold for every friend you refer, and redeem your Gold points for gift cards at some of the most popular stores. Just copy and share the link below to get started!"
+   },
+   "inviteFriendsAfterCheckout": {
+      "message": "If you liked shopping with us, share the love! You get 500 Gold for each friend you refer so click below to get started!"
+   },
+   "inviteFriendsFS": {
+      "message": "Share Honey and get 500 Gold for each friend you refer using your unique link:"
+   },
+   "submitACoupon": {
+      "message": "Submit a coupon"
+   }
+}

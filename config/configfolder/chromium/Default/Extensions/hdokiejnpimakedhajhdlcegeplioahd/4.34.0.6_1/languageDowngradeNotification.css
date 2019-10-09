@@ -1,0 +1,170 @@
+#languageDowngradeNotification {
+  background: #fff;
+  border-bottom: 1px solid #f0f0f2;
+  bottom: initial;
+  display: none;
+  padding: 12px 24px;
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.freeUser:not(.empty) #languageDowngradeNotification.leftOfAd {
+  right: 210px;
+}
+
+#languageDowngradeNotification.show {
+  display: block;
+}
+
+.languageDowngradeNotification__illustrationWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 0 25px 0 0;
+  max-width: 10%;
+  width: 100%;
+}
+
+.languageDowngradeNotification__illustration {
+  display: block;
+  margin: 0 auto;
+  max-height: 150px;
+}
+
+.languageDowngradeNotification__content {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 25px 0 0;
+  max-width: 400px;
+  width: 100%;
+}
+
+.languageDowngradeNotification__title {
+  color: #333d42;
+  display: block;
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 15px;
+}
+
+.languageDowngradeNotification__text {
+  color: #454d53;
+  font-size: 13px;
+}
+
+.languageDowngradeNotification__close {
+  color: #333d42;
+  display: block;
+  font-size: 13px;
+  height: 24px;
+  line-height: 24px;
+  position: absolute;
+  right: 24px;
+  top: 6px;
+}
+
+.languageDowngradeNotification__close:focus {
+  outline: none;
+}
+
+.languageDowngradeNotification__close__icon {
+  float: right;
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0 0 0 5px;
+}
+
+.languageDowngradeNotification__form {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.languageDowngradeNotification__step {
+  align-items: center;
+  display: none;
+  flex-direction: row;
+  min-height: 150px;
+}
+
+.languageDowngradeNotification__step.show {
+  display: flex;
+}
+
+/* ==========================================================================
+   Select
+   ========================================================================== */
+
+.select {
+  display: inline-block;
+  vertical-align: middle;
+  width: 254px;
+  border-bottom: 1px solid #a2a6a9;
+  position: relative;
+}
+
+.select:after {
+  content: url('/newvault/images/vault_4.0/Advanced_Open.png');
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  right: 6px;
+}
+
+.languageDowngradeNotification__form__select {
+  font-size: 13px;
+  border: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 6px 8px;
+  cursor: pointer;
+  background-color: transparent;
+  outline: 0;
+  width: 100%;
+  color: #22303b;
+  border-radius: 2px;
+}
+
+.languageDowngradeNotification__form__select:focus,
+.languageDowngradeNotification__form__select:active {
+  box-shadow: 0 0 0px 2px rgba(53, 152, 219, 1);
+}
+
+.select:focus {
+  outline: 0;
+}
+
+.languageDowngradeNotification__form__button {
+  border-radius: 25px;
+  box-shadow: 0 1px 1px 0 rgba(57, 74, 84, 0.2), 0 1px 6px 0 rgba(57, 74, 84, 0.1);
+  background-color: #d32d27;
+  color: #fff;
+  padding: 10px 13px;
+  font-size: 11px;
+  text-transform: uppercase;
+  font-weight: 600;
+  display: block;
+  margin: 16px 0;
+  letter-spacing: .02em;
+}
+
+.readAboutLink {
+  font-size: 12px;
+  color: #3598db;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/*Overrides*/
+body.languageDowngradeNotificationIsVisible #options,
+body.languageDowngradeNotificationIsVisible #sharingMenu,
+body.languageDowngradeNotificationIsVisible #emergencyAccessMenu {
+  top: 221px;
+}
+
+body.languageDowngradeNotificationIsVisible #main,
+body.languageDowngradeNotificationIsVisible #sharingMenu {
+  top: 281px;
+}

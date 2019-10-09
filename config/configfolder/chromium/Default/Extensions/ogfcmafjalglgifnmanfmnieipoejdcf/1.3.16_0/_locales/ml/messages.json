@@ -1,0 +1,734 @@
+{
+   "aboutBackupButton": {
+      "description": "",
+      "message": "ഫയലിലേക്ക് ബാക്ക്‌ അപ് ചെയ്യുക..."
+   },
+   "aboutBackupFilename": {
+      "description": "default filename to use",
+      "message": "my-umatrix-backup.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/releases'>മാറ്റത്തിന്റെ കുറിപ്പുകള്‍\u003C/a>"
+   },
+   "aboutCode": {
+      "description": "",
+      "message": "സോര്‍സ് കോഡ് (ജിപിഎല്‍ വി3)"
+   },
+   "aboutCodeContributors": {
+      "description": "",
+      "message": "കോഡ്:"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "സംഭാവന ചെയ്തവര്‍"
+   },
+   "aboutDoc": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/wiki'>Documentation\u003C/a>"
+   },
+   "aboutIssueContributors": {
+      "description": "",
+      "message": "പ്രശ്നങ്ങള്‍:"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "ബഗ്ഗുകളും പ്രശ്നങ്ങളും"
+   },
+   "aboutOr": {
+      "description": "English: ... or ...",
+      "message": "... അല്ലെങ്കില്‍ ..."
+   },
+   "aboutPageName": {
+      "description": "a tab in dashboard",
+      "message": "യുമാട്രിക്സിനെ കുറിച്ച്"
+   },
+   "aboutPermissions": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/httpswitchboard/wiki/Permissions'>അനുവാദങ്ങള്‍\u003C/a>"
+   },
+   "aboutResetButton": {
+      "description": "English: Reset to default settings",
+      "message": "ഡീഫാള്‍ട്ട് സെറ്റിംഗ്സിലേക്ക് റീസ്റ്റോര്‍ ചെയ്യുക"
+   },
+   "aboutResetConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Caution! this will remove all your custom settings. Are you sure you want to proceed?"
+   },
+   "aboutRestoreButton": {
+      "description": "",
+      "message": "ഫയലില്‍ നിന്നും റീസ്റ്റോര്‍ ചെയ്യുക..."
+   },
+   "aboutRestoreConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "All your settings will be overwritten using data backed up on {{time}}, and uMatrix will restart.\n\nOverwrite all existing settings using backed up data?"
+   },
+   "aboutRestoreError": {
+      "description": "",
+      "message": "The data could not be read or is invalid"
+   },
+   "aboutStorageUsed": {
+      "description": "",
+      "message": "Storage used: {{storageUsed}} bytes"
+   },
+   "aboutTranslationContributors": {
+      "description": "",
+      "message": "പരിഭാഷകള്‍:"
+   },
+   "aboutUserDataHeader": {
+      "description": "",
+      "message": "നിങ്ങളുടെ ഡാറ്റ"
+   },
+   "allPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "എല്ലാം"
+   },
+   "assetsHostsSection": {
+      "description": "header to identify the hosts files section",
+      "message": "Hosts files"
+   },
+   "assetsImportLabel": {
+      "description": "",
+      "message": "Import..."
+   },
+   "assetsInlineHostsLabel": {
+      "description": "",
+      "message": "My hosts"
+   },
+   "assetsInlineRecipesLabel": {
+      "description": "",
+      "message": "My recipes"
+   },
+   "assetsRecipesSection": {
+      "description": "header to identify the ruleset files section",
+      "message": "Ruleset recipes"
+   },
+   "assetsRecipesSummary": {
+      "description": "",
+      "message": "Ruleset recipes are imported from the popup panel \u003Cem>on demand\u003C/em>, i.e. \u003Cb>only\u003C/b> through user interaction."
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "ഈ ഉപകരണത്തിന്‍റെ പേര്:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "...\n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "ക്ലൌഡ് സ്റ്റോറേജില്‍ നിന്ന് ഇമ്പോര്‍ട്ട് ചെയ്യുക"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "ക്ലൌഡ് സ്റ്റോറേജിലേക്ക് എക്സ്പോര്‍ട്ട്‌ ചെയ്യുക"
+   },
+   "commandOpenDashboard": {
+      "description": "",
+      "message": "ഡാഷ്ബോര്‍ഡ് തുറക്കുക"
+   },
+   "commandRevertAll": {
+      "description": "",
+      "message": "Revert all temporary changes"
+   },
+   "commandWhitelistAll": {
+      "description": "",
+      "message": "Temporarily whitelist all"
+   },
+   "commandWhitelistPageDomain": {
+      "description": "",
+      "message": "Temporarily whitelist page domain"
+   },
+   "cookiePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "കുക്കി"
+   },
+   "cssPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "സിഎസ്എസ്‌"
+   },
+   "dashboardPageName": {
+      "description": "",
+      "message": "യുമാട്രിക്സ്‌ — ഡാഷ്ബോര്‍ഡ്"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} ദിവസങ്ങള്‍ക്ക്മുന്‍പ്"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} മണിക്കൂറുകള്‍ മുന്‍പ്"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} മിനിറ്റുകള്‍ മുന്‍പ്"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "ഒരു ദിവസം മുന്‍പ്"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "ഒരു മണിക്കൂര്‍ മുന്‍പ്"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "ഒരു മിനിറ്റ് മുന്‍പ്"
+   },
+   "errorCantConnectTo": {
+      "description": "",
+      "message": "നെറ്റ്‌വര്‍ക്ക് പ്രശ്നം: {{url}} ലേക്ക് കണക്റ്റ് ചെയ്യാന്‍ ഒക്കുന്നില്ല"
+   },
+   "extName": {
+      "description": "",
+      "message": "യുമാട്രിക്സ്‌"
+   },
+   "extShortDesc": {
+      "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS",
+      "message": "Point & click to forbid/allow any class of requests made by your browser. Use it to block scripts, iframes, ads, facebook, etc."
+   },
+   "framePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "ഫ്രെയിം"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Apply changes"
+   },
+   "genericRevert": {
+      "description": "for generic 'revert' buttons",
+      "message": "റിവേര്‍ട്ട്"
+   },
+   "genericSubmit": {
+      "description": "for generic 'submit' buttons",
+      "message": "സബ്മിറ്റ്"
+   },
+   "hostsFilesApplyChanges": {
+      "description": "",
+      "message": "Apply changes"
+   },
+   "hostsFilesAutoUpdatePrompt": {
+      "description": "",
+      "message": "Auto-update assets"
+   },
+   "hostsFilesExternalListNew": {
+      "description": "",
+      "message": "പുതിയ വെര്‍ഷന്‍ ലഭ്യമാണ്"
+   },
+   "hostsFilesExternalListObsolete": {
+      "description": "",
+      "message": "കാലഹരണപ്പെട്ടത്"
+   },
+   "hostsFilesExternalListPurge": {
+      "description": "",
+      "message": "കാഷ് നശിപ്പിക്കുക"
+   },
+   "hostsFilesExternalListsHint": {
+      "description": "",
+      "message": "Import external assets here: \nOne URL per line; invalid URLs will be silently ignored."
+   },
+   "hostsFilesExternalListsParse": {
+      "description": "",
+      "message": "പാര്‍സ് ചെയ്യുക"
+   },
+   "hostsFilesLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Last update: {{ago}}"
+   },
+   "hostsFilesPerFileStats": {
+      "description": "",
+      "message": "{{used}} used out of {{total}}"
+   },
+   "hostsFilesPrompt": {
+      "description": "",
+      "message": "All hostnames in a hosts file are loaded as blacklisted hostnames in the global scope."
+   },
+   "hostsFilesPurgeAll": {
+      "description": "",
+      "message": "Purge all caches"
+   },
+   "hostsFilesStats": {
+      "description": "",
+      "message": "{{blockedHostnameCount}} distinct blocked hostnames from:"
+   },
+   "hostsFilesUpdateNow": {
+      "description": "",
+      "message": "Update now"
+   },
+   "imagePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "ചിത്രം"
+   },
+   "loggerEntryAssetUpdated": {
+      "description": "An entry for when an asset was updated",
+      "message": "asset updated: {{value}}"
+   },
+   "loggerEntryBrowserCacheCleared": {
+      "description": "An entry for when a cookie can't be deleted",
+      "message": "browser cache cleared"
+   },
+   "loggerEntryCookieDeleted": {
+      "description": "An entry for when a cookie is deleted",
+      "message": "cookie deleted: {{value}}"
+   },
+   "loggerEntryDeleteCookieError": {
+      "description": "An entry for when the browser cache is cleared",
+      "message": "failed to delete cookie: {{value}}"
+   },
+   "loggerFilterInputPlaceholder": {
+      "description": "Appears in the input filed where filter expressions are entered",
+      "message": "filter expression(s)"
+   },
+   "loggerMaxEntriesTip": {
+      "description": "Appears as a tooltip when hovering the input field",
+      "message": "Maximum number of entries"
+   },
+   "loggerPageName": {
+      "description": "Title for the logger window",
+      "message": "uMatrix — Logger"
+   },
+   "mainBlockedBack": {
+      "description": "English: Go back",
+      "message": "പിന്നിലേക്ക്‌ പോകുക"
+   },
+   "mainBlockedClose": {
+      "description": "English: Close",
+      "message": "അടയ്ക്കുക"
+   },
+   "mainBlockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "without parameters"
+   },
+   "mainBlockedPrompt1": {
+      "description": "English: uMatrix has prevented the following page from loading:",
+      "message": "uMatrix has prevented the following page from loading:"
+   },
+   "mainBlockedPrompt2": {
+      "description": "English: Because of the following rule",
+      "message": "Because of the following rule"
+   },
+   "matrix1stPartyLabel": {
+      "description": "1st-party",
+      "message": "ഒന്നാം കക്ഷി"
+   },
+   "matrixBlacklistedHostnames": {
+      "description": "Appears in the metadata row of bottom-most group: **mind the limited width**",
+      "message": "{{count}} കരിംപട്ടികയില്‍ ഉള്ള ഹോസ്റ്റുകള്‍"
+   },
+   "matrixDashboardMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "ഡാഷ്ബോര്‍ഡിലേക്ക് പോകുക"
+   },
+   "matrixGlobalScopeTip": {
+      "description": "Tool tip for the global scope button",
+      "message": "Select the global scope to see/create rules which apply everywhere"
+   },
+   "matrixLocalScopeTip": {
+      "description": "Tool tip for the local scope button",
+      "message": "Select a local scope to see/create rules which apply only in that scope"
+   },
+   "matrixLoggerMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "ലോഗ്ഗറിലേക്ക് പോകുക"
+   },
+   "matrixMtxButtonTip": {
+      "description": "Tool tip for matrix button",
+      "message": "ഈ സ്കോപ്പില്‍ മാട്രിക്സ്‌ ഫില്‍ട്ടറിംഗ് എനേബിള്‍/ഡിസേബിള്‍ ചെയ്യുക."
+   },
+   "matrixNoNetTrafficPrompt": {
+      "description": "",
+      "message": "ഈ ടാബില്‍ ഇതുവരെ ഒരു ഗതാഗതവും ഉണ്ടായിട്ടില്ല."
+   },
+   "matrixNoTabFound": {
+      "description": "Displays in place of matrix when no data is found for the current page",
+      "message": "No web page found"
+   },
+   "matrixPersistButtonTip": {
+      "description": "Tool tip for the persist button",
+      "message": "ഈ സ്കോപ്പിലെ എല്ലാ താത്കാലിക മാറ്റങ്ങളും സൂക്ഷിക്കുക."
+   },
+   "matrixRecipeImportTip": {
+      "description": "Used as a tooltip for the recipe import button",
+      "message": "Import rules"
+   },
+   "matrixRecipeSaveTip": {
+      "description": "Used as a tooltip for the recipe padlock button",
+      "message": "Save rules"
+   },
+   "matrixReloadButton": {
+      "description": "Tool tip for the reload button",
+      "message": "പേജ്‌ ഒന്നു കൂടി ലോഡ് ചെയ്യുക."
+   },
+   "matrixRevertAllEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "എല്ലാ താത്കാലിക മാറ്റങ്ങളും ഉപേക്ഷിക്കുക"
+   },
+   "matrixRevertButtonTip": {
+      "description": "Tool tip for the revert local permission button",
+      "message": "ഈ സ്കോപ്പിലെ എല്ലാ താത്കാലിക മാറ്റങ്ങളും ഉപേക്ഷിക്കുക."
+   },
+   "matrixSwitchNoMixedContent": {
+      "description": "A menu entry in the matrix popup",
+      "message": "സ്ട്രിക്റ്റ് എച്ച്ടിടിപിഎസ്"
+   },
+   "matrixSwitchNoWorker": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Forbid web workers"
+   },
+   "matrixSwitchNoscriptSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Spoof \u003Ccode>\u003Cnoscript>\u003C/code> tags"
+   },
+   "matrixSwitchReferrerSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "റഫറര്‍ അനുകരണം"
+   },
+   "mediaPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "മീഡിയ"
+   },
+   "otherPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "മറ്റുള്ളവ"
+   },
+   "pluginPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "പ്ലഗ്ഗിന്‍"
+   },
+   "privacyClearCacheHelp": {
+      "description": "",
+      "message": "\u003Cp>Some web sites are really bent on tracking you, so much that they will use not-so-nice tricks to work around whatever measures you take in order to not be tracked.\u003C/p>\u003Cp>A few of these tricks rely\u003Csup>[1, 2]\u003C/sup> on the \u003Ca href='https://en.wikipedia.org/wiki/Web_cache'>browser cache\u003C/a>, which content is often long lasting since rarely will users take the time to regularly clear their browser cache.\u003C/p>\u003Cp>There is little inconvenience to clear the browser cache regularly (likelihood is that you won't notice when it happens), and the benefit is to prevent these obnoxious trackers from invading your privacy.\u003C/p>\u003Cp>Check this option to have \u003Ci>uMatrix\u003C/i> do it for you, at the interval you wish.\u003C/p>\u003Cp>[1] \u003Ca href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;\u003C/a>\n[2] \u003Ca href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;\u003C/a>\u003C/p>"
+   },
+   "privacyClearCachePrompt1": {
+      "description": "First part of 'Clear browser cache every [n] minutes'",
+      "message": "Clear browser cache every"
+   },
+   "privacyClearCachePrompt2": {
+      "description": "Second part of 'Clear browser cache every [n] minutes'",
+      "message": "മിനിറ്റുകള്‍."
+   },
+   "privacyDeleteBlockedCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>Blacklisted cookies are not prevented by \u003Ci>uMatrix\u003C/i> from entering your browser. However they are prevented from leaving your browser, which is what really matters. Not blocking cookies before they enter your browser gives you the opportunity to be informed that a site tried to use cookies, and furthermore to inspect their contents if you wish.\u003C/p>\u003Cp>Once these blacklisted cookies have been accounted for by \u003Ci>uMatrix\u003C/i>, they can be removed from your browser if you wish so.\u003C/p>\u003Cp>\u003Cb>Important note:\u003C/b> Extensions can make web requests during the course of their normal operation. These requests can result in cookies being created in the browser. If the hostname from where a cookie originate is not whitelisted, the cookie will be removed from the browser by \u003Ci>uMatrix\u003C/i> if this option is checked. So be sure that the hostname(s) with which an extension communicate is whitelisted.\u003C/p>"
+   },
+   "privacyDeleteBlockedCookiesPrompt": {
+      "description": "",
+      "message": "Delete blocked cookies"
+   },
+   "privacyDeleteBlockedLocalStorageHelp": {
+      "description": "",
+      "message": "ചെയ്യാനുള്ളവ"
+   },
+   "privacyDeleteBlockedLocalStoragePrompt": {
+      "description": "",
+      "message": "Delete \u003Ca href='https://en.wikipedia.org/wiki/Web_storage'>local storage\u003C/a> content set by blocked hostnames"
+   },
+   "privacyDeleteNonBlockedSessionCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>\u003Ca href='http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html'>W3C\u003C/a>: &ldquo;A session cookie ... is erased when you end the browser session. The session cookie is stored in temporary memory and is not retained after the browser is closed.&rdquo;\u003C/p>\u003Cp>Except that this \u003Ca href='https://code.google.com/p/chromium/issues/detail?id=128513'>might not be happening\u003C/a> in some browsers. Also, to some, having to close the browser in order for the session cookies to clear might not be early enough.\u003C/p>"
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt1": {
+      "description": "First part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": "Delete non-blocked session cookies "
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt2": {
+      "description": "Second part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": " minutes after the last time they have been used"
+   },
+   "privacyNoMixedContentHelp": {
+      "description": "",
+      "message": "\u003Cp>From \u003Ca href='https://developer.mozilla.org/en-US/docs/Security/MixedContent'>Mozilla Developer Network\u003C/a>:\u003C/p>\u003Cblockquote>If [a] HTTPS page includes content retrieved through regular, cleartext HTTP, then the connection is only partially encrypted: the unencrypted content is accessible to sniffers and can be modified by man-in-the-middle attackers, and therefore the connection is not safeguarded anymore. When a webpage exhibits this behavior, it is called a mixed content page.\u003C/blockquote>"
+   },
+   "privacyNoMixedContentPrompt": {
+      "description": "",
+      "message": "Strict HTTPS: forbid mixed content"
+   },
+   "privacyPageName": {
+      "description": "a tab in dashboard",
+      "message": "പ്രൈവസി"
+   },
+   "privacyPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Privacy"
+   },
+   "privacyProcessHyperlinkAuditingHelp": {
+      "description": "",
+      "message": "\u003Cp>Hyperlink auditing is a mechanism which allow a party, \u003Cb>any party\u003C/b>, to be informed about which link a user clicked on a particular web page. It is essentially a tracking feature: it allows a web site, or any third-party to that web site, to be informed about which link you clicked on which one of its web pages. The sole purpose is to track your browsing activity.\u003C/p>"
+   },
+   "privacyProcessHyperlinkAuditingPrompt": {
+      "description": "",
+      "message": "Block all \u003Ca href='https://html.spec.whatwg.org/multipage/semantics.html#hyperlink-auditing'>hyperlink auditing\u003C/a> attempts"
+   },
+   "privacyProcessRefererHelp": {
+      "description": "",
+      "message": "From Wikipedia:\u003Cblockquote>HTTP referer is an HTTP header field that identifies the address of the webpage that linked to the resource being requested. ... \u003Cb>Because referer information can violate privacy, some web browsers allow the user to disable the sending of referer information.\u003C/b>\u003C/blockquote>If this setting is checked, \u003Ci>uMatrix\u003C/i> will spoof the HTTP referrer information if the domain name of the HTTP referrer is third-party to the domain name of net request."
+   },
+   "privacyProcessRefererPrompt": {
+      "description": "",
+      "message": "Spoof \u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referrer\u003C/a> string of third-party requests"
+   },
+   "rawSettingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "കൂടുതൽ"
+   },
+   "rawSettingsWarning": {
+      "description": "",
+      "message": "Warning! Change these raw configuration settings at your own risk."
+   },
+   "scriptPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "സ്ക്രിപ്റ്റ്"
+   },
+   "settingsCloudStorageEnabled": {
+      "description": "",
+      "message": "Enable cloud storage support"
+   },
+   "settingsCollapseBlacklisted": {
+      "description": "A setting in the dashboard's Settings pane: 'blacklisted' means 'for which there is a specific block rule', 'specific' means 'a rule for which the destination hostname is not `*`'",
+      "message": "Collapse placeholder of blacklisted elements"
+   },
+   "settingsCollapseBlocked": {
+      "description": "English: Collapse placeholder of blocked elements",
+      "message": "Collapse placeholder of blocked elements"
+   },
+   "settingsDefaultScopeLevel": {
+      "description": "Label for default scope level selector in Settings pane",
+      "message": "Default scope level:"
+   },
+   "settingsDefaultScopeLevel0": {
+      "description": "Scope will be global",
+      "message": "ആഗോള"
+   },
+   "settingsDefaultScopeLevel1": {
+      "description": "Scope will be base domain",
+      "message": "ഡൊമൈന്‍"
+   },
+   "settingsDefaultScopeLevel2": {
+      "description": "Scope will be full hostname of site",
+      "message": "Site"
+   },
+   "settingsIconBadgeEnabled": {
+      "description": "",
+      "message": "Show the number of blocked resources on the icon"
+   },
+   "settingsMatrixConvenienceHeader": {
+      "description": "English: Convenience",
+      "message": "Convenience"
+   },
+   "settingsMatrixDisplayColorBlind": {
+      "description": "",
+      "message": "Color-blind friendly"
+   },
+   "settingsMatrixDisplayHeader": {
+      "description": "header for matrix settings used in Settings page",
+      "message": "Matrix"
+   },
+   "settingsMatrixDisplayTextSizePrompt": {
+      "description": "",
+      "message": "Text size:"
+   },
+   "settingsMatrixNoTooltips": {
+      "description": "",
+      "message": "Disable tooltips"
+   },
+   "settingsNoscriptTagsSpoofed": {
+      "description": "This appears in the Settings pane in the dashboard",
+      "message": "Spoof \u003Ccode>\u003Cnoscript>\u003C/code> tags when 1st-party scripts are blocked"
+   },
+   "settingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "സെറ്റിംഗ്സ്"
+   },
+   "settingsPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Settings"
+   },
+   "showDashboardButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "ഡാഷ്ബോര്‍ഡ്"
+   },
+   "showLoggerButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "ലോഗ്ഗര്‍"
+   },
+   "statsPageAll": {
+      "description": "",
+      "message": "എല്ലാം"
+   },
+   "statsPageAllowed": {
+      "description": "header for the allowed requests column",
+      "message": "അനുവദനീയമായവ"
+   },
+   "statsPageBlocked": {
+      "description": "header for the blocked requests column",
+      "message": "തടഞ്ഞിരിക്കുന്നവ"
+   },
+   "statsPageBrowserCacheCleared": {
+      "description": "",
+      "message": "ക്ലിയര്‍ ചെയ്യപ്പെട്ട ബ്രൌസര്‍ കാഷ്: {{count}}"
+   },
+   "statsPageCSS": {
+      "description": "",
+      "message": "സിഎസ്എസ്"
+   },
+   "statsPageCookieHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://en.wikipedia.org/wiki/HTTP_cookie'>എച്ച്റ്റിറ്റിപി കുക്കി\u003C/a> തടഞ്ഞ ഹെഡറുകള്‍: {{count}}"
+   },
+   "statsPageCookies": {
+      "description": "",
+      "message": "കുക്കികള്‍"
+   },
+   "statsPageCookiesRemoved": {
+      "description": "",
+      "message": "തുടച്ചുനീക്കിയ ലോക്കല്‍ കുക്കികള്‍: {{count}}"
+   },
+   "statsPageDetailed": {
+      "description": "",
+      "message": "ലോഗ്ഗര്‍"
+   },
+   "statsPageDetailedAllPages": {
+      "description": "",
+      "message": "എല്ലാം"
+   },
+   "statsPageDetailedBehindTheScenePage": {
+      "description": "",
+      "message": "സീനിനു പിന്നില്‍"
+   },
+   "statsPageDetailedStats": {
+      "description": "",
+      "message": "വിശദമായ സ്റ്ററ്റിസ്റ്റിക്സ്‌"
+   },
+   "statsPageFrames": {
+      "description": "",
+      "message": "ഫ്രെയിമുകള്‍"
+   },
+   "statsPageGenericStats": {
+      "description": "",
+      "message": "ജനറിക്ക് സ്റ്ററ്റിസ്റ്റിക്സ്‌"
+   },
+   "statsPageHyperlinkAuditingFoiled": {
+      "description": "",
+      "message": "തടഞ്ഞ \u003Ca href='http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#hyperlink-auditing'>ഹൈപ്പര്‍ലിങ്ക് ഓടിറ്റിംഗ്\u003C/a> ശ്രമങ്ങള്‍: {{count}}"
+   },
+   "statsPageImages": {
+      "description": "",
+      "message": "ചിത്രങ്ങള്‍"
+   },
+   "statsPageLocalStoragesCleared": {
+      "description": "",
+      "message": "കാലിയാക്കപ്പെട്ട\u003Ca href='http://diveintohtml5.info/storage.html'>ലോക്കല്‍ സ്റ്റോറെജ്\u003C/a>:{{count}}"
+   },
+   "statsPageLogSizeHelp": {
+      "description": "To help user understand the purpose of the log size value",
+      "message": "\u003Cp>You can inspect details of the most recent raw HTTP requests which have been made by a web page (see below).\u003C/p>\u003Cp>This is mostly useful to advanced users who want to investigate exactly what a web page has been doing. But logging these HTTP requests requires memory, and if you don't care about this technical information, then memory is being wasted.\u003C/p>\u003Cp>Hence this field which lets you adjust the maximum number of the most recent HTTP requests which are to be logged for further inspection.\u003C/p>\u003Cp>Enter &ldquo;\u003Ccode>0\u003C/code>&rdquo; to turn off detailed logging (and consequently reduce the memory footprint of \u003Ci>uMatrix\u003C/i>).\u003C/p>"
+   },
+   "statsPageLogSizePrompt1": {
+      "description": "First part of Remember the last [n] HTTP requests per page",
+      "message": "Remember the last"
+   },
+   "statsPageLogSizePrompt2": {
+      "description": "Second part of Remember the last [n] HTTP requests per page",
+      "message": "HTTP requests \u003Cb>per page\u003C/b>"
+   },
+   "statsPageName": {
+      "description": "a tab in dashboard",
+      "message": "സ്റ്ററ്റിസ്റ്റിക്സ്‌"
+   },
+   "statsPageOthers": {
+      "description": "",
+      "message": "മറ്റുള്ളവ"
+   },
+   "statsPageOverview": {
+      "description": "",
+      "message": "ഓവര്‍വ്യൂ"
+   },
+   "statsPagePages": {
+      "description": "",
+      "message": "പേജുകള്‍"
+   },
+   "statsPagePlugins": {
+      "description": "",
+      "message": "പ്ലഗ്ഗിന്നുകള്‍"
+   },
+   "statsPageRefererHeadersFoiled": {
+      "description": "",
+      "message": "തടഞ്ഞ \u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>എച്ച്റ്റിറ്റിപി\u003C/a> ഹെഡറുകള്‍:{{count}}"
+   },
+   "statsPageRefresh": {
+      "description": "",
+      "message": "Refresh"
+   },
+   "statsPageRequests": {
+      "description": "header for the stat type column",
+      "message": "അപേക്ഷകള്‍"
+   },
+   "statsPageScripts": {
+      "description": "",
+      "message": "സ്ക്രിപ്റ്റുകള്‍"
+   },
+   "statsPageTitle": {
+      "description": "",
+      "message": "യുമാട്രിക്സ്‌ &ndash; സ്റ്ററ്റിസ്റ്റിക്സ്‌"
+   },
+   "statsPageXHRs": {
+      "description": "",
+      "message": "എക്സ്‌എച്ച്ആറുകള്‍"
+   },
+   "ubiquitousRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "അസറ്റുകൾ"
+   },
+   "userRulesCommit": {
+      "description": "Will save all temporary rules",
+      "message": "കമ്മിറ്റ്"
+   },
+   "userRulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-umatrix-rules.txt"
+   },
+   "userRulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "എഡിറ്റ്‌"
+   },
+   "userRulesEditDicard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "കളയുക"
+   },
+   "userRulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "സൂക്ഷിക്കുക"
+   },
+   "userRulesExport": {
+      "description": "",
+      "message": "Export to file..."
+   },
+   "userRulesFormatHint": {
+      "description": "",
+      "message": "See this page for rule syntax."
+   },
+   "userRulesImport": {
+      "description": "",
+      "message": "ഫയലില്‍ നിന്നും ഇമ്പോര്‍ട്ട് ചെയ്യുക..."
+   },
+   "userRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "എന്‍റെ നിയമങ്ങള്‍"
+   },
+   "userRulesPermanentHeader": {
+      "description": "",
+      "message": "സ്ഥിര നിയമങ്ങള്‍"
+   },
+   "userRulesRevert": {
+      "description": "Will remove all temporary rules",
+      "message": "റിവേര്‍ട്ട്"
+   },
+   "userRulesTemporaryHeader": {
+      "description": "",
+      "message": "താത്കാലിക നിയമങ്ങള്‍"
+   },
+   "xhrPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "എക്സ്‌എച്ച്ആര്‍"
+   }
+}

@@ -1,0 +1,61 @@
+/*common value*/
+.txt-bold {
+     font-weight: 700;
+     font-family: 'LatoWebBold', 'source_sans_proregular', Arial;
+     -webkit-font-smoothing: antialiased;
+}
+.txt-green {
+    color: #00BFA5;
+}
+.txt-dark {
+    color: #333;
+}
+/* body header */
+h2 {
+    font-family: 'LatoWeb', 'source_sans_proregular', Arial;
+    font-size: 32px;
+    line-height: 48px;
+    color: #262F3B;
+}
+.semi-large-header {
+    font-family: 'LatoWeb', 'source_sans_proregular', Arial;
+    font-size: 28px;
+    color: #333333;
+    line-height: 42px;
+    padding: 24px 32px 16px;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/*body text*/
+.content-txt {
+    font-family: 'LatoWeb', 'source_sans_proregular', Arial;
+    font-size: 14px;
+    line-height: 20px;
+    color: #999;
+    padding:0;
+    position: relative;
+    display: inline-block;
+}
+.content-txt.semi-larger-txt {
+    font-size: 16px;
+    line-height: 24px;
+}
+.underline-btn-txt {
+    font-family: 'LatoWeb', 'source_sans_proregular', Arial;
+    font-size: 14px;
+    line-height: 20px;
+    text-decoration: underline;
+    position: relative;
+    display: inline-block;
+    outline-color: none;
+}
+.underline-btn-txt.semi-larger-txt {
+    font-size: 16px;
+    line-height: 24px;
+}
+/*data presentation text*/
+/*test*/
+/*input*/
+/*transfers related text*/

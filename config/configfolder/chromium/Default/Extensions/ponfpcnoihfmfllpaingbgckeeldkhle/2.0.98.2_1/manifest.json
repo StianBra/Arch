@@ -1,0 +1,95 @@
+{
+   "background": {
+      "persistent": true,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/19.png",
+         "38": "icons/38.png"
+      },
+      "default_title": "Enhancer for YouTube™"
+   },
+   "commands": {
+      "cinema-mode": {
+         "description": "__MSG_cinema_mode__",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Space",
+            "mac": "MacCtrl+Shift+Space"
+         }
+      },
+      "remove-ads": {
+         "description": "__MSG_remove_ads__",
+         "suggested_key": {
+            "default": "Ctrl+Delete",
+            "mac": "MacCtrl+Delete"
+         }
+      },
+      "resize-player": {
+         "description": "__MSG_resize_player__",
+         "suggested_key": {
+            "default": "Ctrl+Space",
+            "mac": "MacCtrl+Space"
+         }
+      },
+      "toggle-annotations": {
+         "description": "__MSG_show_hide_annotations__",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "exclude_globs": [ "*/detached_player/*", "*/embed/*", "*/tv#/*", "*/tv/*" ],
+      "js": [ "content.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_end"
+   }, {
+      "exclude_globs": [ "*/detached_player/*" ],
+      "js": [ "start.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_start"
+   }, {
+      "exclude_globs": [ "*/detached_player/*" ],
+      "js": [ "idle.js" ],
+      "matches": [ "*://www.youtube.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "embeds.js" ],
+      "matches": [ "*://www.youtube.com/embed/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "detached-player.css" ],
+      "js": [ "detached-player.js" ],
+      "matches": [ "*://www.youtube.com/detached_player/*" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "live-chat.js" ],
+      "matches": [ "*://www.youtube.com/live_chat*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/128.png",
+      "16": "icons/16.png",
+      "19": "icons/19.png",
+      "24": "icons/24.png",
+      "32": "icons/32.png",
+      "38": "icons/38.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrJipzcs6r7wrOrIhajflr37G10c+X+VAhhAWTJdL9icUUzFYS91ZcvNKyLqWRSI1j9sQJLK4m4gLYL1nHMZp1Zc/Eeer97b+TRuyQbapxu6ui/6APYHydWPHektVFbrsWdWM/sUzobEsYpYfWvwAiXDjFbwxodGNgC94wYIff1QIDAQAB",
+   "manifest_version": 2,
+   "name": "Enhancer for YouTube™",
+   "optional_permissions": [ "tabs", "webNavigation", "webRequest", "webRequestBlocking" ],
+   "options_page": "options.html",
+   "permissions": [ "cookies", "storage", "*://www.youtube.com/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.0.98.2",
+   "web_accessible_resources": [ "resources/*" ]
+}

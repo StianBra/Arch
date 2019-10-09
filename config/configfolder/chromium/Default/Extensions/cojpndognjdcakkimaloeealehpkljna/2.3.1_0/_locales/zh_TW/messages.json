@@ -1,0 +1,437 @@
+{
+   "addLink": {
+      "message": "添加鏈接"
+   },
+   "additionalClocks": {
+      "message": "附加時鐘"
+   },
+   "animation": {
+      "message": "動畫"
+   },
+   "animationDesc": {
+      "message": "頁面讀取時使用動畫載入元素。"
+   },
+   "anythingHelps": {
+      "message": "任何形式的\u003Cbr>幫助！"
+   },
+   "appDesc": {
+      "message": "一個精美簡單、完全可定製的新式標籤頁，包括多個時鐘、日期、搜尋、快速連結等等！"
+   },
+   "appName": {
+      "message": "CaretTab - 新式可以顯示時間和日期的標籤"
+   },
+   "april": {
+      "message": "四月"
+   },
+   "august": {
+      "message": "八月"
+   },
+   "bg": {
+      "message": "背景顏色"
+   },
+   "bgDesc": {
+      "message": "頁面背景的顏色。"
+   },
+   "blinkDelimiter": {
+      "message": "分隔符閃爍"
+   },
+   "blinkDelimiterDesc": {
+      "message": "使得主時鐘的分隔符閃爍。"
+   },
+   "brackets": {
+      "message": "括弧"
+   },
+   "bracketsDesc": {
+      "message": "在主時鐘和日期的兩邊顯示括弧（使用模擬時鐘時會被隱藏）。"
+   },
+   "bracketsType": {
+      "message": "括弧種類"
+   },
+   "clockStyle": {
+      "message": "時鐘樣式"
+   },
+   "clockStyleDesc": {
+      "message": "在數碼時鐘和模擬時鐘之間切換（使用模擬時鐘時括號會被隱藏）。"
+   },
+   "configureEverything": {
+      "message": "點擊插入符號可以設定————所有東西！"
+   },
+   "credit": {
+      "message": "\u003Ca href=\"http://bluecaret.com/project/carettab\">CaretTab\u003C/a> 的設計者和編碼者是 \u003Ca href=\"http://jwh.design\">JWH Design, LLC\u003C/a> (\u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a>) 并且基于 \u003Ca href=\"https://opensource.org/licenses/MIT\">MIT License\u003C/a>."
+   },
+   "customColor": {
+      "message": "自定義顏色"
+   },
+   "customMessage": {
+      "message": "自定義訊息"
+   },
+   "customMessageDesc": {
+      "message": "顯示自定義訊息（在下方設定）。"
+   },
+   "customMessageText": {
+      "message": "自定義訊息"
+   },
+   "customMessageTextDesc": {
+      "message": "輸入自定義訊息。"
+   },
+   "customTabText": {
+      "message": "自定義標籤標題"
+   },
+   "customTabTextDesc": {
+      "message": "輸入自定義標籤標題。"
+   },
+   "date": {
+      "message": "日期"
+   },
+   "dateDesc": {
+      "message": "在頁面中央顯示日期。"
+   },
+   "dateFormat": {
+      "message": "日期格式"
+   },
+   "dateFormatDesc": {
+      "message": "決定日期的顯示方式。"
+   },
+   "day": {
+      "message": "星期"
+   },
+   "dayDesc": {
+      "message": "顯示星期（僅當「簡化」關閉時適用）。"
+   },
+   "december": {
+      "message": "十二月"
+   },
+   "delimiter": {
+      "message": "分隔符"
+   },
+   "delimiterDesc": {
+      "message": "在所有時鐘的時間之間顯示分隔符。"
+   },
+   "dimBrackets": {
+      "message": "淡化括弧"
+   },
+   "dimBracketsDesc": {
+      "message": "使得括弧透明50%。"
+   },
+   "dimDelimiter": {
+      "message": "淡化分隔符"
+   },
+   "dimDelimiterDesc": {
+      "message": "使得分隔符透明50%（僅當分隔符閃爍關閉時適用）。"
+   },
+   "dimSeconds": {
+      "message": "淡化秒數"
+   },
+   "dimSecondsDesc": {
+      "message": "使得秒數透明50%。"
+   },
+   "dimming": {
+      "message": "調光"
+   },
+   "disclaimer": {
+      "message": "CaretTab 對任何由於本擴充套件的準確度產生的問題不具有法律責任，如果您因為顯示的時間錯誤導致工作遲到，責任全在您本人身上。"
+   },
+   "february": {
+      "message": "二月"
+   },
+   "fg": {
+      "message": "前景顏色"
+   },
+   "fgDesc": {
+      "message": "字型和圖示的顏色。"
+   },
+   "font": {
+      "message": "字型"
+   },
+   "fontDesc": {
+      "message": "改變所有元素的\u003Cbr>字型。"
+   },
+   "fourthClock": {
+      "message": "第四個時鐘"
+   },
+   "fourthClockDesc": {
+      "message": "在主時鐘下面顯示一個額外的時鐘。"
+   },
+   "fourthClockLabel": {
+      "message": "第四個時鐘的標籤"
+   },
+   "fourthClockLabelDesc": {
+      "message": "輸入這個時鐘的標籤（如果沒有請留空）。"
+   },
+   "fourthClockTimezone": {
+      "message": "第四個時鐘的時區"
+   },
+   "fourthClockTimezoneDesc": {
+      "message": "選擇這個時鐘的時區。"
+   },
+   "friday": {
+      "message": "星期五"
+   },
+   "generousTip": {
+      "message": "少量的\u003Cbr>小費"
+   },
+   "globalStyle": {
+      "message": "全局樣式"
+   },
+   "hideSettingsButton": {
+      "message": "隱藏設定按鈕"
+   },
+   "hideSettingsButtonDesc": {
+      "message": "設定按鈕會開啟設定框。啟用該按鈕圖示會被隱藏，但您仍可以通過點選頁面的右上角開啟設定。"
+   },
+   "january": {
+      "message": "一月"
+   },
+   "july": {
+      "message": "七月"
+   },
+   "june": {
+      "message": "六月"
+   },
+   "keepFree": {
+      "message": "為了使 CaretTab 保持免費, 給開發者一點小費吧"
+   },
+   "keepFreeDesc": {
+      "message": "如果您認為 CaretTab 對您是有用的, 請考慮給一點小費來贊助它。小費會幫助它保持沒有廣告和免費！開發者衷心感謝您的支援！"
+   },
+   "language": {
+      "message": "語言"
+   },
+   "languageDesc": {
+      "message": "CaretTab支持根據您的瀏覽器設置自動翻譯的多種語言（手動設置擴展名中的語言的功能將在稍後進行）。 當前支持的語言：英語，法語，中文（簡體和繁體），日語，德語。"
+   },
+   "largeTip": {
+      "message": "普通的\u003Cbr>小費"
+   },
+   "latestUpdate": {
+      "message": "最後更新"
+   },
+   "march": {
+      "message": "三月"
+   },
+   "massiveTip": {
+      "message": "大量的\u003Cbr>小費"
+   },
+   "may": {
+      "message": "五月"
+   },
+   "meridiem": {
+      "message": "上午/下午"
+   },
+   "meridiemDesc": {
+      "message": "在主時鐘顯示上午/下午。"
+   },
+   "messageTitle": {
+      "message": "訊息"
+   },
+   "military": {
+      "message": "二十四小时制"
+   },
+   "militaryDesc": {
+      "message": "使用二十四小時制。"
+   },
+   "miscellaneous": {
+      "message": "雜項"
+   },
+   "monday": {
+      "message": "星期一"
+   },
+   "november": {
+      "message": "十一月"
+   },
+   "october": {
+      "message": "十月"
+   },
+   "otherTip": {
+      "message": "其他金額"
+   },
+   "primaryClock": {
+      "message": "主時鐘"
+   },
+   "primaryClockDesc": {
+      "message": "在頁面中央顯示主時鐘。"
+   },
+   "quickLinks": {
+      "message": "快速連結"
+   },
+   "quickLinksDesc": {
+      "message": "在頁面最上面顯示一個自定義的快速連結。"
+   },
+   "resetButton": {
+      "message": "重置預設設定"
+   },
+   "resetDesc": {
+      "message": "如果您想要重置所有設定到預設設定，您可以使用該按鈕（請在重置後重新整理）。"
+   },
+   "saturday": {
+      "message": "星期六"
+   },
+   "scaleDisplay": {
+      "message": "縮放顯示"
+   },
+   "scaleDisplayDesc": {
+      "message": "改變元素的尺寸。如果元素重疊，減小尺寸。"
+   },
+   "search": {
+      "message": "搜尋"
+   },
+   "searchBox": {
+      "message": "搜尋框"
+   },
+   "searchBoxDesc": {
+      "message": "在時鐘上方顯示一個搜尋框。"
+   },
+   "searchEngine": {
+      "message": "搜尋引擎"
+   },
+   "searchEngineDesc": {
+      "message": "選擇搜尋框中使用的搜尋引擎。"
+   },
+   "secondClock": {
+      "message": "第二個時鐘"
+   },
+   "secondClockDesc": {
+      "message": "在主時鐘下面顯示一個額外的時鐘。"
+   },
+   "secondClockLabel": {
+      "message": "第二個時鐘的標籤"
+   },
+   "secondClockLabelDesc": {
+      "message": "輸入這個時鐘的標籤（如果沒有請留空）。"
+   },
+   "secondClockTimezone": {
+      "message": "第二個時鐘的時區"
+   },
+   "secondClockTimezoneDesc": {
+      "message": "選擇這個時鐘的時區。"
+   },
+   "seconds": {
+      "message": "秒數"
+   },
+   "secondsDesc": {
+      "message": "顯示主時鐘的秒數。"
+   },
+   "september": {
+      "message": "九月"
+   },
+   "settingsPanel": {
+      "message": "請注意檢查每個標籤內的所有設定"
+   },
+   "shortForm": {
+      "message": "簡化"
+   },
+   "shortFormDesc": {
+      "message": "顯示日期的簡化形式。"
+   },
+   "showDelimiter": {
+      "message": "簡化日期的分隔符"
+   },
+   "showDelimiterDesc": {
+      "message": "顯示在簡化日期數字之間的分隔符。"
+   },
+   "singleLink": {
+      "message": "連結"
+   },
+   "sunday": {
+      "message": "星期日"
+   },
+   "supportDesc": {
+      "message": "如果您需要支援、提出建議或其他評論，您可以聯絡開發者\u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a>，推特\u003Ca href=\"https://twitter.com/BlueCaret\">@BlueCaret\u003C/a>，或者在\u003Ca href=\"https://github.com/bluecaret/carettab\">GitHub\u003C/a>上瀏覽 CaretTab。"
+   },
+   "supportTitle": {
+      "message": "支援"
+   },
+   "tabAbout": {
+      "message": "關於"
+   },
+   "tabColor": {
+      "message": "顏色"
+   },
+   "tabDate": {
+      "message": "日期"
+   },
+   "tabExtras": {
+      "message": "附加功能"
+   },
+   "tabLinks": {
+      "message": "連結"
+   },
+   "tabStyle": {
+      "message": "樣式"
+   },
+   "tabTime": {
+      "message": "時間"
+   },
+   "tabTitle": {
+      "message": "標籤標題"
+   },
+   "tabTitleDesc": {
+      "message": "選擇新標籤的標題要顯示什麼（包括標籤本身和瀏覽器的標題欄）。"
+   },
+   "themes": {
+      "message": "主題"
+   },
+   "thirdClock": {
+      "message": "第三個時鐘"
+   },
+   "thirdClockDesc": {
+      "message": "在主時鐘下面顯示一個額外的時鐘。"
+   },
+   "thirdClockLabel": {
+      "message": "第三個時鐘的標籤"
+   },
+   "thirdClockLabelDesc": {
+      "message": "輸入這個時鐘的標籤（如果沒有請留空）。"
+   },
+   "thirdClockTimezone": {
+      "message": "第三個時鐘的時區"
+   },
+   "thirdClockTimezoneDesc": {
+      "message": "選擇這個時鐘的時區。"
+   },
+   "thursday": {
+      "message": "星期四"
+   },
+   "timeDisclaimer": {
+      "message": "\u003Cb>注意\u003C/b> 主時鐘和附加時鐘顯示的時間是基於您的電腦設定的時間和時區。對於您所在時區的檢測基本上是有根據的猜測，可能不會反映您的真實時區，這會導致附加時鐘的時間被關閉。現在 CaretTab 檢測您的所在時區為："
+   },
+   "timezone": {
+      "message": "時區"
+   },
+   "timezoneDesc": {
+      "message": "選擇主時鐘的時區（預設為您的本地時區）。"
+   },
+   "tuesday": {
+      "message": "星期二"
+   },
+   "viaPaypal": {
+      "message": "小費通過\u003Cbr>PayPal支付\u003Cbr>\u003Cb>謝謝！\u003C/b>"
+   },
+   "wednesday": {
+      "message": "星期三"
+   },
+   "weekLabel": {
+      "message": "週數標籤"
+   },
+   "weekLabelDesc": {
+      "message": "選擇一個在週數旁邊顯示的標籤。"
+   },
+   "weekNumber": {
+      "message": "週數"
+   },
+   "weekNumberDesc": {
+      "message": "在日期下方顯示週數。"
+   },
+   "welcome": {
+      "message": "歡迎來到 CaretTab！"
+   },
+   "welcomeUpdated": {
+      "message": "CaretTab 已被更新到"
+   },
+   "year": {
+      "message": "年份"
+   },
+   "yearDesc": {
+      "message": "在日期中顯示年份。"
+   }
+}

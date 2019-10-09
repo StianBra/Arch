@@ -1,0 +1,314 @@
+{
+   "alleanzeigen": {
+      "message": "Alles weergeven"
+   },
+   "appDesc": {
+      "message": "Download video's van websites of verzamel ze gewoon in uw videolijst zonder ze te downloaden."
+   },
+   "appName": {
+      "message": "Video Downloader professional"
+   },
+   "apply": {
+      "message": "Toepassen"
+   },
+   "apps": {
+      "message": "Apps"
+   },
+   "cancel": {
+      "message": "Annuleren"
+   },
+   "close": {
+      "message": "dicht"
+   },
+   "country": {
+      "message": "nl"
+   },
+   "deffolder": {
+      "message": "Folder"
+   },
+   "done": {
+      "message": "Wijzigingen toepassen"
+   },
+   "downloads": {
+      "message": "Downloads"
+   },
+   "filter": {
+      "message": "Video's filteren"
+   },
+   "home": {
+      "message": "Thuis"
+   },
+   "idTL": {
+      "message": "Toplink maken voor deze pagina"
+   },
+   "idVDL": {
+      "message": "Gevonden videobestanden:"
+   },
+   "idYT": {
+      "message": "Opmerking: in de Chrome Web Store zijn geen extensies toegestaan ​​die video's van YouTube downloaden. \u003Cbr/> \u003Cbr/> Klik \u003Ca href='#' id='idUltimate'>hier\u003C/a> voor meer informatie "
+   },
+   "idYT3": {
+      "message": "Opmerking: in de Chrome Web Store zijn geen extensies toegestaan ​​die video's van YouTube downloaden. Klik voor meer informatie"
+   },
+   "idadded": {
+      "message": "Pagina is toegevoegd"
+   },
+   "idadded2": {
+      "message": "is toegevoegd aan de videolijst"
+   },
+   "idaddvideo": {
+      "message": "Video toevoegen aan videolijst"
+   },
+   "idbegin": {
+      "message": "Verplaats Toplink naar het begin"
+   },
+   "idbeginf": {
+      "message": "Map naar begin verplaatsen"
+   },
+   "idcc": {
+      "message": "Verzend deze video naar uw Google Chromecast om deze op uw tv af te spelen"
+   },
+   "idcc1": {
+      "message": "U moet de Google-Chromecast-extensie installeren om de Cast-functie in de Professionele Video Downloader in te schakelen. Wilt u deze extensie nu installeren?"
+   },
+   "idcc2": {
+      "message": "U moet de Chromecast-extensie inschakelen om de Cast-functie in te schakelen in Professional Video Downloader. Wilt u de Chromecast-extensie nu inschakelen?"
+   },
+   "iddel": {
+      "message": "Toplink verwijderen"
+   },
+   "iddelf": {
+      "message": "Verwijder map"
+   },
+   "iddownload": {
+      "message": "Download"
+   },
+   "idedit": {
+      "message": "Edit Top Link"
+   },
+   "ideditf": {
+      "message": "Mapnaam bewerken"
+   },
+   "idend": {
+      "message": "Verplaats de bovenste link naar het einde"
+   },
+   "idendf": {
+      "message": "Verplaats de map naar het einde"
+   },
+   "idmb": {
+      "message": "MB"
+   },
+   "idnovideo": {
+      "message": "Geen video's gevonden."
+   },
+   "idnovideo1": {
+      "message": "Geen video gevonden op deze pagina"
+   },
+   "idnovideo2": {
+      "message": "Heeft u geprobeerd het afspelen te starten? Op sommige sites moest u de video afspelen voordat deze kan worden gedownload. \u003Cbr/> \u003Cbr/> Sommige videosites proberen het moeilijker te maken om de video te downloaden. video. Als u wilt dat we een manier proberen te vinden voor deze pagina, \u003Ca href='#' id='idSubmit'>verzendt u deze URL\u003C/a> naar ons. "
+   },
+   "idnovideo3": {
+      "message": "Dank u, we zullen ons best doen om deze site ook te ondersteunen!"
+   },
+   "idreview": {
+      "message": "U hebt meerdere video's gedownload met professionele Video Downloader. Deel uw ervaring met anderen en maak een beoordeling voor ons."
+   },
+   "idsimilar": {
+      "message": "Zoek vergelijkbare video's"
+   },
+   "idvideo": {
+      "message": "Toon videolijst"
+   },
+   "idwait1": {
+      "message": "Wachten totdat de videoserver antwoordt"
+   },
+   "idwait2": {
+      "message": "Wachten op server"
+   },
+   "idwhy": {
+      "message": "Waarom?"
+   },
+   "langKey_addToplink": {
+      "message": "Toplink toevoegen"
+   },
+   "langKey_addfolder": {
+      "message": "Map toevoegen"
+   },
+   "langKey_bkcolor": {
+      "message": "Selecteer achtergrondkleur"
+   },
+   "langKey_border": {
+      "message": "Selecteer rand"
+   },
+   "langKey_bordercolor": {
+      "message": "Selecteer de kleur van de rand eronder"
+   },
+   "langKey_checknodefaults": {
+      "message": "Pas kleuren en stijl aan"
+   },
+   "langKey_country": {
+      "message": "Selecteer taal"
+   },
+   "langKey_de": {
+      "message": "Duits"
+   },
+   "langKey_delall": {
+      "message": "Verwijder alle topkoppelingen"
+   },
+   "langKey_editToplinks": {
+      "message": "Video's verplaatsen"
+   },
+   "langKey_en": {
+      "message": "Engels"
+   },
+   "langKey_firststart": {
+      "message": "Startpage24"
+   },
+   "langKey_helpdrag": {
+      "message": "Als u een Top Link wilt verplaatsen, klikt u erop en verplaatst u de positie naar wens"
+   },
+   "langKey_helpedit": {
+      "message": "Als u toplinks wilt verplaatsen, verwijderen of bewerken, klikt u op \"Toplinks bewerken\""
+   },
+   "langKey_helpsearch": {
+      "message": "De belangrijkste zoekopdrachten altijd beschikbaar: voer uw zoekwoord in en klik bijvoorbeeld op afbeeldingen"
+   },
+   "langKey_helpsettings": {
+      "message": "Klikinstellingen om het ontwerp van Startpage24 aan te passen"
+   },
+   "langKey_helpslideshow": {
+      "message": "Om achtergrondafbeeldingen te beheren, kunt u de topkoppelingen verbergen met deze knop: \u003Cimg src='./png/slide_toggle_dark.png' />"
+   },
+   "langKey_helptoggle": {
+      "message": "Klik op de achtergrond om de Toplinks opnieuw weer te geven"
+   },
+   "langKey_helpvideo": {
+      "message": "Als u items aan uw videolijst wilt toevoegen, speelt u een video af van de sites die onder aan deze pagina worden vermeld en klikt u vervolgens op dit pictogram hierboven:"
+   },
+   "langKey_settings": {
+      "message": "Settings"
+   },
+   "langKey_sync": {
+      "message": "Synchroniseer Toplinks met uw Google-account"
+   },
+   "langKey_textcolor": {
+      "message": "Tekstkleur selecteren"
+   },
+   "langKey_trans": {
+      "message": "Dekking van Toplinks"
+   },
+   "langkey_bilder": {
+      "message": "Pictures"
+   },
+   "langkey_maps": {
+      "message": "Maps"
+   },
+   "langkey_preis": {
+      "message": "Shopping"
+   },
+   "langkey_translate": {
+      "message": "Vertalen"
+   },
+   "langkey_videos": {
+      "message": "Video"
+   },
+   "language": {
+      "message": "nl"
+   },
+   "more": {
+      "message": "Heeft verdere resoluties gevonden"
+   },
+   "name": {
+      "message": "Naam:"
+   },
+   "noborder": {
+      "message": "Geen rand"
+   },
+   "noentries": {
+      "message": "geen vermeldingen beschikbaar"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Ga naar de oorspronkelijke site"
+   },
+   "ratetext": {
+      "message": "Beoordeel deze extensie"
+   },
+   "resethelp": {
+      "message": "Reset help-ballons"
+   },
+   "resethelp2": {
+      "message": "Wilt u dat u alle instellingen wilt resetten?"
+   },
+   "resettheme": {
+      "message": "Alles resetten"
+   },
+   "search": {
+      "message": "Zoeken"
+   },
+   "searchurl": {
+      "message": "Zoekadres (optioneel)"
+   },
+   "searchurl2": {
+      "message": "Gebruik %P1% als tijdelijke aanduiding voor de tekst om te zoeken naar"
+   },
+   "shops": {
+      "message": "Winkels"
+   },
+   "supported": {
+      "message": "Ondersteunde videosites:"
+   },
+   "theme100": {
+      "message": "Munten"
+   },
+   "theme101": {
+      "message": "doorbladert"
+   },
+   "theme102": {
+      "message": "Flowers"
+   },
+   "theme103": {
+      "message": "Hearts"
+   },
+   "theme104": {
+      "message": "Teddybeer"
+   },
+   "theme105": {
+      "message": "Voetbal"
+   },
+   "theme106": {
+      "message": "Sweets"
+   },
+   "theme107": {
+      "message": "Art"
+   },
+   "theme108": {
+      "message": "Balls"
+   },
+   "theme109": {
+      "message": "Cars"
+   },
+   "theme110": {
+      "message": "Kinderen"
+   },
+   "theme111": {
+      "message": "huisdieren"
+   },
+   "theme112": {
+      "message": "Wood"
+   },
+   "theme113": {
+      "message": "Stones"
+   },
+   "url": {
+      "message": "Adres:"
+   },
+   "videolist": {
+      "message": "video"
+   },
+   "wunschliste": {
+      "message": "Verlanglijstje"
+   }
+}

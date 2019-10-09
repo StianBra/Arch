@@ -1,0 +1,314 @@
+{
+   "alleanzeigen": {
+      "message": "Show all"
+   },
+   "appDesc": {
+      "message": "Download videos from web sites or just collect them in your video list without downloading them."
+   },
+   "appName": {
+      "message": "Video Downloader professional"
+   },
+   "apply": {
+      "message": "Apply"
+   },
+   "apps": {
+      "message": "Apps"
+   },
+   "cancel": {
+      "message": "Cancel"
+   },
+   "close": {
+      "message": "close"
+   },
+   "country": {
+      "message": "us"
+   },
+   "deffolder": {
+      "message": "Folder"
+   },
+   "done": {
+      "message": "Apply changes"
+   },
+   "downloads": {
+      "message": "Downloads"
+   },
+   "filter": {
+      "message": "Filter videos"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "idTL": {
+      "message": "Create toplink for this page"
+   },
+   "idVDL": {
+      "message": "Found video files:"
+   },
+   "idYT": {
+      "message": "Note: Chrome Web Store does not allow extensions that download videos from YouTube any longer.\u003Cbr/>\u003Cbr/>Click \u003Ca href='#' id='idUltimate'>here\u003C/a> to find more information"
+   },
+   "idYT3": {
+      "message": "Note: Chrome Web Store does not allow extensions that download videos from YouTube any longer. Click to get more information"
+   },
+   "idadded": {
+      "message": "Page has been added"
+   },
+   "idadded2": {
+      "message": " has been added to the video list"
+   },
+   "idaddvideo": {
+      "message": "Add video to video list"
+   },
+   "idbegin": {
+      "message": "Move Top Link to the beginning"
+   },
+   "idbeginf": {
+      "message": "Move folder to the beginning"
+   },
+   "idcc": {
+      "message": "Send this video to your Google chromecast to play it on your TV"
+   },
+   "idcc1": {
+      "message": "You need to install the Google chromecast extension in order to enable the cast feature in Video Downloader professional. Do you want to install this extension now?"
+   },
+   "idcc2": {
+      "message": "You need to enable the chromecast extension in order to enable the cast feature in Video Downloader professional. Do you want to enable the chromecast extension now?"
+   },
+   "iddel": {
+      "message": "Delete Top Link"
+   },
+   "iddelf": {
+      "message": "Delete folder"
+   },
+   "iddownload": {
+      "message": "Download"
+   },
+   "idedit": {
+      "message": "Edit Top Link"
+   },
+   "ideditf": {
+      "message": "Edit folder name"
+   },
+   "idend": {
+      "message": "Move Top Link to the end"
+   },
+   "idendf": {
+      "message": "Move folder to the end"
+   },
+   "idmb": {
+      "message": "MB"
+   },
+   "idnovideo": {
+      "message": "No videos found."
+   },
+   "idnovideo1": {
+      "message": "No video found on this page"
+   },
+   "idnovideo2": {
+      "message": "Did you try to start playback? Some sites required you to play the video before it can be downloaded.\u003Cbr/>\u003Cbr/>Some video sites try to make it harder to download the video. If you want us to try to find a way for this page, \u003Ca href='#' id='idSubmit'>submit this URL\u003C/a> to us."
+   },
+   "idnovideo3": {
+      "message": "Thank you, we will give our best to support this site, too!"
+   },
+   "idreview": {
+      "message": "You have downloaded multiple videos with Video Downloader professional. Please share your experience with others and make a review for us."
+   },
+   "idsimilar": {
+      "message": "Find similar videos"
+   },
+   "idvideo": {
+      "message": "Show video list"
+   },
+   "idwait1": {
+      "message": "Waiting for the video server is answering"
+   },
+   "idwait2": {
+      "message": "Waiting for Server"
+   },
+   "idwhy": {
+      "message": "Why?"
+   },
+   "langKey_addToplink": {
+      "message": "Add Top Link"
+   },
+   "langKey_addfolder": {
+      "message": "Add folder"
+   },
+   "langKey_bkcolor": {
+      "message": "Select background color"
+   },
+   "langKey_border": {
+      "message": "Select border"
+   },
+   "langKey_bordercolor": {
+      "message": "Select color of the border below"
+   },
+   "langKey_checknodefaults": {
+      "message": "Customize colors and style"
+   },
+   "langKey_country": {
+      "message": "Select language"
+   },
+   "langKey_de": {
+      "message": "German"
+   },
+   "langKey_delall": {
+      "message": "Delete all Top Links"
+   },
+   "langKey_editToplinks": {
+      "message": "Move videos"
+   },
+   "langKey_en": {
+      "message": "English"
+   },
+   "langKey_firststart": {
+      "message": "Startpage24"
+   },
+   "langKey_helpdrag": {
+      "message": "To move a Top Link, just click on it and move it the position you want"
+   },
+   "langKey_helpedit": {
+      "message": "To move, delete or edit Top Links click 'Edit Top Links'"
+   },
+   "langKey_helpsearch": {
+      "message": "The most important searches allways available: Enter your search word and click for instance on images"
+   },
+   "langKey_helpsettings": {
+      "message": "Click settings to customize the design of Startpage24"
+   },
+   "langKey_helpslideshow": {
+      "message": "To control background images you can hide the Top Links by this button: \u003Cimg src='./png/slide_toggle_dark.png'/>"
+   },
+   "langKey_helptoggle": {
+      "message": "Click the background to show the Top Links again"
+   },
+   "langKey_helpvideo": {
+      "message": "To add items into your video list play a video of the sites listed at the bottom of this page and then click this icon above: "
+   },
+   "langKey_settings": {
+      "message": "Settings"
+   },
+   "langKey_sync": {
+      "message": "Synchronize Top Links with your Google account"
+   },
+   "langKey_textcolor": {
+      "message": "Select text color"
+   },
+   "langKey_trans": {
+      "message": "Opacity of Top Links"
+   },
+   "langkey_bilder": {
+      "message": "Pictures"
+   },
+   "langkey_maps": {
+      "message": "Maps"
+   },
+   "langkey_preis": {
+      "message": "Shopping"
+   },
+   "langkey_translate": {
+      "message": "Translate"
+   },
+   "langkey_videos": {
+      "message": "Videos"
+   },
+   "language": {
+      "message": "en"
+   },
+   "more": {
+      "message": "Found further resolutions"
+   },
+   "name": {
+      "message": "Name:"
+   },
+   "noborder": {
+      "message": "No border"
+   },
+   "noentries": {
+      "message": "no entries available"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Go to the original site"
+   },
+   "ratetext": {
+      "message": "Please rate this extension"
+   },
+   "resethelp": {
+      "message": "Reset help ballons"
+   },
+   "resethelp2": {
+      "message": "Do you reallay want to reset all settings ?"
+   },
+   "resettheme": {
+      "message": "Reset all"
+   },
+   "search": {
+      "message": "Search"
+   },
+   "searchurl": {
+      "message": "Search adress (optional)"
+   },
+   "searchurl2": {
+      "message": "Use %P1% as placeholder for the text to search for"
+   },
+   "shops": {
+      "message": "Shops"
+   },
+   "supported": {
+      "message": "Supported video sites:"
+   },
+   "theme100": {
+      "message": "Coins"
+   },
+   "theme101": {
+      "message": "Leafs"
+   },
+   "theme102": {
+      "message": "Flowers"
+   },
+   "theme103": {
+      "message": "Hearts"
+   },
+   "theme104": {
+      "message": "Teddies"
+   },
+   "theme105": {
+      "message": "Soccer"
+   },
+   "theme106": {
+      "message": "Sweets"
+   },
+   "theme107": {
+      "message": "Art"
+   },
+   "theme108": {
+      "message": "Balls"
+   },
+   "theme109": {
+      "message": "Cars"
+   },
+   "theme110": {
+      "message": "Children"
+   },
+   "theme111": {
+      "message": "Pets"
+   },
+   "theme112": {
+      "message": "Wood"
+   },
+   "theme113": {
+      "message": "Stones"
+   },
+   "url": {
+      "message": "Adress:"
+   },
+   "videolist": {
+      "message": "videos"
+   },
+   "wunschliste": {
+      "message": "Wish list"
+   }
+}

@@ -1,0 +1,314 @@
+{
+   "alleanzeigen": {
+      "message": "Mostrar todos"
+   },
+   "appDesc": {
+      "message": "Descargue videos de sitios web o simplemente recopílelos en su lista de videos sin descargarlos"
+   },
+   "appName": {
+      "message": "Video Downloader professional"
+   },
+   "apply": {
+      "message": "Aplicar"
+   },
+   "apps": {
+      "message": "Apps"
+   },
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "close": {
+      "message": "cerca"
+   },
+   "country": {
+      "message": "es"
+   },
+   "deffolder": {
+      "message": "Carpeta"
+   },
+   "done": {
+      "message": "Aplicar cambios"
+   },
+   "downloads": {
+      "message": "Descargas"
+   },
+   "filter": {
+      "message": "Filtrar videos"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "idTL": {
+      "message": "Crear enlace ascendente para esta página"
+   },
+   "idVDL": {
+      "message": "Se encontraron archivos de video:"
+   },
+   "idYT": {
+      "message": "Nota: Chrome Web Store ya no permite extensiones que descarguen videos de YouTube.\u003Cbr/>\u003Cbr/>Haga clic en \u003Ca href='#' id='idUltimate'> aquí \u003C/a> para encontrar más información"
+   },
+   "idYT3": {
+      "message": "Nota: Chrome Web Store ya no permite extensiones que descarguen videos de YouTube. Haga clic para obtener más información"
+   },
+   "idadded": {
+      "message": "Se ha agregado la página"
+   },
+   "idadded2": {
+      "message": "se ha agregado a la lista de videos"
+   },
+   "idaddvideo": {
+      "message": "Agregar video a la lista de videos"
+   },
+   "idbegin": {
+      "message": "Mover el enlace superior al principio"
+   },
+   "idbeginf": {
+      "message": "Mueve la carpeta al principio"
+   },
+   "idcc": {
+      "message": "Envía este video a tu chromecast de Google para reproducirlo en tu TV"
+   },
+   "idcc1": {
+      "message": "Debe instalar la extensión Google chromecast para habilitar la función de conversión en el profesional de descarga de videos. ¿Desea instalar esta extensión ahora?"
+   },
+   "idcc2": {
+      "message": "Debe habilitar la extensión chromecast para habilitar la función de conversión en el profesional de descarga de videos. ¿Desea habilitar la extensión chromecast ahora?"
+   },
+   "iddel": {
+      "message": "Eliminar enlace superior"
+   },
+   "iddelf": {
+      "message": "Eliminar carpeta"
+   },
+   "iddownload": {
+      "message": "Descargar"
+   },
+   "idedit": {
+      "message": "Editar enlace superior"
+   },
+   "ideditf": {
+      "message": "Editar nombre de carpeta"
+   },
+   "idend": {
+      "message": "Mover el enlace superior al final"
+   },
+   "idendf": {
+      "message": "Mover carpeta al final"
+   },
+   "idmb": {
+      "message": "MB"
+   },
+   "idnovideo": {
+      "message": "No se encontraron videos"
+   },
+   "idnovideo1": {
+      "message": "No se encontró ningún video en esta página"
+   },
+   "idnovideo2": {
+      "message": "¿Intentó iniciar la reproducción? Algunos sitios requieren que reproduzca el video antes de poder descargarlo.\u003Cbr/>\u003Cbr/>Algunos sitios de video tratan de hacer que sea más difícil descargar el Si desea que sigamos intentando encontrar una forma para this página, \u003Ca href='#' id='idSubmit'> envíe esta URL \u003C/a> a nosotros. "
+   },
+   "idnovideo3": {
+      "message": "Gracias, ¡también daremos lo mejor de nosotros para apoyar este sitio!"
+   },
+   "idreview": {
+      "message": "Ha descargado varios videos con el profesional de Video Downloader. Comparta su experiencia con otros y realice una revisión para nosotros"
+   },
+   "idsimilar": {
+      "message": "Buscar videos similares"
+   },
+   "idvideo": {
+      "message": "Mostrar lista de videos"
+   },
+   "idwait1": {
+      "message": "En espera de que el servidor de video responda"
+   },
+   "idwait2": {
+      "message": "En espera del servidor"
+   },
+   "idwhy": {
+      "message": "¿Por qué?"
+   },
+   "langKey_addToplink": {
+      "message": "Agregar enlace superior"
+   },
+   "langKey_addfolder": {
+      "message": "Agregar carpeta"
+   },
+   "langKey_bkcolor": {
+      "message": "Seleccionar color de fondo"
+   },
+   "langKey_border": {
+      "message": "Seleccionar borde"
+   },
+   "langKey_bordercolor": {
+      "message": "Seleccione el color del borde debajo de"
+   },
+   "langKey_checknodefaults": {
+      "message": "Personalizar colores y estilo"
+   },
+   "langKey_country": {
+      "message": "Seleccionar idioma"
+   },
+   "langKey_de": {
+      "message": "German"
+   },
+   "langKey_delall": {
+      "message": "Eliminar todos los enlaces principales"
+   },
+   "langKey_editToplinks": {
+      "message": "Mover videos"
+   },
+   "langKey_en": {
+      "message": "English"
+   },
+   "langKey_firststart": {
+      "message": "Startpage24"
+   },
+   "langKey_helpdrag": {
+      "message": "Para mover un Enlace superior, simplemente haga clic en él y muévalo a la posición que desee"
+   },
+   "langKey_helpedit": {
+      "message": "Para mover, eliminar o editar los enlaces principales, haga clic en 'Editar enlaces principales'"
+   },
+   "langKey_helpsearch": {
+      "message": "Las búsquedas más importantes siempre disponibles: ingrese su palabra de búsqueda y haga clic, por ejemplo, en las imágenes"
+   },
+   "langKey_helpsettings": {
+      "message": "Haga clic en la configuración para personalizar el diseño de Startpage24"
+   },
+   "langKey_helpslideshow": {
+      "message": "Para controlar las imágenes de fondo, puede ocultar los enlaces principales con este botón: \u003Cimg src = './png/slide_toggle_dark.png' />"
+   },
+   "langKey_helptoggle": {
+      "message": "Haga clic en el fondo para volver a mostrar los enlaces principales"
+   },
+   "langKey_helpvideo": {
+      "message": "Para agregar elementos a su lista de videos, reproduzca un video de los sitios que figuran en la parte inferior de esta página y luego haga clic en este icono arriba:"
+   },
+   "langKey_settings": {
+      "message": "Configuración"
+   },
+   "langKey_sync": {
+      "message": "Sincronizar los enlaces principales con su cuenta de Google"
+   },
+   "langKey_textcolor": {
+      "message": "Seleccionar color de texto"
+   },
+   "langKey_trans": {
+      "message": "Opacidad de los enlaces principales"
+   },
+   "langkey_bilder": {
+      "message": "Imágenes"
+   },
+   "langkey_maps": {
+      "message": "Maps"
+   },
+   "langkey_preis": {
+      "message": "Compras"
+   },
+   "langkey_translate": {
+      "message": "Translate"
+   },
+   "langkey_videos": {
+      "message": "Videos"
+   },
+   "language": {
+      "message": "es"
+   },
+   "more": {
+      "message": "Encontrado más resoluciones"
+   },
+   "name": {
+      "message": "Nombre:"
+   },
+   "noborder": {
+      "message": "Sin borde"
+   },
+   "noentries": {
+      "message": "no hay entradas disponibles"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Ir al sitio original"
+   },
+   "ratetext": {
+      "message": "Por favor califique esta extensión"
+   },
+   "resethelp": {
+      "message": "Restablecer globos de ayuda"
+   },
+   "resethelp2": {
+      "message": "¿Desea restablecer todas las configuraciones?"
+   },
+   "resettheme": {
+      "message": "Restablecer todo"
+   },
+   "search": {
+      "message": "Buscar"
+   },
+   "searchurl": {
+      "message": "Buscar dirección (opcional)"
+   },
+   "searchurl2": {
+      "message": "Use %P1% como marcador de posición para que el texto busque"
+   },
+   "shops": {
+      "message": "Shops"
+   },
+   "supported": {
+      "message": "Sitios de video compatibles:"
+   },
+   "theme100": {
+      "message": "Monedas"
+   },
+   "theme101": {
+      "message": "Hojas"
+   },
+   "theme102": {
+      "message": "Flores"
+   },
+   "theme103": {
+      "message": "Corazones"
+   },
+   "theme104": {
+      "message": "Peluches"
+   },
+   "theme105": {
+      "message": "Soccer"
+   },
+   "theme106": {
+      "message": "Dulces"
+   },
+   "theme107": {
+      "message": "Art"
+   },
+   "theme108": {
+      "message": "Bolas"
+   },
+   "theme109": {
+      "message": "Coches"
+   },
+   "theme110": {
+      "message": "Niños"
+   },
+   "theme111": {
+      "message": "Mascotas"
+   },
+   "theme112": {
+      "message": "Madera"
+   },
+   "theme113": {
+      "message": "Piedras"
+   },
+   "url": {
+      "message": "Dirección:"
+   },
+   "videolist": {
+      "message": "videos"
+   },
+   "wunschliste": {
+      "message": "Lista de deseos"
+   }
+}

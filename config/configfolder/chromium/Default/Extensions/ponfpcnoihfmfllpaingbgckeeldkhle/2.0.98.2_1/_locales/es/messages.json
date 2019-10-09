@@ -1,0 +1,398 @@
+{
+   "add": {
+      "message": "Agregar"
+   },
+   "ads_removed": {
+      "message": "Se han quitado los anuncios"
+   },
+   "annotations_shown_hidden": {
+      "message": "Se han mostrado/ocultado las anotaciones"
+   },
+   "auto_cinema_mode": {
+      "message": "Activar automáticamente el modo cine"
+   },
+   "auto_enable_filters": {
+      "message": "Activar los filtros automáticamente"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Activar el modo cine de YouTube™ automáticamente"
+   },
+   "auto_enlarge_player": {
+      "message": "Agrandar el reproductor automáticamente"
+   },
+   "auto_execute_script": {
+      "message": "Ejecutar el script automáticamente cuando se carga YouTube™ en una pestaña"
+   },
+   "auto_expand_description": {
+      "message": "Expandir las descripciones de los vídeos automáticamente"
+   },
+   "auto_focus_video_player": {
+      "message": "Retornar el enfoque automáticamente al reproductor cuando:"
+   },
+   "auto_pause_videos": {
+      "message": "Pausar los vídeos automáticamente en las pestañas en segundo plano"
+   },
+   "auto_remove_ads": {
+      "message": "Quitar anuncios automáticamente"
+   },
+   "auto_remove_annotations": {
+      "message": "Quitar anotaciones automáticamente"
+   },
+   "auto_select_quality": {
+      "message": "Reproducir vídeos automáticamente con la calidad de mi preferencia"
+   },
+   "auto_sort_comments": {
+      "message": "Ordenar automáticamente los comentarios más recientes primero"
+   },
+   "backup": {
+      "message": "Copia de seguridad"
+   },
+   "boost_button_instructions": {
+      "message": "Información: Haga clic en este botón para activar/desactivar el amplificador de volumen."
+   },
+   "boost_volume": {
+      "message": "Amplificar el volumen"
+   },
+   "border": {
+      "message": "Borde:"
+   },
+   "bottom_left_corner": {
+      "message": "Esquina inferior izquierda"
+   },
+   "bottom_right_corner": {
+      "message": "Esquina inferior derecha"
+   },
+   "brightness": {
+      "message": "Brillo:"
+   },
+   "buttons": {
+      "message": "Botones"
+   },
+   "buttons_active_label": {
+      "message": "Botones activos:"
+   },
+   "buttons_label": {
+      "message": "Botones:"
+   },
+   "cinema_button_instructions": {
+      "message": "Información: Haga clic en este botón para activar/desactivar el modo cine."
+   },
+   "cinema_enabled_disabled": {
+      "message": "Se ha activado/desactivado el modo cine"
+   },
+   "cinema_mode": {
+      "message": "Modo cine"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Aumentar automáticamente el tamaño del reproductor cuando el modo cine está activado"
+   },
+   "clean_button_instructions": {
+      "message": "Información: Haga clic en este botón para quitar los anuncios. Haga clic derecho en este botón para mostrar/ocultar las anotaciones."
+   },
+   "color": {
+      "message": "Color:"
+   },
+   "color_inversion": {
+      "message": "Inversión de color:"
+   },
+   "colors": {
+      "message": "Colores"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Información: Escriba chrome://extensions/shortcuts en la barra de direcciones para configurar los atajos de teclado."
+   },
+   "contrast": {
+      "message": "Contraste:"
+   },
+   "control_volume": {
+      "message": "Controlar el nivel de volumen con la rueda del ratón al poner el cursor sobre el reproductor"
+   },
+   "control_volume_mouse_button": {
+      "message": "Sólo cuando se presiona el botón derecho del ratón"
+   },
+   "custom_script": {
+      "message": "Script personalizado"
+   },
+   "custom_script_instructions": {
+      "message": "Pegue o escriba aquí su código JavaScript, guárdelo usando el botón de abajo, luego haga clic en el botón «Script personalizado» en la barra de herramientas cuando quiera ejecutarlo."
+   },
+   "custom_script_warning": {
+      "message": "Advertencia: Por razones de seguridad, sólo debe utilizar código que conozca o código que haya sido escrito por un desarrollador de confianza."
+   },
+   "custom_theme": {
+      "message": "Tema personalizado"
+   },
+   "custom_theme_instructions": {
+      "message": "Pegue o escriba aquí su código CSS y guárdelo usando el botón de abajo."
+   },
+   "default_playback_speed": {
+      "message": "Velocidad de reproducción predeterminada:"
+   },
+   "default_volume_level": {
+      "message": "Nivel de volumen predeterminado:"
+   },
+   "description": {
+      "message": "Innumerables características para mejorar tu experiencia en YouTube™."
+   },
+   "detach_button_instructions": {
+      "message": "Información: Haga clic en este botón para desacoplar el reproductor. Haga clic derecho en este botón para detener la reproducción en lugar de pausarla cuando el reproductor esté desacoplado. Para hacer que el reproductor desacoplado permanezca siempre encima de otras ventanas, visite la siguiente página:"
+   },
+   "detach_player": {
+      "message": "Desacoplar el reproductor"
+   },
+   "disable_autoplay": {
+      "message": "Desactivar la «Reproducción automática» de YouTube™"
+   },
+   "disable_preloading": {
+      "message": "Desactivar la precarga cuando los vídeos se pausan automáticamente"
+   },
+   "donate": {
+      "message": "Donar"
+   },
+   "enlarged_player_viewport": {
+      "message": "Utilizar la ventana completa para el reproductor agrandado cuando el modo cine no esté activado conservando la relación de aspecto 16:9"
+   },
+   "export": {
+      "message": "Exportar"
+   },
+   "export_instructions": {
+      "message": "Cree un nuevo archivo de texto y pegue el código de abajo sin modificarlo."
+   },
+   "filters": {
+      "message": "Filtros"
+   },
+   "filters_button_instructions": {
+      "message": "Información: Haga clic en este botón para activar/desactivar los filtros. Haga clic derecho en este botón para modificar los filtros. También puede activar/desactivar los filtros manteniendo pulsadas las teclas «Control» (Ctrl) y «Mayúsculas» al hacer clic en el reproductor."
+   },
+   "filters_enabled_disabled": {
+      "message": "Se han activado/desactivado los filtros"
+   },
+   "fourth_choice": {
+      "message": "Cuarta opción:"
+   },
+   "gaussian_blur": {
+      "message": "Desenfoque gaussiano:"
+   },
+   "grayscale": {
+      "message": "Escala de grises:"
+   },
+   "html5_player_only": {
+      "message": "(Sólo reproductor HTML5)"
+   },
+   "hue_rotation": {
+      "message": "Rotación de tonalidad:"
+   },
+   "ignore_playlists": {
+      "message": "No pausar los vídeos en las listas de reproducción"
+   },
+   "import": {
+      "message": "Importar"
+   },
+   "import_error": {
+      "message": "¡El contenido del archivo de copia de seguridad no es válido!"
+   },
+   "import_instructions": {
+      "message": "Pegue el contenido del archivo de copia de seguridad y haga clic en el botón «Importar». La página se recargará automáticamente si la configuración se importa correctamente."
+   },
+   "keyboard_shortcuts": {
+      "message": "Atajos de teclado"
+   },
+   "keyboard_shortcuts_list": {
+      "message": "Para obtener una lista completa de los atajos de teclado de YouTube™, visite la siguiente página:"
+   },
+   "locale_code": {
+      "message": "es"
+   },
+   "loop_button_instructions": {
+      "message": "Información: Haga clic en este botón para activar/desactivar la reproducción en bucle."
+   },
+   "loop_enabled_disabled": {
+      "message": "Se ha activado/desactivado la reproducción en bucle"
+   },
+   "loop_video": {
+      "message": "Reproducción en bucle"
+   },
+   "message": {
+      "message": "Mensaje"
+   },
+   "miscellaneous": {
+      "message": "Otras opciones"
+   },
+   "not_now": {
+      "message": "Ahora no"
+   },
+   "opacity": {
+      "message": "Opacidad:"
+   },
+   "options": {
+      "message": "Opciones"
+   },
+   "options_button_instructions": {
+      "message": "Información: Haga clic en este botón para abrir la página de opciones."
+   },
+   "override_playback_speeds": {
+      "message": "Anular las velocidades de reproducción predeterminadas"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ ha sido actualizado, esta página debe ser recargada."
+   },
+   "pause_foreground_tab": {
+      "message": "Pausar también los vídeos en la pestaña en primer plano"
+   },
+   "pause_videos": {
+      "message": "Pausar la reproducción en las pestañas en segundo plano cuando un vídeo comienza a reproducirse en la pestaña en primer plano"
+   },
+   "pin_video_player": {
+      "message": "Fijar el reproductor cuando se desplaza hacia abajo por la página"
+   },
+   "pinned_video_player_position": {
+      "message": "Posición del reproductor fijado:"
+   },
+   "pinned_video_player_size": {
+      "message": "Tamaño del reproductor fijado:"
+   },
+   "playback_speed_modified": {
+      "message": "Se ha cambiado la velocidad de reproducción"
+   },
+   "preferred_quality": {
+      "message": "Calidad preferida:"
+   },
+   "preview": {
+      "message": "Vista previa"
+   },
+   "rate": {
+      "message": "Calificar"
+   },
+   "remove": {
+      "message": "Quitar"
+   },
+   "remove_ads": {
+      "message": "Quitar anuncios"
+   },
+   "reset_filters": {
+      "message": "Restablecer los filtros"
+   },
+   "resize_button_instructions": {
+      "message": "Información: Haga clic en este botón para cambiar el tamaño del reproductor. Haga clic derecho en este botón para centrar el reproductor en la ventana de visualización."
+   },
+   "resize_player": {
+      "message": "Cambiar tamaño del reproductor"
+   },
+   "restore_default_colors": {
+      "message": "Restaurar los colores predeterminados"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Girar la rueda del ratón en sentido contrario para controlar la velocidad de reproducción y el nivel de volumen"
+   },
+   "saturation": {
+      "message": "Saturación:"
+   },
+   "save": {
+      "message": "Guardar"
+   },
+   "script_button_instructions": {
+      "message": "Información: Haga clic en este botón para ejecutar el script personalizado."
+   },
+   "second_choice": {
+      "message": "Segunda opción:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Compartir"
+   },
+   "share_message": {
+      "message": "Cuéntale a tus amigos y seguidores sobre Enhancer for YouTube™. ¡Gracias!"
+   },
+   "share_on_facebook": {
+      "message": "Compartir en Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Compartir en Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Compartir en Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Compartir en Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Compartir en Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Mostrar/ocultar anotaciones"
+   },
+   "slide_effect": {
+      "message": "Efecto de deslizamiento hacia arriba/abajo"
+   },
+   "slow_down_button_instructions": {
+      "message": "Información: Haga clic en este botón para reducir la velocidad de reproducción."
+   },
+   "speed": {
+      "message": "Velocidad"
+   },
+   "speed_button_instructions": {
+      "message": "Información: Utilice la rueda del ratón para controlar la velocidad de reproducción cuando ponga cursor encima de este botón. Haga clic en él para utilizar la velocidad de reproducción predeterminada. También puede utilizar la rueda del ratón para controlar la velocidad de reproducción al poner el cursor encima del reproductor, y hacer clic en ella para utilizar la velocidad de reproducción predeterminada, si mantiene pulsada la tecla «Control» (Ctrl)."
+   },
+   "speed_up_button_instructions": {
+      "message": "Información: Haga clic en este botón para aumentar la velocidad de reproducción."
+   },
+   "speed_variation": {
+      "message": "Variación de velocidad al girar la rueda del ratón o al hacer clic en los botones de velocidad «-» y «+»:"
+   },
+   "support": {
+      "message": "Ayuda"
+   },
+   "support_request_instructions": {
+      "message": "Proporcione esta información cuando solicite ayuda o informe de un problema."
+   },
+   "theme": {
+      "message": "Tema"
+   },
+   "theme_by_default": {
+      "message": "Tema predeterminado"
+   },
+   "third_choice": {
+      "message": "Tercera opción:"
+   },
+   "toolbar": {
+      "message": "Barra de herramientas"
+   },
+   "toolbar_label": {
+      "message": "Barra de herramientas:"
+   },
+   "tooltips": {
+      "message": "Información sobre las herramientas"
+   },
+   "top_left_corner": {
+      "message": "Esquina superior izquierda"
+   },
+   "top_right_corner": {
+      "message": "Esquina superior derecha"
+   },
+   "translate": {
+      "message": "Traducir"
+   },
+   "transparency": {
+      "message": "Transparencia:"
+   },
+   "video_player": {
+      "message": "Reproductor de vídeo"
+   },
+   "video_player_pinned": {
+      "message": "Se ha fijado el reproductor"
+   },
+   "video_player_resized": {
+      "message": "Se ha cambiado el tamaño del reproductor"
+   },
+   "volume_booster_enabled_disabled": {
+      "message": "Se ha activado/desactivado el amplificador de volumen"
+   },
+   "volume_variation": {
+      "message": "Variación de volumen al girar la rueda del ratón:"
+   },
+   "whitelisted_channels": {
+      "message": "Permitir anuncios en los canales:"
+   }
+}

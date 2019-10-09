@@ -1,0 +1,437 @@
+{
+   "addLink": {
+      "message": "Добавить ссылку"
+   },
+   "additionalClocks": {
+      "message": "Дополнительные часы"
+   },
+   "animation": {
+      "message": "Анимация"
+   },
+   "animationDesc": {
+      "message": "Анимирует все элементы при загрузке страницы."
+   },
+   "anythingHelps": {
+      "message": "Любая\u003Cbr>помощь!"
+   },
+   "appDesc": {
+      "message": "Максимально упрощенная «Новая вкладка», которая включает в себя несколько часов, дату, поиск, быстрые ссылки и многое другое! Полная кастомизация!"
+   },
+   "appName": {
+      "message": "CaretTab - New Tab Clock and Date"
+   },
+   "april": {
+      "message": "Апрель"
+   },
+   "august": {
+      "message": "Август"
+   },
+   "bg": {
+      "message": "Цвет фона"
+   },
+   "bgDesc": {
+      "message": "Цвет фона страницы."
+   },
+   "blinkDelimiter": {
+      "message": "Мигание разделителя"
+   },
+   "blinkDelimiterDesc": {
+      "message": "Включает мигание разделителя в основных часах."
+   },
+   "brackets": {
+      "message": "Скобки"
+   },
+   "bracketsDesc": {
+      "message": "Показывает скобки вокруг основных часов и даты (скрыты, если включены аналоговые часы)."
+   },
+   "bracketsType": {
+      "message": "Тип скобок"
+   },
+   "clockStyle": {
+      "message": "Стиль часов"
+   },
+   "clockStyleDesc": {
+      "message": "Переключает между цифровыми и аналоговыми часами (скобки будут скрыты, если включено)."
+   },
+   "configureEverything": {
+      "message": "Нажмите на иконку стрелку для настройки... всего!"
+   },
+   "credit": {
+      "message": "\u003Ca href=\"http://bluecaret.com/project/carettab\">CaretTab\u003C/a> придуман и написан \u003Ca href=\"http://jwh.design\">JWH Design, LLC\u003C/a> (\u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a>) и лицензирован под \u003Ca href=\"https://opensource.org/licenses/MIT\">MIT License\u003C/a>."
+   },
+   "customColor": {
+      "message": "Настраиваемые цвета"
+   },
+   "customMessage": {
+      "message": "Настраиваемое сообщение"
+   },
+   "customMessageDesc": {
+      "message": "Показывает настраиваемое сообщение (из поля ниже)."
+   },
+   "customMessageText": {
+      "message": "Текст сообщения"
+   },
+   "customMessageTextDesc": {
+      "message": "Введите текст для сообщения."
+   },
+   "customTabText": {
+      "message": "Кастомное название вкладки"
+   },
+   "customTabTextDesc": {
+      "message": "Введите текст для названия вкладки."
+   },
+   "date": {
+      "message": "Дата"
+   },
+   "dateDesc": {
+      "message": "Показывает дату посередине страницы."
+   },
+   "dateFormat": {
+      "message": "Формат даты"
+   },
+   "dateFormatDesc": {
+      "message": "Определяет, как будет показана дата."
+   },
+   "day": {
+      "message": "День"
+   },
+   "dayDesc": {
+      "message": "Показывает день недели (только если 'краткая форма' выключена)."
+   },
+   "december": {
+      "message": "Декабрь"
+   },
+   "delimiter": {
+      "message": "Разделитель"
+   },
+   "delimiterDesc": {
+      "message": "Показывает разделитель между цифрами во всех часах."
+   },
+   "dimBrackets": {
+      "message": "Затемнение скобок"
+   },
+   "dimBracketsDesc": {
+      "message": "Делает скобки на 50% прозрачнее."
+   },
+   "dimDelimiter": {
+      "message": "Затемнение разделителя"
+   },
+   "dimDelimiterDesc": {
+      "message": "Делает разделитель на 50% прозрачнее (только если выключено мигание разделителя)."
+   },
+   "dimSeconds": {
+      "message": "Затемнение секунд"
+   },
+   "dimSecondsDesc": {
+      "message": "Делает секунды на 50% прозрачнее."
+   },
+   "dimming": {
+      "message": "Затемнение"
+   },
+   "disclaimer": {
+      "message": "CaretTab не несет ответственности за любые проблемы, которые могут возникнуть из-за точности работы этого расширения. Если вы опаздываете на работу, потому что показанное время было неправильным, это ваша вина."
+   },
+   "february": {
+      "message": "Февраль"
+   },
+   "fg": {
+      "message": "Основной цвет"
+   },
+   "fgDesc": {
+      "message": "Цвет шрифтов и иконок."
+   },
+   "font": {
+      "message": "Шрифт"
+   },
+   "fontDesc": {
+      "message": "Изменение шрифта для\u003Cbr>всех элементов."
+   },
+   "fourthClock": {
+      "message": "Четвертые часы"
+   },
+   "fourthClockDesc": {
+      "message": "Показывает дополнительные часы под основными."
+   },
+   "fourthClockLabel": {
+      "message": "Описание для 4-х часов"
+   },
+   "fourthClockLabelDesc": {
+      "message": "Введите описание для этих часов (оставьте пустым, чтобы скрыть)."
+   },
+   "fourthClockTimezone": {
+      "message": "Часовой пояс для 4-х часов"
+   },
+   "fourthClockTimezoneDesc": {
+      "message": "Выберите часовой пояс для этих часов."
+   },
+   "friday": {
+      "message": "Пятница"
+   },
+   "generousTip": {
+      "message": "Большой\u003Cbr>донат в"
+   },
+   "globalStyle": {
+      "message": "Общие стили"
+   },
+   "hideSettingsButton": {
+      "message": "Скрыть кнопку настроек"
+   },
+   "hideSettingsButtonDesc": {
+      "message": "Кнопка настроек открывает настройки. Включите это для скрытия иконки. Вы все еще можете открыть настройки нажав на верхний правый угол страницы."
+   },
+   "january": {
+      "message": "Январь"
+   },
+   "july": {
+      "message": "Июль"
+   },
+   "june": {
+      "message": "Июнь"
+   },
+   "keepFree": {
+      "message": "Сохраните CaretTab бесплатным, поддержите разработчика"
+   },
+   "keepFreeDesc": {
+      "message": "Если вам нравится CaretTab, подумайте о поддержке приложения, оставив копеечку в копилке. Это поможет оставить приложение свободным от рекламы и бесплатным! Разработчик оценит это!"
+   },
+   "language": {
+      "message": "Язык"
+   },
+   "languageDesc": {
+      "message": "CaretTab поддерживает несколько языков, на которые автоматически переводится в зависимости от языка в браузере (возможность ручного выбора языка в приложении будет позже). Поддерживаемые языки: English, French, Chinese (Simplified &amp; Traditional), Japanese, German."
+   },
+   "largeTip": {
+      "message": "Огромный\u003Cbr>донат в"
+   },
+   "latestUpdate": {
+      "message": "Последние обновления"
+   },
+   "march": {
+      "message": "Март"
+   },
+   "massiveTip": {
+      "message": "Солидный\u003Cbr>донат в"
+   },
+   "may": {
+      "message": "Май"
+   },
+   "meridiem": {
+      "message": "Интервалы"
+   },
+   "meridiemDesc": {
+      "message": "Показывает AM/PM в основных часах."
+   },
+   "messageTitle": {
+      "message": "Сообщение"
+   },
+   "military": {
+      "message": "24 часа"
+   },
+   "militaryDesc": {
+      "message": "Использует 24-часовой формат часов вместо 12-часового (выключает интервалы)."
+   },
+   "miscellaneous": {
+      "message": "Разное"
+   },
+   "monday": {
+      "message": "Понедельник"
+   },
+   "november": {
+      "message": "Ноябрь"
+   },
+   "october": {
+      "message": "Октябрь"
+   },
+   "otherTip": {
+      "message": "Другая"
+   },
+   "primaryClock": {
+      "message": "Основные часы"
+   },
+   "primaryClockDesc": {
+      "message": "Показывает основные часы посередине страницы."
+   },
+   "quickLinks": {
+      "message": "Быстрые ссылки"
+   },
+   "quickLinksDesc": {
+      "message": "Показывает настраиваемые быстрые ссылки вверху страницы."
+   },
+   "resetButton": {
+      "message": "Сбросить настройки"
+   },
+   "resetDesc": {
+      "message": "Если вы хотите сбросить все настройки к стандартным, вы можете использовать кнопку ниже (перезагрузите страницу после нажатия)."
+   },
+   "saturday": {
+      "message": "Суббота"
+   },
+   "scaleDisplay": {
+      "message": "Масштаб элементов"
+   },
+   "scaleDisplayDesc": {
+      "message": "Изменяет размер элементов. Если элементы начинают перекрываться, уменьшите размер."
+   },
+   "search": {
+      "message": "Поиск"
+   },
+   "searchBox": {
+      "message": "Поле поиска"
+   },
+   "searchBoxDesc": {
+      "message": "Показывает поле поиска выше часов."
+   },
+   "searchEngine": {
+      "message": "Поисковая система"
+   },
+   "searchEngineDesc": {
+      "message": "Выберите поисковую систему, которая будет использоваться по умолчанию."
+   },
+   "secondClock": {
+      "message": "Вторые часы"
+   },
+   "secondClockDesc": {
+      "message": "Показывает дополнительные часы под основными."
+   },
+   "secondClockLabel": {
+      "message": "Описание для 2-х часов"
+   },
+   "secondClockLabelDesc": {
+      "message": "Введите описание для этих часов (оставьте пустым, чтобы скрыть)."
+   },
+   "secondClockTimezone": {
+      "message": "Часовой пояс для 2-х часов"
+   },
+   "secondClockTimezoneDesc": {
+      "message": "Выберите часовой пояс для этих часов."
+   },
+   "seconds": {
+      "message": "Секунды"
+   },
+   "secondsDesc": {
+      "message": "Показывает секунды в основных часах."
+   },
+   "september": {
+      "message": "Сентябрь"
+   },
+   "settingsPanel": {
+      "message": "Обязательно посмотрите все вкладки для полной настройки."
+   },
+   "shortForm": {
+      "message": "Краткая форма"
+   },
+   "shortFormDesc": {
+      "message": "Показывает дату в числовом формате."
+   },
+   "showDelimiter": {
+      "message": "Разделитель в краткой форме"
+   },
+   "showDelimiterDesc": {
+      "message": "Показывает разделитель между цифрами в краткой форме даты."
+   },
+   "singleLink": {
+      "message": "Ссылка"
+   },
+   "sunday": {
+      "message": "Воскресенье"
+   },
+   "supportDesc": {
+      "message": "Если вам нужна помощь или есть предложение/комментарий, вы можете связаться с разработчиком \u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a> в Twitter \u003Ca href=\"https://twitter.com/BlueCaret\">@BlueCaret\u003C/a> или посмотреть CaretTab на \u003Ca href=\"https://github.com/bluecaret/carettab\">GitHub\u003C/a>."
+   },
+   "supportTitle": {
+      "message": "Поддержка"
+   },
+   "tabAbout": {
+      "message": "О нас"
+   },
+   "tabColor": {
+      "message": "Цвет"
+   },
+   "tabDate": {
+      "message": "Дата"
+   },
+   "tabExtras": {
+      "message": "Разное"
+   },
+   "tabLinks": {
+      "message": "Ссылки"
+   },
+   "tabStyle": {
+      "message": "Стиль"
+   },
+   "tabTime": {
+      "message": "Время"
+   },
+   "tabTitle": {
+      "message": "Название вкладки"
+   },
+   "tabTitleDesc": {
+      "message": "Выберите что показывать в названии вкладки (показывается как на вкладке, так и в строке заголовка браузера)."
+   },
+   "themes": {
+      "message": "Темы"
+   },
+   "thirdClock": {
+      "message": "Третьи часы"
+   },
+   "thirdClockDesc": {
+      "message": "Показывает дополнительные часы под основными."
+   },
+   "thirdClockLabel": {
+      "message": "Описание для 3-х часов"
+   },
+   "thirdClockLabelDesc": {
+      "message": "Введите описание для этих часов (оставьте пустым, чтобы скрыть)."
+   },
+   "thirdClockTimezone": {
+      "message": "Часовой пояс для 3-х часов"
+   },
+   "thirdClockTimezoneDesc": {
+      "message": "Выберите часовой пояс для этих часов."
+   },
+   "thursday": {
+      "message": "Четверг"
+   },
+   "timeDisclaimer": {
+      "message": "\u003Cb>Помните\u003C/b>, что отображение времени основных и дополнительных часов зависит от времени и часового пояса вашего компьютера. Определение вашего текущего часового пояса в значительной степени носит предположительный характер и может не отражать вашего реального часового пояса, что может привести к отключению дополнительных часов. Сейчас CaretTab определил ваш часовой пояс как:"
+   },
+   "timezone": {
+      "message": "Часовой пояс"
+   },
+   "timezoneDesc": {
+      "message": "Выберите часовой пояс для основных часов (по умолчанию ваш местный часовой пояс)."
+   },
+   "tuesday": {
+      "message": "Вторник"
+   },
+   "viaPaypal": {
+      "message": "Оплата через\u003Cbr>PayPal\u003Cbr>\u003Cb>Спасибо!\u003C/b>"
+   },
+   "wednesday": {
+      "message": "Среда"
+   },
+   "weekLabel": {
+      "message": "Описание числа недель"
+   },
+   "weekLabelDesc": {
+      "message": "Выберите вариант текста перед числом недель."
+   },
+   "weekNumber": {
+      "message": "Число недель"
+   },
+   "weekNumberDesc": {
+      "message": "Показывает число недель под датой."
+   },
+   "welcome": {
+      "message": "Добро пожаловать в CaretTab!"
+   },
+   "welcomeUpdated": {
+      "message": "CaretTab был обновлен до"
+   },
+   "year": {
+      "message": "Год"
+   },
+   "yearDesc": {
+      "message": "Показывает год вместе с датой."
+   }
+}

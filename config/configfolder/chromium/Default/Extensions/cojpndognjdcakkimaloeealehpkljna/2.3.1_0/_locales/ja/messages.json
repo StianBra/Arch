@@ -1,0 +1,437 @@
+{
+   "addLink": {
+      "message": "リンクを追加"
+   },
+   "additionalClocks": {
+      "message": "追加の時計"
+   },
+   "animation": {
+      "message": "アニメーション"
+   },
+   "animationDesc": {
+      "message": "ページロード時にアニメーションを行います．"
+   },
+   "anythingHelps": {
+      "message": "任意金額の\u003Cbr>寄付"
+   },
+   "appDesc": {
+      "message": "新しいタブを開いた際，検索ボックスに加えて日時やリンクを美しい見た目で表示します．カスタマイズも容易です．"
+   },
+   "appName": {
+      "message": "CaretTab - New Tab Clock and Date"
+   },
+   "april": {
+      "message": "四月"
+   },
+   "august": {
+      "message": "八月"
+   },
+   "bg": {
+      "message": "背景色"
+   },
+   "bgDesc": {
+      "message": "ページの背景色を指定できます．"
+   },
+   "blinkDelimiter": {
+      "message": "デリミタの点滅"
+   },
+   "blinkDelimiterDesc": {
+      "message": "時計のデリミタを点滅します．"
+   },
+   "brackets": {
+      "message": "時刻を囲むブラケット"
+   },
+   "bracketsDesc": {
+      "message": "メインの時計の左右にブラケットを表示します．(アナログ時計の場合は非表示)."
+   },
+   "bracketsType": {
+      "message": "ブラケットのタイプ"
+   },
+   "clockStyle": {
+      "message": "時計のスタイル"
+   },
+   "clockStyleDesc": {
+      "message": "デジタル時計とアナログ時計を切り替えます(アナログ時計の場合，ブラケットは表示されません)."
+   },
+   "configureEverything": {
+      "message": "設定を行う際には三角の矢印アイコンをクリックしてください．"
+   },
+   "credit": {
+      "message": "\u003Ca href=\"http://bluecaret.com/project/carettab\">CaretTab\u003C/a>は\u003Ca href=\"http://jwh.design\">JWH Design, LLC\u003C/a>により作成されました(\u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a>)ライセンス形態は\u003Ca href=\"https://opensource.org/licenses/MIT\">MIT License\u003C/a>です．"
+   },
+   "customColor": {
+      "message": "色の変更"
+   },
+   "customMessage": {
+      "message": "カスタムメッセージ"
+   },
+   "customMessageDesc": {
+      "message": "以下に設定したメッセージを表示します．"
+   },
+   "customMessageText": {
+      "message": "カスタムメッセージの内容"
+   },
+   "customMessageTextDesc": {
+      "message": "カスタムメッセージを入力してください．"
+   },
+   "customTabText": {
+      "message": "タブタイトルのカスタマイズ"
+   },
+   "customTabTextDesc": {
+      "message": "タブタイトルに表示したい内容を入力してください"
+   },
+   "date": {
+      "message": "日付"
+   },
+   "dateDesc": {
+      "message": "日付を表示します．"
+   },
+   "dateFormat": {
+      "message": "日付のフォーマット"
+   },
+   "dateFormatDesc": {
+      "message": "どのように日付を表示するかを指定してください．"
+   },
+   "day": {
+      "message": "曜日"
+   },
+   "dayDesc": {
+      "message": "曜日を表示します(短縮表示がOFFの場合)．"
+   },
+   "december": {
+      "message": "十二月"
+   },
+   "delimiter": {
+      "message": "デリミタ"
+   },
+   "delimiterDesc": {
+      "message": "時，分，秒の間にデリミタを表示します．"
+   },
+   "dimBrackets": {
+      "message": "ブラケットの透過"
+   },
+   "dimBracketsDesc": {
+      "message": "ブラケットを50%透過します．"
+   },
+   "dimDelimiter": {
+      "message": "デリミタの透過"
+   },
+   "dimDelimiterDesc": {
+      "message": "デリミタを50%透過します(デリミタの点滅がOFFの場合のみ有効)．"
+   },
+   "dimSeconds": {
+      "message": "秒表示の透過"
+   },
+   "dimSecondsDesc": {
+      "message": "秒表示を50%透過します．"
+   },
+   "dimming": {
+      "message": "透過"
+   },
+   "disclaimer": {
+      "message": "CaretTabの利用により生じた問題については一切の責任を負いません．誤った時刻表示により仕事に支障をきたした場合も，責任はあなたにあります．"
+   },
+   "february": {
+      "message": "二月"
+   },
+   "fg": {
+      "message": "前景色"
+   },
+   "fgDesc": {
+      "message": "文字とアイコンの色を指定できます．"
+   },
+   "font": {
+      "message": "フォント"
+   },
+   "fontDesc": {
+      "message": "フォントを変更します．\u003Cbr>"
+   },
+   "fourthClock": {
+      "message": "4つめの時計"
+   },
+   "fourthClockDesc": {
+      "message": "メインの時計の下に4つめの時計を表示します．"
+   },
+   "fourthClockLabel": {
+      "message": "4つめの時計のラベル"
+   },
+   "fourthClockLabelDesc": {
+      "message": "この時計のラベルを入力してください(特にない場合は空白にしてください)．"
+   },
+   "fourthClockTimezone": {
+      "message": "4つめの時計のタイムゾーン"
+   },
+   "fourthClockTimezoneDesc": {
+      "message": "この時計のタイムゾーンを選択してください．"
+   },
+   "friday": {
+      "message": "金曜日"
+   },
+   "generousTip": {
+      "message": "少しの\u003Cbr>寄付"
+   },
+   "globalStyle": {
+      "message": "全体のスタイル"
+   },
+   "hideSettingsButton": {
+      "message": "設定ボタンを隠す"
+   },
+   "hideSettingsButtonDesc": {
+      "message": "設定画面を開くためのボタンを隠します．再び設定画面を開くには，ページの右上をクリックしてください．"
+   },
+   "january": {
+      "message": "一月"
+   },
+   "july": {
+      "message": "七月"
+   },
+   "june": {
+      "message": "六月"
+   },
+   "keepFree": {
+      "message": "CaretTabのメンテナンスのため，開発者への投げ銭をお願いします．"
+   },
+   "keepFreeDesc": {
+      "message": "CaretTabが気に入った場合は投げ銭をお願いします．ご協力により，無料かつ広告のないアプリ運用ができます．また開発者達のモチベーションにも繋がります！"
+   },
+   "language": {
+      "message": "言語"
+   },
+   "languageDesc": {
+      "message": "CaretTabは、ブラウザの設定に基づいて自動的に翻訳される複数の言語をサポートしています（拡張機能で言語を手動で設定できるようになります）。 現在サポートされている言語：英語、フランス語、中国語（簡体字と繁体）、日本語、ドイツ語"
+   },
+   "largeTip": {
+      "message": "普通の\u003Cbr>寄付"
+   },
+   "latestUpdate": {
+      "message": "アップデート履歴"
+   },
+   "march": {
+      "message": "三月"
+   },
+   "massiveTip": {
+      "message": "たくさんの\u003Cbr>寄付"
+   },
+   "may": {
+      "message": "五月"
+   },
+   "meridiem": {
+      "message": "AM/PM表示"
+   },
+   "meridiemDesc": {
+      "message": "AM/PMの表示/非表示の切り替えます．"
+   },
+   "messageTitle": {
+      "message": "メッセージ"
+   },
+   "military": {
+      "message": "24時間表示"
+   },
+   "militaryDesc": {
+      "message": "24時間/12時間表示を切り替えます(12時間表示の場合，AM/PMを表示)．"
+   },
+   "miscellaneous": {
+      "message": "その他"
+   },
+   "monday": {
+      "message": "月曜日"
+   },
+   "november": {
+      "message": "十一月"
+   },
+   "october": {
+      "message": "十月"
+   },
+   "otherTip": {
+      "message": "任意金額"
+   },
+   "primaryClock": {
+      "message": "メインの時計"
+   },
+   "primaryClockDesc": {
+      "message": "ページの中央に時計を表示します．"
+   },
+   "quickLinks": {
+      "message": "クイックリンク"
+   },
+   "quickLinksDesc": {
+      "message": "ページの上部にリンクを表示します．"
+   },
+   "resetButton": {
+      "message": "デフォルトに戻す"
+   },
+   "resetDesc": {
+      "message": "全ての設定をデフォルトに戻すには，以下のボタンをクリックしてください(クリック後にページを更新する必要があります)．"
+   },
+   "saturday": {
+      "message": "土曜日"
+   },
+   "scaleDisplay": {
+      "message": "表示のスケール"
+   },
+   "scaleDisplayDesc": {
+      "message": "要素のサイズを変更します．それぞれの要素が重なる場合は，サイズを小さくしてください．"
+   },
+   "search": {
+      "message": "検索"
+   },
+   "searchBox": {
+      "message": "検索ボックス"
+   },
+   "searchBoxDesc": {
+      "message": "時刻表示の上に検索ボックスを表示します．"
+   },
+   "searchEngine": {
+      "message": "サーチエンジン"
+   },
+   "searchEngineDesc": {
+      "message": "サーチエンジンを選択してください．"
+   },
+   "secondClock": {
+      "message": "2つめの時計"
+   },
+   "secondClockDesc": {
+      "message": "メインの時計の下に2つめの時計を表示します．"
+   },
+   "secondClockLabel": {
+      "message": "2つめの時計のラベル"
+   },
+   "secondClockLabelDesc": {
+      "message": "この時計のラベルを入力してください(特にない場合は空白にしてください)．"
+   },
+   "secondClockTimezone": {
+      "message": "2つめの時計のタイムゾーン"
+   },
+   "secondClockTimezoneDesc": {
+      "message": "この時計のタイムゾーンを選択してください．"
+   },
+   "seconds": {
+      "message": "秒表示"
+   },
+   "secondsDesc": {
+      "message": "秒の単位を表示します．"
+   },
+   "september": {
+      "message": "九月"
+   },
+   "settingsPanel": {
+      "message": "設定可能な項目はタブをクリックすることで確認できます．"
+   },
+   "shortForm": {
+      "message": "短縮表示"
+   },
+   "shortFormDesc": {
+      "message": "日付を短縮表示します．"
+   },
+   "showDelimiter": {
+      "message": "短縮表示に用いる記号"
+   },
+   "showDelimiterDesc": {
+      "message": "数字の区切りに使う記号を設定できます．"
+   },
+   "singleLink": {
+      "message": "リンク"
+   },
+   "sunday": {
+      "message": "日曜日"
+   },
+   "supportDesc": {
+      "message": "サポートが必要な場合，コメントや提案がある場合には，開発者に連絡してください．\u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a>Twitter:\u003Ca href=\"https://twitter.com/BlueCaret\">@BlueCaret\u003C/a>，GitHub:,a href=\"https://github.com/bluecaret/carettab\">\u003C/a>."
+   },
+   "supportTitle": {
+      "message": "サポート"
+   },
+   "tabAbout": {
+      "message": "説明"
+   },
+   "tabColor": {
+      "message": "色"
+   },
+   "tabDate": {
+      "message": "日付"
+   },
+   "tabExtras": {
+      "message": "その他"
+   },
+   "tabLinks": {
+      "message": "リンク"
+   },
+   "tabStyle": {
+      "message": "スタイル"
+   },
+   "tabTime": {
+      "message": "時刻"
+   },
+   "tabTitle": {
+      "message": "タブタイトル"
+   },
+   "tabTitleDesc": {
+      "message": "新しいタブのタブタイトルに表示する内容を選択してください．"
+   },
+   "themes": {
+      "message": "テーマ"
+   },
+   "thirdClock": {
+      "message": "3つめの時計"
+   },
+   "thirdClockDesc": {
+      "message": "メインの時計の下に3つめの時計を表示します．"
+   },
+   "thirdClockLabel": {
+      "message": "3つめの時計のラベル"
+   },
+   "thirdClockLabelDesc": {
+      "message": "この時計のラベルを入力してください(特にない場合は空白にしてください)．"
+   },
+   "thirdClockTimezone": {
+      "message": "3つめの時計のタイムゾーン"
+   },
+   "thirdClockTimezoneDesc": {
+      "message": "この時計のタイムゾーンを選択してください．"
+   },
+   "thursday": {
+      "message": "木曜日"
+   },
+   "timeDisclaimer": {
+      "message": "\u003Cb>注意\u003C/b>　時計の時刻は，PCに設定されている時刻とタイムゾーンを基にしているため，誤った時刻が表示される可能性があります．PCのタイムゾーン:"
+   },
+   "timezone": {
+      "message": "タイムゾーン"
+   },
+   "timezoneDesc": {
+      "message": "タイムゾーンを選択してください(デフォルトではPCに設定のものとなっています)．"
+   },
+   "tuesday": {
+      "message": "火曜日"
+   },
+   "viaPaypal": {
+      "message": "投げ銭には\u003Cbr>PayPalを用います\u003Cbr>\u003Cb>ありがとうございます!\u003C/b>"
+   },
+   "wednesday": {
+      "message": "水曜日"
+   },
+   "weekLabel": {
+      "message": "週番号のラベル"
+   },
+   "weekLabelDesc": {
+      "message": "週番号の横に表示されるラベルを選択してください．"
+   },
+   "weekNumber": {
+      "message": "週番号の表示"
+   },
+   "weekNumberDesc": {
+      "message": "日付の下に何週目かを表示します．"
+   },
+   "welcome": {
+      "message": "CaretTabにようこそ!"
+   },
+   "welcomeUpdated": {
+      "message": "CaretTabが更新されました:"
+   },
+   "year": {
+      "message": "年"
+   },
+   "yearDesc": {
+      "message": "西暦を表示します．"
+   }
+}

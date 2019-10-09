@@ -1,0 +1,40 @@
+{
+   "content_scripts": [ {
+      "css": [ "css/enhancedsteam.css", "css/es_flags.css" ],
+      "exclude_matches": [ "*://store.steampowered.com/dynamicstore/*", "*://store.steampowered.com/checkout/*", "*://store.steampowered.com/widget/*", "*://store.steampowered.com/login/*", "*://store.steampowered.com/join/*", "*://store.steampowered.com/api/*", "*://steamcommunity.com/login/*" ],
+      "js": [ "js/jQuery.min.js", "enhancedsteam.js" ],
+      "matches": [ "http://*.steampowered.com/*", "https://*.steampowered.com/*", "http://steamcommunity.com/*", "https://steamcommunity.com/*" ]
+   }, {
+      "css": [ "css/es_flags.css" ],
+      "matches": [ "http://*.steampowered.com/app/*", "http://*.steampowered.com/sub/*", "http://*.steampowered.com/sale/*", "http://*.steampowered.com/" ]
+   }, {
+      "css": [ "css/steamcommunity.com/tradeoffer.css" ],
+      "js": [ "js/steamcommunity.com/tradeoffer.js" ],
+      "matches": [ "https://steamcommunity.com/tradeoffer/*" ]
+   }, {
+      "css": [ "css/es_sites_links.css" ],
+      "matches": [ "*://steamcommunity.com/id/*", "*://steamcommunity.com/profiles/*" ]
+   }, {
+      "css": [ "css/store.steampowered.com/store_front.css" ],
+      "matches": [ "*://store.steampowered.com/" ]
+   }, {
+      "css": [ "css/steamcommunity.com/steam_store_hover.css" ],
+      "matches": [ "*://steamcommunity.com/*/wishlist*" ]
+   } ],
+   "description": "Enhances the Steam Experience",
+   "homepage_url": "http://www.EnhancedSteam.com/",
+   "icons": {
+      "128": "img/enhancedsteam.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDHNiSyBX2f99+hg65gD8ufMWblT5eKmGSnQ3ulhp04gABMmM2AjAGbw11yUBuEtPFjxZC/ido9CTWu+IeE9StToh2kCMJ/o1vqEaAQ7rEPreFPa0i4+/I6tHot0ybEkP6XKn8BcqIoe0LfbabAyoI9vWNrSBlfWbBMUz7GgcmsSQIDAQAB",
+   "manifest_version": 2,
+   "name": "Enhanced Steam",
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options.html"
+   },
+   "permissions": [ "storage", "http://*.steampowered.com/" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "10.0",
+   "web_accessible_resources": [ "img/*.png", "img/*.gif", "img/*.jpg", "img/*.svg", "css/*.css", "options.html", "changelog_new.html", "img/*/*.png", "img/profile_styles/*/header.jpg", "img/profile_styles/*/showcase.png", "img/profile_styles/*/style.css", "img/profile_styles/*/preview.png", "localization/*/strings.json" ]
+}

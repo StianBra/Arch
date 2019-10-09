@@ -1,0 +1,5 @@
+game:
+  appid: '238960'
+  steamless_binary: /var/games/steam/steamapps/common/Path of Exile/PathOfExileSteam.exe
+steam: {}
+system: {}
