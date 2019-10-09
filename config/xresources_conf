@@ -1,0 +1,61 @@
+Xft.dpi: 144
+
+urxvt*scrollBar: false
+urxvt*scrollBar_right: true
+urxvt*scrollColor: #000000
+urxvt*depth: 32
+urxvt.internalBorder: 4
+urxvt*background: [80]#101015
+urxvt*borderColor: [80]#101015
+urxvt*foreground: #b2b2b2
+
+urxvt*font: xft:Monaco for Powerline:pixelsize=18
+
+Xcursor.theme: Breeze_Default
+Xcursor.size: 24
+
+!#--$template: xresources.template
+
+! ------------------------------------------------------------------------------
+! ROFI Color theme
+! ------------------------------------------------------------------------------
+! rofi.color-enabled: true
+! rofi.color-window: #510231, #510231, #FF974E
+! rofi.color-normal: #510231, #FEE8DA, #510231, #FF974E, #510231
+! rofi.color-active: #510231, #FEE8DA, #510231, #FF974E, #510231
+! rofi.color-urgent: #510231, #FA6E43, #510231, #FA6E43, #FEE8DA
+
+
+! black
+*.color0  : #2e282e
+*.color8  : #403741
+
+! red
+*.color1  : #457ac4
+*.color9  : #CA407E
+
+! green
+*.color2  : #a8aabd
+*.color10 : #a8aabd
+
+! yellow
+*.color3  : #95ee8f
+*.color11 : #95ee8f
+
+! blue
+*.color4  : #a8aabd
+*.color12 : #FFDCC8
+
+! magenta
+*.color5  : #d886f3
+*.color13 : #d886f3
+
+! cyan
+*.color6  : #6eaafb
+*.color14 : #6eaafb
+
+! white
+*.color7  : #E8E2DB
+*.color15 : #F7EDE2
+
+

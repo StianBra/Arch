@@ -1,0 +1,140 @@
+[options]
+scroll_on_output = false
+scroll_on_keystroke = true
+audible_bell = false
+mouse_autohide = false
+allow_bold = true
+dynamic_title = true
+urgent_on_bell = true
+clickable_url = true
+font = Monaco for Powerline, 9
+scrollback_lines = 10000
+search_wrap = true
+#icon_name = terminal
+#geometry = 640x480
+
+# "system", "on" or "off"
+cursor_blink = system
+
+# "block", "underline" or "ibeam"
+cursor_shape = block
+
+# $BROWSER is used by default if set, with xdg-open as a fallback
+#browser = xdg-open
+
+# set size hints for the window
+#size_hints = false
+
+# Hide links that are no longer valid in url select overlay mode
+filter_unmatched_urls = true
+
+# emit escape sequences for extra modified keys
+#modify_other_keys = false
+
+[colors]
+#cursor = #dcdccc
+#cursor_foreground = #dcdccc
+foreground = #dcdccc
+foreground_bold = #ffffff
+background = rgba(8, 8, 10, 0.68)
+
+
+# 20% background transparency (requires a compositor)
+#background = rgba(63, 63, 63, 0.8)
+
+# if unset, will reverse foreground and background
+# highlight = #2f2f2f
+
+# colors from color0 to color254 can be set
+; color0 = #3f3f3f
+; color1 = #705050
+; color2 = #60b48a
+; color3 = #dfaf8f
+; color4 = #506070
+; color5 = #dc8cc3
+; color6 = #8cd0d3
+; color7 = #dcdccc
+; color8 = #709080
+; color9 = #dca3a3
+; color10 = #c3bf9f
+; color11 = #f0dfaf
+; color12 = #94bff3
+; color13 = #ec93d3
+; color14 = #93e0e3
+; color15 = #ffffff
+
+color0  = #02080A
+color1  = #418B4B
+color2  = #658F6F
+color3  = #8F986C
+color4  = #76A086
+color5  = #92B292
+color6  = #ABCBA5
+color7  = #E0EAD5
+color8  = #666666
+color9  = #418B4B
+color10 = #658F6F
+color11 = #8F986C
+color12 = #76A086
+color13 = #92B292
+color14 = #ABCBA5
+color15 = #E0EAD5
+
+[hints]
+#font = Monospace 12
+#foreground = #dcdccc
+#background = #3f3f3f
+#active_foreground = #e68080
+#active_background = #3f3f3f
+#padding = 2
+#border = #3f3f3f
+#border_width = 0.5
+#roundness = 2.0
+
+# vim: ft=dosini cms=#%s
+
+#--$template: termite.template
+
+[colors]
+
+# special
+foreground      = #E9DDCF
+foreground_bold = #E9DDCF
+cursor          = #c8c5c8
+background      = rgba(32, 29, 33, 0.9)
+
+highlight = #553035
+
+# black
+color0  = #2e282e
+color8  = #403741
+
+# red
+color1  = #457ac4
+color9  = #CA407E
+
+# green
+color2  = #a8aabd
+color10 = #a8aabd
+
+# yellow
+color3  = #95ee8f
+color11 = #95ee8f
+
+# blue
+color4  = #a8aabd
+color12 = #FFDCC8
+
+# magenta
+color5  = #d886f3
+color13 = #d886f3
+
+# cyan
+color6  = #6eaafb
+color14 = #6eaafb
+
+# white
+color7  = #E8E2DB
+color15 = #F7EDE2
+
+
