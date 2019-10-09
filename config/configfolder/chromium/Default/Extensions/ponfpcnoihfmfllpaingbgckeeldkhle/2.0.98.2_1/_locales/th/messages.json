@@ -1,0 +1,398 @@
+{
+   "add": {
+      "message": "เพิ่ม"
+   },
+   "ads_removed": {
+      "message": "โฆษณาถูกลบแล้ว"
+   },
+   "annotations_shown_hidden": {
+      "message": "คำบรรยายได้รับการเปิด/ปิด"
+   },
+   "auto_cinema_mode": {
+      "message": "เปิดโหมดโรงภาพยนต์อัตโนมัติ"
+   },
+   "auto_enable_filters": {
+      "message": "เปิดใช้ตัวกรองอัตโนมัติ"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Automatically enable YouTube's “Theater mode”"
+   },
+   "auto_enlarge_player": {
+      "message": "ขยายตัวเล่นวีดีโออัตโนมัติ"
+   },
+   "auto_execute_script": {
+      "message": "ทำงานสคริปต์อัตโนมัติเมื่อ YouTube™ ถูกโหลดในแท็บ"
+   },
+   "auto_expand_description": {
+      "message": "ขยายคำอธิบายวิดีโออัตโนมัติ"
+   },
+   "auto_focus_video_player": {
+      "message": "ปรับโฟกัสกลับไปยังวิดีโอที่เล่นอยู่อัตโนมัติเมื่อ:"
+   },
+   "auto_pause_videos": {
+      "message": "พักการเล่นวิดีโออัตโนมัติเมื่อเปิดในแท็บเบื้องหลัง"
+   },
+   "auto_remove_ads": {
+      "message": "นำโฆษณาออกอัตโนมัติเมื่อตรวจพบ"
+   },
+   "auto_remove_annotations": {
+      "message": "ลบคำอธิบายประกอบอัตโนมัติ"
+   },
+   "auto_select_quality": {
+      "message": "เล่นวีดีโอในคุณภาพที่ฉันต้องการอัตโนมัติ"
+   },
+   "auto_sort_comments": {
+      "message": "จัดเรียงความเห็นจากใหม่สุดไปเก่าสุดอัตโนมัติ"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "boost_button_instructions": {
+      "message": "Info: Click this button to enable/disable the volume booster."
+   },
+   "boost_volume": {
+      "message": "Boost volume"
+   },
+   "border": {
+      "message": "กรอบ:"
+   },
+   "bottom_left_corner": {
+      "message": "ล่างซ้าย"
+   },
+   "bottom_right_corner": {
+      "message": "ล่างขวา"
+   },
+   "brightness": {
+      "message": "ความสว่าง:"
+   },
+   "buttons": {
+      "message": "ปุ่ม"
+   },
+   "buttons_active_label": {
+      "message": "Buttons active:"
+   },
+   "buttons_label": {
+      "message": "ปุ่ม:"
+   },
+   "cinema_button_instructions": {
+      "message": "Info: Click this button to enable/disable the cinema mode."
+   },
+   "cinema_enabled_disabled": {
+      "message": "รูปแบบจอภาพยนตร์ได้รับการเปิด/ปิด"
+   },
+   "cinema_mode": {
+      "message": "โหมดโรงภาพยนต์"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "ขยายตัวเล่นวีดีโออัตโนมัติเมื่อเปิดใช้งานโหมดโรงภาพยนต์"
+   },
+   "clean_button_instructions": {
+      "message": "ข้อมูล: Click this button to remove ads. ใช้คลิกขวาบนปุ่มนี้เพื่อแสดง/ซ่อนคำอธิบายประกอบ"
+   },
+   "color": {
+      "message": "สี:"
+   },
+   "color_inversion": {
+      "message": "การกลับสี:"
+   },
+   "colors": {
+      "message": "สี"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "คำแนะนำ: พิมพ์ chrome://extensions/configureCommands ในแถบที่อยู่เพื่อตั้งค่าแป้นพิมพ์ลัด"
+   },
+   "contrast": {
+      "message": "ความคมชัด:"
+   },
+   "control_volume": {
+      "message": "ควบคุมระดับเสียงด้วยลูกกลิ้งเมาส์ในขณะที่วางตัวชี้ไว้บนตัวเล่นวีดีโอ"
+   },
+   "control_volume_mouse_button": {
+      "message": "Only when the right mouse button is pressed"
+   },
+   "custom_script": {
+      "message": "สคริปต์ที่กำหนดเอง"
+   },
+   "custom_script_instructions": {
+      "message": "วางหรือพิมพ์โค้ด JavaScript ที่นี่ บันทึกโดยการกดปุ่มข้างล่าง จากนั้นกดปุ่ม “สคริปต์ที่กำหนดเอง” ที่แถบเครื่องมือเมื่อคุณต้องการจะให้มันทำงาน"
+   },
+   "custom_script_warning": {
+      "message": "คำเตือน: ด้วยเหตุผลด้านความปลอดภัย คุณควรใช้สคริปต์ที่คุณเข้าใจหรือรหัสที่เขียนโดยนักพัฒนาที่เชื่อถือได้"
+   },
+   "custom_theme": {
+      "message": "รูปลักษณ์แต่งเอง"
+   },
+   "custom_theme_instructions": {
+      "message": "วางหรือพิมพ์รหัส CSS ที่นี่ แล้วบันทึกด้วยปุ่มบันทึกด้านล่าง"
+   },
+   "default_playback_speed": {
+      "message": "ความเร็วการเล่นเริ่มต้น:"
+   },
+   "default_volume_level": {
+      "message": "ค่าระดับเสียงเริ่มต้น:"
+   },
+   "description": {
+      "message": "ความสามารถมากมายมหาศาลที่จะยกระดับประสบการณ์รับชม YouTube™ ของคุณ"
+   },
+   "detach_button_instructions": {
+      "message": "Info: Click this button to detach the video player. Make a right click on this button to stop the video on YouTube™ instead of pausing it when the video player is detached. To make the detached video player stay always on top of other windows visit the following page:"
+   },
+   "detach_player": {
+      "message": "Detach player"
+   },
+   "disable_autoplay": {
+      "message": "ปิดคุณสมบัติ “เล่นอัตโนมัติ”"
+   },
+   "disable_preloading": {
+      "message": "ปิดการโหลดล่วงหน้าเมื่อมีการพักการเล่นวิดีโออัตโนมัติ"
+   },
+   "donate": {
+      "message": "บริจาค"
+   },
+   "enlarged_player_viewport": {
+      "message": "ใช้ช่องว่างบนจอทั้งหมดเพื่อแสดงตัวเล่นวิดีโอขนาดใหญ่เมื่อไม่ได้เปิดใช้รูปแบบจอภาพยนตร์"
+   },
+   "export": {
+      "message": "Export"
+   },
+   "export_instructions": {
+      "message": "Create a new text file and paste the code below without modifying it."
+   },
+   "filters": {
+      "message": "ตัวกรอง"
+   },
+   "filters_button_instructions": {
+      "message": "ข้อมูล: Click this button to enable/disable filters. ใช้คลิกขวาที่ปุ่มนี้เพื่อแก้ไขตัวกรอง นอกจากนี้คุณยังสามารถเปิด/ปิดตัวกรองได้ ถ้าคุณใช้แป้น “Control” (Ctrl) และแป้น “Shift” กดพร้อมกันเมื่อคุณคลิกที่ตัวเล่นวิดีโอ"
+   },
+   "filters_enabled_disabled": {
+      "message": "ตัวกรองได้รับการเปิด/ปิด"
+   },
+   "fourth_choice": {
+      "message": "ตัวเลือกอันดับที่สี่:"
+   },
+   "gaussian_blur": {
+      "message": "เกาเสี้ยนเบลอ:"
+   },
+   "grayscale": {
+      "message": "ระดับสีเทา:"
+   },
+   "html5_player_only": {
+      "message": "(ตัวเล่น HTML5 เท่านั้น)"
+   },
+   "hue_rotation": {
+      "message": "การหมุน Hue:"
+   },
+   "ignore_playlists": {
+      "message": "อย่าพักการเล่นวิดีโอในรายการเล่น"
+   },
+   "import": {
+      "message": "Import"
+   },
+   "import_error": {
+      "message": "The content of the backup file is not valid!"
+   },
+   "import_instructions": {
+      "message": "Paste the content of the backup file and click the “Import” button. The page will be automatically reloaded if settings are successfully imported."
+   },
+   "keyboard_shortcuts": {
+      "message": "แป้นลัด"
+   },
+   "keyboard_shortcuts_list": {
+      "message": "For a complete list of keyboard shortcuts for YouTube™ visit the following page:"
+   },
+   "locale_code": {
+      "message": "th"
+   },
+   "loop_button_instructions": {
+      "message": "Info: Click this button to enable/disable the loop mode."
+   },
+   "loop_enabled_disabled": {
+      "message": "รูปแบบการเล่นวนได้รับการเปิด/ปิด"
+   },
+   "loop_video": {
+      "message": "เล่นซ้ำวีดีโอ"
+   },
+   "message": {
+      "message": "Message"
+   },
+   "miscellaneous": {
+      "message": "จิปาถะ"
+   },
+   "not_now": {
+      "message": "ไม่ใช่ตอนนี้"
+   },
+   "opacity": {
+      "message": "ความทึบแสง:"
+   },
+   "options": {
+      "message": "ตัวเลือก"
+   },
+   "options_button_instructions": {
+      "message": "Info: Click this button to open the options page."
+   },
+   "override_playback_speeds": {
+      "message": "ปรับความเร็วการเล่นเอง"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ has been updated, this page must be reloaded."
+   },
+   "pause_foreground_tab": {
+      "message": "พักการเล่นวิดีโอที่เปิดในแท็บเบื้องหน้าด้วย"
+   },
+   "pause_videos": {
+      "message": "พักการเล่นวิดีโอในแท็บเบื้องหลังเมื่อกำลังเริ่มเล่นวิดีโอในแท็บเบื้องหน้า"
+   },
+   "pin_video_player": {
+      "message": "ตรึงตัวเล่นวิดีโอไว้กับที่เมื่อมีการเลื่อนหน้า"
+   },
+   "pinned_video_player_position": {
+      "message": "ตำแหน่งที่ตรึงตัวเล่นวิดีโอ:"
+   },
+   "pinned_video_player_size": {
+      "message": "ขนาดตัวเล่นวิดีโอเมื่อยึดไว้:"
+   },
+   "playback_speed_modified": {
+      "message": "ความเร็วการเล่นได้รับการแก้ไข"
+   },
+   "preferred_quality": {
+      "message": "คุณภาพที่ต้องที่การ:"
+   },
+   "preview": {
+      "message": "ตัวอย่าง"
+   },
+   "rate": {
+      "message": "ให้คะแนน"
+   },
+   "remove": {
+      "message": "ลบ"
+   },
+   "remove_ads": {
+      "message": "นำโฆษณาออก"
+   },
+   "reset_filters": {
+      "message": "ตั้งค่าตัวกรองใหม่"
+   },
+   "resize_button_instructions": {
+      "message": "Info: Click this button to resize the video player. Make a right click on this button to center the video player within the viewport."
+   },
+   "resize_player": {
+      "message": "ปรับขนาดตัวเล่น"
+   },
+   "restore_default_colors": {
+      "message": "เรียกคืนค่าสีเริ่มต้น"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Reverse the mouse wheel direction to control the playback speed and the volume level"
+   },
+   "saturation": {
+      "message": "ความเข้มสี:"
+   },
+   "save": {
+      "message": "บันทึก"
+   },
+   "script_button_instructions": {
+      "message": "Info: Click this button to execute the custom script."
+   },
+   "second_choice": {
+      "message": "ตัวเลือกอันดับที่สอง:"
+   },
+   "sepia": {
+      "message": "ซีเปีย:"
+   },
+   "share": {
+      "message": "แชร์"
+   },
+   "share_message": {
+      "message": "บอกเล่าเพื่อนๆ และผู้ติดตามคุณเกี่ยวกับ Enhancer for YouTube™ ขอบคุณ!"
+   },
+   "share_on_facebook": {
+      "message": "แชร์ไปยัง Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "แชร์ไปยัง Google+"
+   },
+   "share_on_pinterest": {
+      "message": "แชร์ไปยัง Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "แชร์ไปยัง Reddit"
+   },
+   "share_on_twitter": {
+      "message": "แชร์ไปยัง Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "แสดง/ซ่อน คำอธิบายประกอบ"
+   },
+   "slide_effect": {
+      "message": "เอฟเฟกต์เลื่อนขึ้น/ลง"
+   },
+   "slow_down_button_instructions": {
+      "message": "Info: Click this button to slow down playback speed."
+   },
+   "speed": {
+      "message": "ความเร็ว"
+   },
+   "speed_button_instructions": {
+      "message": "ข้อมูล: ใช้ลูกกลิ้งเมาส์ในการความคุมความเร็วการเล่นเมื่อตัวชี้อยู่เหนือปุ่มนี้ คลิกปุ่มเพื่อใช้ความเร็วการเล่นเริ่มต้น นอกจากนี้คุณยังสามารถใช้ลูกกลิ้งเมาส์เพื่อความคุมความเร็วการเล่นเมื่อตัวชี้อยู่เหนือตัวเล่นวิดีโอและคลิกเพื่อใช้ความเร็วเริ่มต้น ถ้าคุณกดปุ่ม “Control” (Ctrl) ค้างไว้"
+   },
+   "speed_up_button_instructions": {
+      "message": "Info: Click this button to speed up playback speed."
+   },
+   "speed_variation": {
+      "message": "Speed variation when the mouse wheel rotates or when the speed buttons “-” and “+” are clicked:"
+   },
+   "support": {
+      "message": "ขอความช่วยเหลือ"
+   },
+   "support_request_instructions": {
+      "message": "แสดงข้อมูลเหล่านี้เมื่อร้องขอการสนับสนุนหรือรายงานประเด็นต่างๆ"
+   },
+   "theme": {
+      "message": "รูปลักษณ์"
+   },
+   "theme_by_default": {
+      "message": "รูปลักษณ์เริ่มต้น"
+   },
+   "third_choice": {
+      "message": "ตัวเลือกอันดับที่สาม:"
+   },
+   "toolbar": {
+      "message": "แถบเครื่องมือ"
+   },
+   "toolbar_label": {
+      "message": "แถบเครื่องมือ:"
+   },
+   "tooltips": {
+      "message": "คำแนะนำเครื่องมือ"
+   },
+   "top_left_corner": {
+      "message": "บนซ้าย"
+   },
+   "top_right_corner": {
+      "message": "บนขวา"
+   },
+   "translate": {
+      "message": "แปล"
+   },
+   "transparency": {
+      "message": "ความโปร่งใส:"
+   },
+   "video_player": {
+      "message": "ตัวเล่นวีดีโอ"
+   },
+   "video_player_pinned": {
+      "message": "ตัวเล่นวิดีโอได้รับการตรึงไว้"
+   },
+   "video_player_resized": {
+      "message": "ตัวเล่นวิดีโอได้รับการปรับขนาด"
+   },
+   "volume_booster_enabled_disabled": {
+      "message": "Volume booster has been enabled/disabled"
+   },
+   "volume_variation": {
+      "message": "ปรับระดับเสียงเมื่อหมุนลูกกลิ้งเมาส์:"
+   },
+   "whitelisted_channels": {
+      "message": "ช่องที่อนุญาต:"
+   }
+}

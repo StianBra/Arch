@@ -1,0 +1,647 @@
+<!DOCTYPE html>
+<!--
+##
+##  Enhancer for YouTube™ | Chrome Extension
+##  ========================================
+##
+##  Author: Maxime RF <https://www.mrfdev.com>
+##
+##  This file is protected by copyright laws and international copyright
+##  treaties, as well as other intellectual property laws and treaties.
+##
+##  All rights not expressly granted to you are retained by the author.
+##  Read the license.txt file for more details.
+##
+##  If it's not enough clear for you Baris Derin, you have no rights to use my work,
+##  neither as-is nor modified! Improve your coding logic instead of using others work!
+##
+##  © MRFDEV.com - All Rights Reserved
+##
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enhancer for YouTube™</title>
+<link rel="stylesheet" href="options.css">
+</head>
+<body>
+<div class="menu">
+  <div class="row">
+    <div><i class="rate"></i><a href="https://chrome.google.com/webstore/detail/enhancer-for-youtube/ponfpcnoihfmfllpaingbgckeeldkhle/reviews" target="_blank" class="i18n" data-text="rate" rel="noopener"></a></div>
+    <div><i class="share"></i><a href="#" class="i18n" id="share" data-text="share"></a></div>
+    <div><i class="donate"></i><a href="https://www.mrfdev.com/donate" target="_blank" class="i18n" data-text="donate" rel="noopener"></a></div>
+    <div><i class="support"></i><a href="https://www.mrfdev.com/how-to-use-enhancer-for-youtube" target="_blank" class="i18n" data-text="support" rel="noopener"></a></div>
+    <div><i class="translate"></i><a href="/i18n.html" target="_blank" class="i18n" data-text="translate"></a></div>
+  </div>
+  <div class="row alert alert-info hidden" id="social">
+    <div class="i18n" data-text="share_message"></div>
+    <div><i class="facebook"></i><a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fenhancer-for-youtube%2Fponfpcnoihfmfllpaingbgckeeldkhle" data-title="share_on_facebook" target="_blank" rel="noopener">Facebook</a></div>
+    <div><i class="twitter"></i><a href="https://twitter.com/intent/tweet/?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fenhancer-for-youtube%2Fponfpcnoihfmfllpaingbgckeeldkhle&amp;text=Awesome%20extension%20for%20Chrome.%20Tons%20of%20useful%20features%20for%20YouTube!%20Thanks%20%40mrfdev!" data-title="share_on_twitter" target="_blank" rel="noopener">Twitter</a></div>
+    <div><i class="google-plus"></i><bdi><a href="https://plus.google.com/share?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fenhancer-for-youtube%2Fponfpcnoihfmfllpaingbgckeeldkhle" data-title="share_on_google_plus" target="_blank" rel="noopener">Google+</a></bdi></div>
+    <div><i class="pinterest"></i><a href="https://www.pinterest.com/pin/create/button/?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fenhancer-for-youtube%2Fponfpcnoihfmfllpaingbgckeeldkhle&amp;description=Awesome%20extension%20for%20Chrome.%20Tons%20of%20useful%20features%20for%20YouTube!" data-title="share_on_pinterest" target="_blank" rel="noopener">Pinterest</a></div>
+    <div><i class="reddit"></i><a href="https://www.reddit.com/submit/?url=https%3A%2F%2Fchrome.google.com%2Fwebstore%2Fdetail%2Fenhancer-for-youtube%2Fponfpcnoihfmfllpaingbgckeeldkhle" data-title="share_on_reddit" target="_blank" rel="noopener">Reddit</a></div>
+  </div>
+</div>
+<fieldset>
+  <legend class="i18n" data-text="toolbar"></legend>
+  <div class="row colors">
+    <label class="control-label i18n" data-text="colors"></label>
+    <div>
+      <label for="toolbarbackgroundcolor" class="i18n" data-text="toolbar_label"></label>
+      <input type="color" id="toolbarbackgroundcolor" name="toolbarbackgroundcolor">
+    </div>
+    <div>
+      <label for="toolbarbordercolor" class="i18n" data-text="border"></label>
+      <input type="color" id="toolbarbordercolor" name="toolbarbordercolor">
+    </div>
+    <div>
+      <label for="toolbarcolor" class="i18n" data-text="buttons_label"></label>
+      <input type="color" id="toolbarcolor" name="toolbarcolor">
+    </div>
+    <div>
+      <label for="toolbarcoloractive" class="i18n" data-text="buttons_active_label"></label>
+      <input type="color" id="toolbarcoloractive" name="toolbarcoloractive">
+    </div>
+    <div>
+      <a class="i18n blue" id="restore-default-colors" href="#" data-text="restore_default_colors"></a>
+    </div>
+  </div>
+  <div class="row">
+    <label class="control-label i18n" data-text="options"></label>
+    <div>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="toolbartooltips"><span class="i18n" data-text="tooltips"></span>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" id="slideeffect"><span class="i18n" data-text="slide_effect"></span>
+      </label>
+    </div>
+    <div>
+      <label>
+        <input type="checkbox" id="transparency"><span class="i18n" data-text="transparency"></span>
+      </label>
+      <input type="range" id="toolbaropacity" name="toolbaropacity" min="5" max="100" step="1"><bdi><span id="toolbaropacity-preview"></span></bdi>
+    </div>
+  </div>
+  <div class="row toolbar-btns">
+    <label class="control-label i18n" data-text="buttons"></label>
+    <div>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="clean"><i class="clean"></i><sup class="info" data-target="clean-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="cinema"><i class="cinema"></i><sup class="info" data-target="cinema-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="resize"><i class="resize"></i><sup class="info" data-target="resize-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="detach"><i class="detach"></i><sup class="info" data-target="detach-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="boost"><i class="boost"></i><sup class="info" data-target="boost-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="loop"><i class="loop"></i><sup class="info" data-target="loop-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="slowdown"><i class="speed"></i><i class="minus"></i><sup class="info" data-target="slow-down-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="speed"><i class="speed"></i><sup class="info" data-target="speed-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="speedup"><i class="speed"></i><i class="plus"></i><sup class="info" data-target="speed-up-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="filters"><i class="filters"></i><sup class="info" data-target="filters-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="script"><i class="script"></i><sup class="info" data-target="script-button-instructions"></sup>
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" class="toolbar-btn" id="options"><i class="options"></i><sup class="info" data-target="options-button-instructions"></sup>
+      </label>
+    </div>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="clean-button-instructions">
+    <span class="i18n" data-text="clean_button_instructions"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    <div dir="ltr">Note: Ads removal doesn't always work as expected since YouTube™ has introduced new ad formats. <a class="blue" href="/permissions.html" target="_blank" rel="noopener">More info and fix here</a></div>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="cinema-button-instructions">
+    <span class="i18n" data-text="cinema_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="resize-button-instructions">
+    <span class="i18n" data-text="resize_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="detach-button-instructions">
+    <span class="i18n" data-text="detach_button_instructions"></span> <a class="blue" href="https://www.mrfdev.com/always-on-top" target="_blank" rel="noopener">https://www.mrfdev.com/always-on-top</a>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="boost-button-instructions">
+    <span class="i18n" data-text="boost_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="loop-button-instructions">
+    <span class="i18n" data-text="loop_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="slow-down-button-instructions">
+    <span class="i18n" data-text="slow_down_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="speed-button-instructions">
+    <span class="i18n" data-text="speed_button_instructions"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="speed-up-button-instructions">
+    <span class="i18n" data-text="speed_up_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="filters-button-instructions">
+    <span class="i18n" data-text="filters_button_instructions"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="script-button-instructions">
+    <span class="i18n" data-text="script_button_instructions"></span>
+  </div>
+  <div class="row alert alert-info toolbar-btn-instructions hidden" id="options-button-instructions">
+    <span class="i18n" data-text="options_button_instructions"></span>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="cinema_mode"></legend>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="cinemamode"><span class="i18n" data-text="auto_cinema_mode"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="cinemamodewideplayer"><span class="i18n" data-text="cinema_mode_enlarge_player"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label for="backgroundcolor" class="i18n" data-text="color"></label>
+    <input type="color" id="backgroundcolor" name="backgroundcolor">
+    <label for="backgroundopacity" class="i18n" data-text="opacity"></label>
+    <input type="range" id="backgroundopacity" name="backgroundopacity" min="50" max="100" step="1"><bdi><span id="opacity"></span></bdi>
+  </div>
+  <div class="row" id="cinemamode-preview">
+    <label class="control-label i18n" data-text="preview"></label>
+    <div id="cinemamode-background">
+      <img src="/resources/video.png" alt="video">
+    </div>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="video_player"></legend>
+  <div class="row">
+    <label for="playback-speed" class="i18n" id="playback-speed-label" data-text="default_playback_speed"></label>
+    <select id="playback-speed" name="speed">
+      <option value="0.25">0.25</option>
+      <option value="0.5">0.5</option>
+      <option value="0.75">0.75</option>
+      <option value="1">1</option>
+      <option value="1.25">1.25</option>
+      <option value="1.5">1.5</option>
+      <option value="1.75">1.75</option>
+      <option value="2">2</option>
+    </select>
+    <select class="hidden" id="custom-playback-speed" name="custom-speed">
+      <option value="0.25">0.25</option>
+      <option value="0.5">0.5</option>
+      <option value="0.75">0.75</option>
+      <option value="0.8">0.8</option>
+      <option value="0.85">0.85</option>
+      <option value="0.9">0.9</option>
+      <option value="0.95">0.95</option>
+      <option value="1">1</option>
+      <option value="1.1">1.1</option>
+      <option value="1.2">1.2</option>
+      <option value="1.3">1.3</option>
+      <option value="1.4">1.4</option>
+      <option value="1.5">1.5</option>
+      <option value="1.6">1.6</option>
+      <option value="1.7">1.7</option>
+      <option value="1.8">1.8</option>
+      <option value="1.9">1.9</option>
+      <option value="2">2</option>
+    </select>
+    <sup class="i18n blue" data-text="html5_player_only"></sup>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="overridespeeds"><span class="i18n" data-text="override_playback_speeds"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    </label>
+  </div>
+  <div class="row">
+    <label for="speedvariation" class="i18n indented" data-text="speed_variation"></label>
+    <select id="speedvariation" name="speedvariation">
+      <option value="0.05">0.05</option>
+      <option value="0.1">0.1</option>
+      <option value="0.2">0.2</option>
+      <option value="0.25">0.25</option>
+      <option value="0.5">0.5</option>
+    </select>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="defaultvolume"><span class="i18n" data-text="default_volume_level"></span>
+    </label>
+    <input type="range" id="volume" name="volume" min="0" max="100" step="1"><bdi><span id="volume-preview"></span></bdi>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="controlvolume"><span class="i18n" data-text="control_volume"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" id="controlvolumemousebutton"><span class="i18n" data-text="control_volume_mouse_button"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    </label>
+  </div>
+  <div class="row">
+    <label for="volumevariation" class="i18n indented" data-text="volume_variation"></label>
+    <select id="volumevariation" name="volumevariation">
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="5">5</option>
+      <option value="10">10</option>
+    </select>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="reversemousewheeldirection"><span class="i18n" data-text="reverse_mouse_wheel_direction"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="pinnedplayer"><span class="i18n" data-text="pin_video_player"></span><bdi><sup class="blue">(Chrome 51+)</sup></bdi>
+    </label>
+  </div>
+  <div class="row">
+    <label for="pinnedplayersize" class="i18n indented" data-text="pinned_video_player_size"></label>
+    <select id="pinnedplayersize" name="pinnedplayersize">
+      <option value="_320x180">320x180</option>
+      <option value="_400x225">400x225</option>
+      <option value="_480x270">480x270</option>
+      <option value="_560x315">560x315</option>
+      <option value="_640x360">640x360</option>
+      <option value="_720x405">720x405</option>
+      <option value="_800x450">800x450</option>
+      <option value="_880x495">880x495</option>
+      <option value="_960x540">960x540</option>
+      <option value="_1040x585">1040x585</option>
+      <option value="_1120x630">1120x630</option>
+      <option value="_1200x675">1200x675</option>
+      <option value="_1280x720">1280x720</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="pinnedplayerposition" class="i18n indented" data-text="pinned_video_player_position"></label>
+    <select id="pinnedplayerposition" name="pinnedplayerposition">
+      <option value="_top-left" class="i18n" data-text="top_left_corner"></option>
+      <option value="_top-right" class="i18n" data-text="top_right_corner"></option>
+      <option value="_bottom-left" class="i18n" data-text="bottom_left_corner"></option>
+      <option value="_bottom-right" class="i18n" data-text="bottom_right_corner"></option>
+    </select>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="removeads"><span class="i18n" data-text="auto_remove_ads"></span>
+    </label>
+  </div>
+  <div class="row hidden indented" id="whitelist">
+    <label for="channel" class="i18n" data-text="whitelisted_channels"></label>
+    <input type="text" id="channel" name="channel" autocomplete="off" size="12">
+    <button type="button" class="i18n" data-text="add" id="whitelist-channel-btn"></button>
+    <div id="channels"></div>
+    <div class="alert alert-info" id="permissions" dir="ltr"><strong>Experimental feature:</strong> Grant additional permissions to block ads before they get loaded. <a href="/permissions.html" target="_blank" style="color:#00a8e6" rel="noopener">More info</a>
+      <br><span class="hidden" id="permissions-granted">Permissions granted</span><button type="button" id="grant-permissions">Grant permissions</button><button type="button" id="revoke-permissions">Revoke permissions</button>
+    </div>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="removeannotations"><span class="i18n" data-text="auto_remove_annotations"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="wideplayer"><span class="i18n" data-text="auto_enlarge_player"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="wideplayerviewport"><span class="i18n" data-text="enlarged_player_viewport"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="enablefilters"><span class="i18n" data-text="auto_enable_filters"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="autopausevideos"><span class="i18n" data-text="auto_pause_videos"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" id="pauseforegroundtab"><span class="i18n" data-text="pause_foreground_tab"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" id="ignoreplaylists"><span class="i18n" data-text="ignore_playlists"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" id="disablepreloading"><span class="i18n" data-text="disable_preloading"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="pausevideos"><span class="i18n" data-text="pause_videos"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="selectquality"><span class="i18n" data-text="auto_select_quality"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label for="quality1" class="i18n quality" data-text="preferred_quality"></label>
+    <select id="quality1" name="quality1">
+      <option value="highres">4320p 8K</option>
+      <option value="hd2880">2880p 5K</option>
+      <option value="hd2160">2160p 4K</option>
+      <option value="hd1440">1440p HD</option>
+      <option value="hd1080">1080p HD</option>
+      <option value="hd720">720p HD</option>
+      <option value="large">480p</option>
+      <option value="medium">360p</option>
+      <option value="small">240p</option>
+      <option value="tiny">144p</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="quality2" class="i18n quality" data-text="second_choice"></label>
+    <select id="quality2" name="quality2">
+      <option value="highres">4320p 8K</option>
+      <option value="hd2880">2880p 5K</option>
+      <option value="hd2160">2160p 4K</option>
+      <option value="hd1440">1440p HD</option>
+      <option value="hd1080">1080p HD</option>
+      <option value="hd720">720p HD</option>
+      <option value="large">480p</option>
+      <option value="medium">360p</option>
+      <option value="small">240p</option>
+      <option value="tiny">144p</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="quality3" class="i18n quality" data-text="third_choice"></label>
+    <select id="quality3" name="quality3">
+      <option value="highres">4320p 8K</option>
+      <option value="hd2880">2880p 5K</option>
+      <option value="hd2160">2160p 4K</option>
+      <option value="hd1440">1440p HD</option>
+      <option value="hd1080">1080p HD</option>
+      <option value="hd720">720p HD</option>
+      <option value="large">480p</option>
+      <option value="medium">360p</option>
+      <option value="small">240p</option>
+      <option value="tiny">144p</option>
+    </select>
+  </div>
+  <div class="row">
+    <label for="quality4" class="i18n quality" data-text="fourth_choice"></label>
+    <select id="quality4" name="quality4">
+      <option value="highres">4320p 8K</option>
+      <option value="hd2880">2880p 5K</option>
+      <option value="hd2160">2160p 4K</option>
+      <option value="hd1440">1440p HD</option>
+      <option value="hd1080">1080p HD</option>
+      <option value="hd720">720p HD</option>
+      <option value="large">480p</option>
+      <option value="medium">360p</option>
+      <option value="small">240p</option>
+      <option value="tiny">144p</option>
+    </select>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="miscellaneous"></legend>
+  <div class="row">
+    <span class="i18n" data-text="auto_focus_video_player"></span>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="ads"><span class="i18n" data-text="ads_removed"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="annotations"><span class="i18n" data-text="annotations_shown_hidden"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="cinema"><span class="i18n" data-text="cinema_enabled_disabled"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="size"><span class="i18n" data-text="video_player_resized"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="pin"><span class="i18n" data-text="video_player_pinned"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="boost"><span class="i18n" data-text="volume_booster_enabled_disabled"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="loop"><span class="i18n" data-text="loop_enabled_disabled"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="speed"><span class="i18n" data-text="playback_speed_modified"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label class="indented">
+      <input type="checkbox" class="focus" data-event="filters"><span class="i18n" data-text="filters_enabled_disabled"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="disableautoplay"><span class="i18n" data-text="disable_autoplay"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="theatermode"><span class="i18n" data-text="auto_enable_theater_mode"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="expanddescription"><span class="i18n" data-text="auto_expand_description"></span>
+    </label>
+  </div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="newestcomments"><span class="i18n" data-text="auto_sort_comments"></span>
+    </label>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="theme"></legend>
+  <div class="row">
+    <label class="theme">
+      <input type="radio" name="theme" value="default"><span class="i18n" data-text="theme_by_default"></span>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark.css"><bdi><span>YouTube™ Deep Dark (by RaitaroH)</span></bdi><a href="https://gitlab.com/RaitaroH/YouTube-DeepDark" target="_blank" rel="noopener"></a>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-green.css"><bdi><span>YouTube™ Deep Dark (Green Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-purple.css"><bdi><span>YouTube™ Deep Dark (Purple Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-pink.css"><bdi><span>YouTube™ Deep Dark (Pink Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-kde.css"><bdi><span>YouTube™ Deep Dark (KDE)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-vertex-dark.css"><bdi><span>YouTube™ Deep Dark (Vertex Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-discord.css"><bdi><span>YouTube™ Deep Dark (Discord)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-firefox-dark.css"><bdi><span>YouTube™ Deep Dark (Firefox Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-firefox-quantum-dark.css"><bdi><span>YouTube™ Deep Dark (Firefox Quantum Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-9anime.css"><bdi><span>YouTube™ Deep Dark (9anime)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-orange.css"><bdi><span>YouTube™ Deep Dark (Orange Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-yellow.css"><bdi><span>YouTube™ Deep Dark (Yellow Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-ubuntu-grey.css"><bdi><span>YouTube™ Deep Dark (Ubuntu Grey)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-ubuntu-purple.css"><bdi><span>YouTube™ Deep Dark (Ubuntu Purple)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-mint-y-dark.css"><bdi><span>YouTube™ Deep Dark (Mint-Y-Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-arc-dark.css"><bdi><span>YouTube™ Deep Dark (Arc Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-youtube-dark.css"><bdi><span>YouTube™ Deep Dark (Red Dark)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="youtube-deep-dark-youtube-light.css"><bdi><span>YouTube™ Deep Dark (Red Light)</span></bdi>
+    </label>
+    <label class="theme">
+      <input type="radio" name="theme" value="custom"><span class="i18n" data-text="custom_theme"></span>
+    </label>
+  </div>
+  <div class="row hidden">
+    <textarea id="custom-theme" rows="8" required></textarea>
+    <button type="button" class="i18n" data-text="save" id="custom-theme-btn"></button>
+    <div class="spinner hidden" id="custom-theme-spinner"></div>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="custom_script"></legend>
+  <div class="row alert alert-warning i18n" data-text="custom_script_warning"></div>
+  <div class="row">
+    <textarea id="custom-script" rows="8" required></textarea>
+    <button type="button" class="i18n" data-text="save" id="custom-script-btn"></button>
+    <div class="spinner hidden" id="custom-script-spinner"></div>
+  </div>
+  <div class="clearfix">&nbsp;</div>
+  <div class="row">
+    <label>
+      <input type="checkbox" id="executescript"><span class="i18n" data-text="auto_execute_script"></span>
+    </label>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="keyboard_shortcuts"></legend>
+  <div class="row">
+    <bdi><kbd>Ctrl</kbd></bdi>+<bdi><kbd>Del</kbd></bdi> : <span class="i18n" data-text="remove_ads"></span>
+  </div>
+  <div class="row">
+    <bdi><kbd>Alt</kbd></bdi>+<bdi><kbd>A</kbd></bdi> : <span class="i18n" data-text="show_hide_annotations"></span><sup class="i18n blue" data-text="html5_player_only"></sup>
+  </div>
+  <div class="row">
+    <bdi><kbd>Ctrl</kbd></bdi>+<bdi><kbd>Shift</kbd></bdi>+<bdi><kbd>Space</kbd></bdi> : <span class="i18n" data-text="cinema_mode"></span>
+  </div>
+  <div class="row">
+    <bdi><kbd>Ctrl</kbd></bdi>+<bdi><kbd>Space</kbd></bdi> : <span class="i18n" data-text="resize_player"></span>
+  </div>
+  <div class="row alert alert-info">
+    <span class="i18n" data-text="configure_keyboard_shortcuts"></span>
+  </div>
+  <div class="row">
+    <span class="i18n" data-text="keyboard_shortcuts_list"></span> <a class="blue" href="https://www.mrfdev.com/youtube-keyboard-shortcuts" target="_blank" rel="noopener">https://www.mrfdev.com/youtube-keyboard-shortcuts</a>
+  </div>
+</fieldset>
+<fieldset>
+  <legend class="i18n" data-text="backup"></legend>
+  <div class="row">
+    <button type="button" class="i18n" data-text="export" id="export-modal-btn"></button> <button type="button" class="i18n" data-text="import" id="import-modal-btn"></button>
+  </div>
+</fieldset>
+<div id="support-request-instructions">
+  <div class="row">
+    <strong><span class="i18n" data-text="support_request_instructions"></span></strong>
+  </div>
+  <div class="row" dir="ltr">
+    <span id="version"></span>
+  </div>
+  <div class="row" dir="ltr">
+    <span id="device"></span>
+  </div>
+</div>
+<div id="modal-backdrop"></div>
+<div class="modal" id="backup-modal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close-modal"></button>
+        <h3 class="i18n modal-title" data-text="backup"></h3>
+      </div>
+      <div class="modal-body hidden" id="export-modal-content">
+        <p class="i18n" data-text="export_instructions"></p>
+        <textarea id="export-textarea"></textarea>
+      </div>
+      <div class="modal-body hidden" id="import-modal-content">
+        <p class="i18n" data-text="import_instructions"></p>
+        <p class="row alert alert-error hidden" id="import-error"><span class="i18n" data-text="import_error"></span></p>
+        <textarea id="import-textarea"></textarea>
+      </div>
+      <div class="modal-footer hidden" id="backup-modal-footer">
+        <button type="button" class="i18n" data-text="import" id="import-btn"></button>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="options.js"></script>
+</body>
+</html>

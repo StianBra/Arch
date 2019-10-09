@@ -1,0 +1,734 @@
+{
+   "aboutBackupButton": {
+      "description": "",
+      "message": "Varunda faili..."
+   },
+   "aboutBackupFilename": {
+      "description": "default filename to use",
+      "message": "minu-umatrix-varundus.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/releases'>Muudatuste logi\u003C/a>"
+   },
+   "aboutCode": {
+      "description": "",
+      "message": "Lähtekood (GPLv3)"
+   },
+   "aboutCodeContributors": {
+      "description": "",
+      "message": "Kood:"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Toetajad"
+   },
+   "aboutDoc": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/wiki'>Dokumentatsioon\u003C/a>"
+   },
+   "aboutIssueContributors": {
+      "description": "",
+      "message": "Probleemid:"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "Vead ja probleemid"
+   },
+   "aboutOr": {
+      "description": "English: ... or ...",
+      "message": "... või ..."
+   },
+   "aboutPageName": {
+      "description": "a tab in dashboard",
+      "message": "Teave"
+   },
+   "aboutPermissions": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/httpswitchboard/wiki/Permissions'>Õigused\u003C/a>"
+   },
+   "aboutResetButton": {
+      "description": "English: Reset to default settings",
+      "message": "Lähtesta vaikeseadetele"
+   },
+   "aboutResetConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Caution! this will remove all your custom settings. Are you sure you want to proceed?"
+   },
+   "aboutRestoreButton": {
+      "description": "",
+      "message": "Taasta failist..."
+   },
+   "aboutRestoreConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "All your settings will be overwritten using data backed up on {{time}}, and uMatrix will restart.\n\nOverwrite all existing settings using backed up data?"
+   },
+   "aboutRestoreError": {
+      "description": "",
+      "message": "The data could not be read or is invalid"
+   },
+   "aboutStorageUsed": {
+      "description": "",
+      "message": "Storage used: {{storageUsed}} bytes"
+   },
+   "aboutTranslationContributors": {
+      "description": "",
+      "message": "Tõlked:"
+   },
+   "aboutUserDataHeader": {
+      "description": "",
+      "message": "Sinu andmed"
+   },
+   "allPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "kõik"
+   },
+   "assetsHostsSection": {
+      "description": "header to identify the hosts files section",
+      "message": "Hostifailid"
+   },
+   "assetsImportLabel": {
+      "description": "",
+      "message": "Impordi..."
+   },
+   "assetsInlineHostsLabel": {
+      "description": "",
+      "message": "Minu hostid"
+   },
+   "assetsInlineRecipesLabel": {
+      "description": "",
+      "message": "Minu retseptid"
+   },
+   "assetsRecipesSection": {
+      "description": "header to identify the ruleset files section",
+      "message": "Ruleset recipes"
+   },
+   "assetsRecipesSummary": {
+      "description": "",
+      "message": "Ruleset recipes are imported from the popup panel \u003Cem>on demand\u003C/em>, i.e. \u003Cb>only\u003C/b> through user interaction."
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "This device name:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "...\n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Import from cloud storage"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Export to cloud storage"
+   },
+   "commandOpenDashboard": {
+      "description": "",
+      "message": "Open dashboard"
+   },
+   "commandRevertAll": {
+      "description": "",
+      "message": "Taasta kõik ajutised muudatused"
+   },
+   "commandWhitelistAll": {
+      "description": "",
+      "message": "Temporarily whitelist all"
+   },
+   "commandWhitelistPageDomain": {
+      "description": "",
+      "message": "Temporarily whitelist page domain"
+   },
+   "cookiePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "küpsis"
+   },
+   "cssPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "css"
+   },
+   "dashboardPageName": {
+      "description": "",
+      "message": "uMatrix — Töölaud"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} päeva tagasi"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} tundi tagasi"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} minutit tagasi"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "päev tagasi"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "tund tagasi"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "minut tagasi"
+   },
+   "errorCantConnectTo": {
+      "description": "",
+      "message": "Network error: Unable to connect to {{url}}"
+   },
+   "extName": {
+      "description": "",
+      "message": "uMatrix"
+   },
+   "extShortDesc": {
+      "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS",
+      "message": "Suuna ja klõpsa, et keelata/lubada veebilehitseja kõiki päringud. Sellega saab keelata skripte, iframe-e, reklaame, facebook'i jne."
+   },
+   "framePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "raam"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Rakenda muudatused"
+   },
+   "genericRevert": {
+      "description": "for generic 'revert' buttons",
+      "message": "Ennista"
+   },
+   "genericSubmit": {
+      "description": "for generic 'submit' buttons",
+      "message": "Sisesta"
+   },
+   "hostsFilesApplyChanges": {
+      "description": "",
+      "message": "Rakenda muudatused"
+   },
+   "hostsFilesAutoUpdatePrompt": {
+      "description": "",
+      "message": "Auto-update assets"
+   },
+   "hostsFilesExternalListNew": {
+      "description": "",
+      "message": "new version available"
+   },
+   "hostsFilesExternalListObsolete": {
+      "description": "",
+      "message": "outdated"
+   },
+   "hostsFilesExternalListPurge": {
+      "description": "",
+      "message": "tühjenda vahemälu"
+   },
+   "hostsFilesExternalListsHint": {
+      "description": "",
+      "message": "Import external assets here: \nOne URL per line; invalid URLs will be silently ignored."
+   },
+   "hostsFilesExternalListsParse": {
+      "description": "",
+      "message": "Töötle"
+   },
+   "hostsFilesLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Last update: {{ago}}"
+   },
+   "hostsFilesPerFileStats": {
+      "description": "",
+      "message": "{{used}} used out of {{total}}"
+   },
+   "hostsFilesPrompt": {
+      "description": "",
+      "message": "All hostnames in a hosts file are loaded as blacklisted hostnames in the global scope."
+   },
+   "hostsFilesPurgeAll": {
+      "description": "",
+      "message": "Tühjenda kõik vahemälud"
+   },
+   "hostsFilesStats": {
+      "description": "",
+      "message": "{{blockedHostnameCount}} distinct blocked hostnames from:"
+   },
+   "hostsFilesUpdateNow": {
+      "description": "",
+      "message": "Uuenda kohe"
+   },
+   "imagePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "pilt"
+   },
+   "loggerEntryAssetUpdated": {
+      "description": "An entry for when an asset was updated",
+      "message": "asset updated: {{value}}"
+   },
+   "loggerEntryBrowserCacheCleared": {
+      "description": "An entry for when a cookie can't be deleted",
+      "message": "browser cache cleared"
+   },
+   "loggerEntryCookieDeleted": {
+      "description": "An entry for when a cookie is deleted",
+      "message": "cookie deleted: {{value}}"
+   },
+   "loggerEntryDeleteCookieError": {
+      "description": "An entry for when the browser cache is cleared",
+      "message": "failed to delete cookie: {{value}}"
+   },
+   "loggerFilterInputPlaceholder": {
+      "description": "Appears in the input filed where filter expressions are entered",
+      "message": "filter expression(s)"
+   },
+   "loggerMaxEntriesTip": {
+      "description": "Appears as a tooltip when hovering the input field",
+      "message": "Maximum number of entries"
+   },
+   "loggerPageName": {
+      "description": "Title for the logger window",
+      "message": "uMatrix — Logija"
+   },
+   "mainBlockedBack": {
+      "description": "English: Go back",
+      "message": "Mine tagasi"
+   },
+   "mainBlockedClose": {
+      "description": "English: Close",
+      "message": "Sulge"
+   },
+   "mainBlockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "without parameters"
+   },
+   "mainBlockedPrompt1": {
+      "description": "English: uMatrix has prevented the following page from loading:",
+      "message": "uMatrix has prevented the following page from loading:"
+   },
+   "mainBlockedPrompt2": {
+      "description": "English: Because of the following rule",
+      "message": "Because of the following rule"
+   },
+   "matrix1stPartyLabel": {
+      "description": "1st-party",
+      "message": "1. osapool"
+   },
+   "matrixBlacklistedHostnames": {
+      "description": "Appears in the metadata row of bottom-most group: **mind the limited width**",
+      "message": "{{count}} hosti nimi(e) mustas nimekirjas"
+   },
+   "matrixDashboardMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Mine esilehele"
+   },
+   "matrixGlobalScopeTip": {
+      "description": "Tool tip for the global scope button",
+      "message": "Select the global scope to see/create rules which apply everywhere"
+   },
+   "matrixLocalScopeTip": {
+      "description": "Tool tip for the local scope button",
+      "message": "Select a local scope to see/create rules which apply only in that scope"
+   },
+   "matrixLoggerMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Mine logijasse"
+   },
+   "matrixMtxButtonTip": {
+      "description": "Tool tip for matrix button",
+      "message": "Selle määratluse puhul keela/luba maatriksiline filtreerimine.\nMaatriksilise filtreerimise blokeeritud ühendused selles portaalis: {{count}}."
+   },
+   "matrixNoNetTrafficPrompt": {
+      "description": "",
+      "message": "Selle kaardi kohta pole veel netiliiklust näha."
+   },
+   "matrixNoTabFound": {
+      "description": "Displays in place of matrix when no data is found for the current page",
+      "message": "Lehekülge ei leitud"
+   },
+   "matrixPersistButtonTip": {
+      "description": "Tool tip for the persist button",
+      "message": "Salvesta ajutiselt kõik selle määratluse muudatused."
+   },
+   "matrixRecipeImportTip": {
+      "description": "Used as a tooltip for the recipe import button",
+      "message": "Impordi reeglid"
+   },
+   "matrixRecipeSaveTip": {
+      "description": "Used as a tooltip for the recipe padlock button",
+      "message": "Salvesta reeglid"
+   },
+   "matrixReloadButton": {
+      "description": "Tool tip for the reload button",
+      "message": "Värskenda lehekülge."
+   },
+   "matrixRevertAllEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Taasta kõik ajutised muudatused"
+   },
+   "matrixRevertButtonTip": {
+      "description": "Tool tip for the revert local permission button",
+      "message": "Eemalda selle määratluse ajutised muudatused."
+   },
+   "matrixSwitchNoMixedContent": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Keela segatud sisu"
+   },
+   "matrixSwitchNoWorker": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Keela veebitöötajad"
+   },
+   "matrixSwitchNoscriptSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Narrita \u003Ccode>\u003Cnoscript>\u003C/code> märksõnu"
+   },
+   "matrixSwitchReferrerSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Viitaja narritamine"
+   },
+   "mediaPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "meedia"
+   },
+   "otherPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "teised"
+   },
+   "pluginPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "meedia"
+   },
+   "privacyClearCacheHelp": {
+      "description": "",
+      "message": "\u003Cp>Some web sites are really bent on tracking you, so much that they will use not-so-nice tricks to work around whatever measures you take in order to not be tracked.\u003C/p>\u003Cp>A few of these tricks rely\u003Csup>[1, 2]\u003C/sup> on the \u003Ca href='https://en.wikipedia.org/wiki/Web_cache'>browser cache\u003C/a>, which content is often long lasting since rarely will users take the time to regularly clear their browser cache.\u003C/p>\u003Cp>There is little inconvenience to clear the browser cache regularly (likelihood is that you won't notice when it happens), and the benefit is to prevent these obnoxious trackers from invading your privacy.\u003C/p>\u003Cp>Check this option to have \u003Ci>uMatrix\u003C/i> do it for you, at the interval you wish.\u003C/p>\u003Cp>[1] \u003Ca href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;\u003C/a>\n[2] \u003Ca href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;\u003C/a>\u003C/p>"
+   },
+   "privacyClearCachePrompt1": {
+      "description": "First part of 'Clear browser cache every [n] minutes'",
+      "message": "Clear browser cache every"
+   },
+   "privacyClearCachePrompt2": {
+      "description": "Second part of 'Clear browser cache every [n] minutes'",
+      "message": "minutit"
+   },
+   "privacyDeleteBlockedCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>Blacklisted cookies are not prevented by \u003Ci>uMatrix\u003C/i> from entering your browser. However they are prevented from leaving your browser, which is what really matters. Not blocking cookies before they enter your browser gives you the opportunity to be informed that a site tried to use cookies, and furthermore to inspect their contents if you wish.\u003C/p>\u003Cp>Once these blacklisted cookies have been accounted for by \u003Ci>uMatrix\u003C/i>, they can be removed from your browser if you wish so.\u003C/p>\u003Cp>\u003Cb>Important note:\u003C/b> Extensions can make web requests during the course of their normal operation. These requests can result in cookies being created in the browser. If the hostname from where a cookie originate is not whitelisted, the cookie will be removed from the browser by \u003Ci>uMatrix\u003C/i> if this option is checked. So be sure that the hostname(s) with which an extension communicate is whitelisted.\u003C/p>"
+   },
+   "privacyDeleteBlockedCookiesPrompt": {
+      "description": "",
+      "message": "Kustuta blokeeritud küpsised"
+   },
+   "privacyDeleteBlockedLocalStorageHelp": {
+      "description": "",
+      "message": "Vaja teha"
+   },
+   "privacyDeleteBlockedLocalStoragePrompt": {
+      "description": "",
+      "message": "Delete \u003Ca href='https://en.wikipedia.org/wiki/Web_storage'>local storage\u003C/a> content set by blocked hostnames"
+   },
+   "privacyDeleteNonBlockedSessionCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>\u003Ca href='http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html'>W3C\u003C/a>: &ldquo;A session cookie ... is erased when you end the browser session. The session cookie is stored in temporary memory and is not retained after the browser is closed.&rdquo;\u003C/p>\u003Cp>Except that this \u003Ca href='https://code.google.com/p/chromium/issues/detail?id=128513'>might not be happening\u003C/a> in some browsers. Also, to some, having to close the browser in order for the session cookies to clear might not be early enough.\u003C/p>"
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt1": {
+      "description": "First part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": "Delete non-blocked session cookies "
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt2": {
+      "description": "Second part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": " minutes after the last time they have been used"
+   },
+   "privacyNoMixedContentHelp": {
+      "description": "",
+      "message": "\u003Cp>From \u003Ca href='https://developer.mozilla.org/en-US/docs/Security/MixedContent'>Mozilla Developer Network\u003C/a>:\u003C/p>\u003Cblockquote>If [a] HTTPS page includes content retrieved through regular, cleartext HTTP, then the connection is only partially encrypted: the unencrypted content is accessible to sniffers and can be modified by man-in-the-middle attackers, and therefore the connection is not safeguarded anymore. When a webpage exhibits this behavior, it is called a mixed content page.\u003C/blockquote>"
+   },
+   "privacyNoMixedContentPrompt": {
+      "description": "",
+      "message": "Range HTTPS: keela segatud sisu"
+   },
+   "privacyPageName": {
+      "description": "a tab in dashboard",
+      "message": "Privaatsus"
+   },
+   "privacyPageTitle": {
+      "description": "",
+      "message": "uMatrix&#x27;i &ndash; privaatsus"
+   },
+   "privacyProcessHyperlinkAuditingHelp": {
+      "description": "",
+      "message": "\u003Cp>Hyperlink auditing is a mechanism which allow a party, \u003Cb>any party\u003C/b>, to be informed about which link a user clicked on a particular web page. It is essentially a tracking feature: it allows a web site, or any third-party to that web site, to be informed about which link you clicked on which one of its web pages. The sole purpose is to track your browsing activity.\u003C/p>"
+   },
+   "privacyProcessHyperlinkAuditingPrompt": {
+      "description": "",
+      "message": "Block all \u003Ca href='https://html.spec.whatwg.org/multipage/semantics.html#hyperlink-auditing'>hyperlink auditing\u003C/a> attempts"
+   },
+   "privacyProcessRefererHelp": {
+      "description": "",
+      "message": "From Wikipedia:\u003Cblockquote>HTTP referer is an HTTP header field that identifies the address of the webpage that linked to the resource being requested. ... \u003Cb>Because referer information can violate privacy, some web browsers allow the user to disable the sending of referer information.\u003C/b>\u003C/blockquote>If this setting is checked, \u003Ci>uMatrix\u003C/i> will spoof the HTTP referrer information if the domain name of the HTTP referrer is third-party to the domain name of net request."
+   },
+   "privacyProcessRefererPrompt": {
+      "description": "",
+      "message": "Spoof \u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referrer\u003C/a> string of third-party requests"
+   },
+   "rawSettingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Rohkem"
+   },
+   "rawSettingsWarning": {
+      "description": "",
+      "message": "Warning! Change these raw configuration settings at your own risk."
+   },
+   "scriptPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "skript"
+   },
+   "settingsCloudStorageEnabled": {
+      "description": "",
+      "message": "Luba pilve salvestamise tugi"
+   },
+   "settingsCollapseBlacklisted": {
+      "description": "A setting in the dashboard's Settings pane: 'blacklisted' means 'for which there is a specific block rule', 'specific' means 'a rule for which the destination hostname is not `*`'",
+      "message": "Collapse placeholder of blacklisted elements"
+   },
+   "settingsCollapseBlocked": {
+      "description": "English: Collapse placeholder of blocked elements",
+      "message": "Collapse placeholder of blocked elements"
+   },
+   "settingsDefaultScopeLevel": {
+      "description": "Label for default scope level selector in Settings pane",
+      "message": "Default scope level:"
+   },
+   "settingsDefaultScopeLevel0": {
+      "description": "Scope will be global",
+      "message": "Üldine"
+   },
+   "settingsDefaultScopeLevel1": {
+      "description": "Scope will be base domain",
+      "message": "Domeen"
+   },
+   "settingsDefaultScopeLevel2": {
+      "description": "Scope will be full hostname of site",
+      "message": "Sait"
+   },
+   "settingsIconBadgeEnabled": {
+      "description": "",
+      "message": "Kuva ikoonil blokeeritud ressursside arv"
+   },
+   "settingsMatrixConvenienceHeader": {
+      "description": "English: Convenience",
+      "message": "Mugavus"
+   },
+   "settingsMatrixDisplayColorBlind": {
+      "description": "",
+      "message": "Värvipimeduse-sõbralik"
+   },
+   "settingsMatrixDisplayHeader": {
+      "description": "header for matrix settings used in Settings page",
+      "message": "Maatriks"
+   },
+   "settingsMatrixDisplayTextSizePrompt": {
+      "description": "",
+      "message": "Teksti suurus:"
+   },
+   "settingsMatrixNoTooltips": {
+      "description": "",
+      "message": "Keela näpunäited"
+   },
+   "settingsNoscriptTagsSpoofed": {
+      "description": "This appears in the Settings pane in the dashboard",
+      "message": "Spoof \u003Ccode>\u003Cnoscript>\u003C/code> tags when 1st-party scripts are blocked"
+   },
+   "settingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Seaded"
+   },
+   "settingsPageTitle": {
+      "description": "",
+      "message": "uMatrix&#x27;i &ndash; seaded"
+   },
+   "showDashboardButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Töölaud"
+   },
+   "showLoggerButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Logija"
+   },
+   "statsPageAll": {
+      "description": "",
+      "message": "Kõik"
+   },
+   "statsPageAllowed": {
+      "description": "header for the allowed requests column",
+      "message": "Lubatud"
+   },
+   "statsPageBlocked": {
+      "description": "header for the blocked requests column",
+      "message": "Blokeeritud"
+   },
+   "statsPageBrowserCacheCleared": {
+      "description": "",
+      "message": "Veebilehe vahemälu tühjendatud: {{count}}"
+   },
+   "statsPageCSS": {
+      "description": "",
+      "message": "CSS"
+   },
+   "statsPageCookieHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://et.wikipedia.org/wiki/HTTP-k%C3%BCpsis'>HTTP-küpsise\u003C/a> tõrjutud päiseid: {{count}}"
+   },
+   "statsPageCookies": {
+      "description": "",
+      "message": "Küpsised"
+   },
+   "statsPageCookiesRemoved": {
+      "description": "",
+      "message": "Kohalikke küpsiseid eemaldatud: {{count}}"
+   },
+   "statsPageDetailed": {
+      "description": "",
+      "message": "Logija"
+   },
+   "statsPageDetailedAllPages": {
+      "description": "",
+      "message": "Kõik"
+   },
+   "statsPageDetailedBehindTheScenePage": {
+      "description": "",
+      "message": "Peidetud päringud"
+   },
+   "statsPageDetailedStats": {
+      "description": "",
+      "message": "Üksikasjalik statistika"
+   },
+   "statsPageFrames": {
+      "description": "",
+      "message": "Raamid"
+   },
+   "statsPageGenericStats": {
+      "description": "",
+      "message": "Üldstatistika"
+   },
+   "statsPageHyperlinkAuditingFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://html.spec.whatwg.org/multipage/semantics.html#hyperlink-auditing'>Hüperlingi kontrolli\u003C/a> tõrjumiste arv: {{count}}"
+   },
+   "statsPageImages": {
+      "description": "",
+      "message": "Pildid"
+   },
+   "statsPageLocalStoragesCleared": {
+      "description": "",
+      "message": "\u003Ca href='http://diveintohtml5.info/storage.html'>Kohalikke mälusid\u003C/a> tühjendatud: {{count}}"
+   },
+   "statsPageLogSizeHelp": {
+      "description": "To help user understand the purpose of the log size value",
+      "message": "\u003Cp>You can inspect details of the most recent raw HTTP requests which have been made by a web page (see below).\u003C/p>\u003Cp>This is mostly useful to advanced users who want to investigate exactly what a web page has been doing. But logging these HTTP requests requires memory, and if you don't care about this technical information, then memory is being wasted.\u003C/p>\u003Cp>Hence this field which lets you adjust the maximum number of the most recent HTTP requests which are to be logged for further inspection.\u003C/p>\u003Cp>Enter &ldquo;\u003Ccode>0\u003C/code>&rdquo; to turn off detailed logging (and consequently reduce the memory footprint of \u003Ci>uMatrix\u003C/i>).\u003C/p>"
+   },
+   "statsPageLogSizePrompt1": {
+      "description": "First part of Remember the last [n] HTTP requests per page",
+      "message": "Mäleta viimast"
+   },
+   "statsPageLogSizePrompt2": {
+      "description": "Second part of Remember the last [n] HTTP requests per page",
+      "message": "HTTP päringut \u003Cb>lehekülje kaupa\u003C/b>."
+   },
+   "statsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Statistika"
+   },
+   "statsPageOthers": {
+      "description": "",
+      "message": "Muud"
+   },
+   "statsPageOverview": {
+      "description": "",
+      "message": "Ülevaade"
+   },
+   "statsPagePages": {
+      "description": "",
+      "message": "Leheküljed"
+   },
+   "statsPagePlugins": {
+      "description": "",
+      "message": "Pluginad"
+   },
+   "statsPageRefererHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referer\u003C/a>'i tõrjutud päiseid: {{count}}"
+   },
+   "statsPageRefresh": {
+      "description": "",
+      "message": "Värskenda"
+   },
+   "statsPageRequests": {
+      "description": "header for the stat type column",
+      "message": "Päringud"
+   },
+   "statsPageScripts": {
+      "description": "",
+      "message": "Skriptid"
+   },
+   "statsPageTitle": {
+      "description": "",
+      "message": "uMatrix&#x27;i &ndash; statistika"
+   },
+   "statsPageXHRs": {
+      "description": "",
+      "message": "XHRid"
+   },
+   "ubiquitousRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Vahendid"
+   },
+   "userRulesCommit": {
+      "description": "Will save all temporary rules",
+      "message": "Sisesta"
+   },
+   "userRulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "minu-umatrix-reeglid.txt"
+   },
+   "userRulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Muuda"
+   },
+   "userRulesEditDicard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Loobu"
+   },
+   "userRulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Salvesta"
+   },
+   "userRulesExport": {
+      "description": "",
+      "message": "Ekspordi faili..."
+   },
+   "userRulesFormatHint": {
+      "description": "",
+      "message": "See this page for rule syntax."
+   },
+   "userRulesImport": {
+      "description": "",
+      "message": "Impordi failist..."
+   },
+   "userRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Minu reeglid"
+   },
+   "userRulesPermanentHeader": {
+      "description": "",
+      "message": "Püsivad reeglid"
+   },
+   "userRulesRevert": {
+      "description": "Will remove all temporary rules",
+      "message": "Ennista"
+   },
+   "userRulesTemporaryHeader": {
+      "description": "",
+      "message": "Ajutised reeglid"
+   },
+   "xhrPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "XHR"
+   }
+}

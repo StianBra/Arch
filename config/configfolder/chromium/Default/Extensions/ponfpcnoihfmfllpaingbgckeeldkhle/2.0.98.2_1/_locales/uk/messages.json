@@ -1,0 +1,398 @@
+{
+   "add": {
+      "message": "Додати"
+   },
+   "ads_removed": {
+      "message": "Оголошення були вилучені"
+   },
+   "annotations_shown_hidden": {
+      "message": "Анотації були показані/приховані"
+   },
+   "auto_cinema_mode": {
+      "message": "Автоматично вмикати режим кіно"
+   },
+   "auto_enable_filters": {
+      "message": "Автоматично вмикати фільтри"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Automatically enable YouTube's “Theater mode”"
+   },
+   "auto_enlarge_player": {
+      "message": "Автоматичне збільшення відеопрогравача"
+   },
+   "auto_execute_script": {
+      "message": "Автоматично виконувати сценарій YouTube™ під час завантаження вкладки"
+   },
+   "auto_expand_description": {
+      "message": "Автоматичне розширення опису відео"
+   },
+   "auto_focus_video_player": {
+      "message": "Автоматично повернути фокус назад до відеопрогравача:"
+   },
+   "auto_pause_videos": {
+      "message": "Автоматичне призупинення відеозаписів, відкритих у фонових вкладках"
+   },
+   "auto_remove_ads": {
+      "message": "Автоматично видаляти рекламу із відео"
+   },
+   "auto_remove_annotations": {
+      "message": "Автоматично видаляти анотації"
+   },
+   "auto_select_quality": {
+      "message": "Автоматично програвати відео зі вказаною мною якістю"
+   },
+   "auto_sort_comments": {
+      "message": "Автоматично сортувати коментарі від найновіших до найстаріших"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "boost_button_instructions": {
+      "message": "Info: Click this button to enable/disable the volume booster."
+   },
+   "boost_volume": {
+      "message": "Boost volume"
+   },
+   "border": {
+      "message": "Кордон:"
+   },
+   "bottom_left_corner": {
+      "message": "Внизу зліва"
+   },
+   "bottom_right_corner": {
+      "message": "Внизу справа"
+   },
+   "brightness": {
+      "message": "Яскравість:"
+   },
+   "buttons": {
+      "message": "Кнопки"
+   },
+   "buttons_active_label": {
+      "message": "Buttons active:"
+   },
+   "buttons_label": {
+      "message": "Кнопки:"
+   },
+   "cinema_button_instructions": {
+      "message": "Info: Click this button to enable/disable the cinema mode."
+   },
+   "cinema_enabled_disabled": {
+      "message": "Режим кіно було включено/вимкнено"
+   },
+   "cinema_mode": {
+      "message": "Режим кінотеатру"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Автоматично збільшувати відеопрогравач під час активування режиму кіно"
+   },
+   "clean_button_instructions": {
+      "message": "Інформація: Click this button to remove ads. клацніть правою кнопкою миші на цій кнопці, щоб показати/приховати анотації."
+   },
+   "color": {
+      "message": "Колір:"
+   },
+   "color_inversion": {
+      "message": "Інверсія кольорів:"
+   },
+   "colors": {
+      "message": "Кольори"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Інформація: введіть chrome://extensions/configureCommands в адресний рядок, щоб налаштувати клавіатурні скорочення."
+   },
+   "contrast": {
+      "message": "Контрастність:"
+   },
+   "control_volume": {
+      "message": "Контролюйте рівень гучності за допомогою колеса миші, коли навести курсор на відеопрогравач"
+   },
+   "control_volume_mouse_button": {
+      "message": "Only when the right mouse button is pressed"
+   },
+   "custom_script": {
+      "message": "Користувацький скрипт"
+   },
+   "custom_script_instructions": {
+      "message": "Вставте або введіть свій JavaScript-код тут, збережіть його, натиснувши кнопку нижче, потім натисніть кнопку «Користувацький скрипт» на панелі інструментів, якщо ви хочете його виконати."
+   },
+   "custom_script_warning": {
+      "message": "Попередження: з міркувань безпеки ви повинні використовувати коди, який ви розумієте, або код, написаний розробником, якому ви довіряєте."
+   },
+   "custom_theme": {
+      "message": "Спеціальна тема"
+   },
+   "custom_theme_instructions": {
+      "message": "Вставте або введіть свій CSS-код тут, а потім збережіть його за допомогою кнопки нижче."
+   },
+   "default_playback_speed": {
+      "message": "Швидкість відтворення за замовчуванням:"
+   },
+   "default_volume_level": {
+      "message": "Рівень гучності за замовчуванням:"
+   },
+   "description": {
+      "message": "Безліч можливостей для покращення роботи з користувачем на YouTube™."
+   },
+   "detach_button_instructions": {
+      "message": "Info: Click this button to detach the video player. Make a right click on this button to stop the video on YouTube™ instead of pausing it when the video player is detached. To make the detached video player stay always on top of other windows visit the following page:"
+   },
+   "detach_player": {
+      "message": "Detach player"
+   },
+   "disable_autoplay": {
+      "message": "Вимкнути функцію «Автоматичне відтворення»"
+   },
+   "disable_preloading": {
+      "message": "Вимкнути попереднє завантаження, коли відео автоматично призупинено"
+   },
+   "donate": {
+      "message": "Пожертвувати"
+   },
+   "enlarged_player_viewport": {
+      "message": "Використовувати всю проекцію для збільшення відеоплеєра, коли не увімкнуто режим кіно"
+   },
+   "export": {
+      "message": "Export"
+   },
+   "export_instructions": {
+      "message": "Create a new text file and paste the code below without modifying it."
+   },
+   "filters": {
+      "message": "Фільтри"
+   },
+   "filters_button_instructions": {
+      "message": "Інформація: Click this button to enable/disable filters. клацніть правою кнопкою миші на цій кнопці, щоб змінити фільтри. Ви також можете вмикати/вимикати фільтри, якщо ви натискаєте клавішу «Control» (Ctrl) і натискаєте клавішу «Shift», натискаючи відеопрогравач."
+   },
+   "filters_enabled_disabled": {
+      "message": "Фільтри були включені/вимкнені"
+   },
+   "fourth_choice": {
+      "message": "Четвертий вибір:"
+   },
+   "gaussian_blur": {
+      "message": "Ґаусове розмиття:"
+   },
+   "grayscale": {
+      "message": "Відтінки сірого:"
+   },
+   "html5_player_only": {
+      "message": "(Лише програвач HTML5)"
+   },
+   "hue_rotation": {
+      "message": "Обертання відтінку:"
+   },
+   "ignore_playlists": {
+      "message": "Не призупиняти відео в списках відтворення"
+   },
+   "import": {
+      "message": "Import"
+   },
+   "import_error": {
+      "message": "The content of the backup file is not valid!"
+   },
+   "import_instructions": {
+      "message": "Paste the content of the backup file and click the “Import” button. The page will be automatically reloaded if settings are successfully imported."
+   },
+   "keyboard_shortcuts": {
+      "message": "Гарячі клавіши"
+   },
+   "keyboard_shortcuts_list": {
+      "message": "For a complete list of keyboard shortcuts for YouTube™ visit the following page:"
+   },
+   "locale_code": {
+      "message": "uk"
+   },
+   "loop_button_instructions": {
+      "message": "Info: Click this button to enable/disable the loop mode."
+   },
+   "loop_enabled_disabled": {
+      "message": "Режим «цикл» було включено/вимкнено"
+   },
+   "loop_video": {
+      "message": "Повторювати відео"
+   },
+   "message": {
+      "message": "Message"
+   },
+   "miscellaneous": {
+      "message": "Різне"
+   },
+   "not_now": {
+      "message": "Не зараз"
+   },
+   "opacity": {
+      "message": "Прозорість:"
+   },
+   "options": {
+      "message": "Параметри"
+   },
+   "options_button_instructions": {
+      "message": "Info: Click this button to open the options page."
+   },
+   "override_playback_speeds": {
+      "message": "Перевизначити швидкість відтворення за умовчанням"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ has been updated, this page must be reloaded."
+   },
+   "pause_foreground_tab": {
+      "message": "Пауза відео також встановлена на вкладці переднього плану"
+   },
+   "pause_videos": {
+      "message": "Призупинення відтворення відео у фонових вкладках, коли відео починає відтворюватися на вкладці переднього плану"
+   },
+   "pin_video_player": {
+      "message": "Прикріпіть відеоплеєр під час прокручування сторінки"
+   },
+   "pinned_video_player_position": {
+      "message": "Закріплення позиції відеопрогравача:"
+   },
+   "pinned_video_player_size": {
+      "message": "Закріплення розміру відеопрогравача:"
+   },
+   "playback_speed_modified": {
+      "message": "Швидкість відтворення була змінена"
+   },
+   "preferred_quality": {
+      "message": "Бажана якість:"
+   },
+   "preview": {
+      "message": "Передогляд налаштувань"
+   },
+   "rate": {
+      "message": "Оцінити"
+   },
+   "remove": {
+      "message": "Видалити"
+   },
+   "remove_ads": {
+      "message": "Видаляти рекламу"
+   },
+   "reset_filters": {
+      "message": "Скинути фільтри"
+   },
+   "resize_button_instructions": {
+      "message": "Info: Click this button to resize the video player. Make a right click on this button to center the video player within the viewport."
+   },
+   "resize_player": {
+      "message": "Змінити розміри плеєру"
+   },
+   "restore_default_colors": {
+      "message": "Відновити кольори за замовчуванням"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Reverse the mouse wheel direction to control the playback speed and the volume level"
+   },
+   "saturation": {
+      "message": "Насиченість:"
+   },
+   "save": {
+      "message": "Зберегти"
+   },
+   "script_button_instructions": {
+      "message": "Info: Click this button to execute the custom script."
+   },
+   "second_choice": {
+      "message": "Другий вибір:"
+   },
+   "sepia": {
+      "message": "Сепія:"
+   },
+   "share": {
+      "message": "Поділитися"
+   },
+   "share_message": {
+      "message": "Розкажіть своїм друзям та послідовникам про Enhancer for YouTube™. Дякую!"
+   },
+   "share_on_facebook": {
+      "message": "Поділитися на Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Поділіться на Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Поділіться на Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Поділіться на Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Поділіться на Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Показати/сховати анотації"
+   },
+   "slide_effect": {
+      "message": "Слайд ефект вгору/вниз"
+   },
+   "slow_down_button_instructions": {
+      "message": "Info: Click this button to slow down playback speed."
+   },
+   "speed": {
+      "message": "Швидкість"
+   },
+   "speed_button_instructions": {
+      "message": "Інформація: за допомогою курсора миші використовуйте колесо миші, щоб контролювати швидкість відтворення. Клацніть по ній, щоб використовувати стандартну швидкість відтворення. Ви також можете використовувати колесо миші, щоб контролювати швидкість відтворення при наведенні на відеоплеєр, і клацнути на ньому, щоб використовувати швидкість відтворення за замовчуванням, якщо ви натиснете клавішу «Control» (Ctrl)."
+   },
+   "speed_up_button_instructions": {
+      "message": "Info: Click this button to speed up playback speed."
+   },
+   "speed_variation": {
+      "message": "Speed variation when the mouse wheel rotates or when the speed buttons “-” and “+” are clicked:"
+   },
+   "support": {
+      "message": "Підтримка"
+   },
+   "support_request_instructions": {
+      "message": "Надайте ці відомості, коли звертаєтесь із запитом про підтримку або повідомляєте про проблему."
+   },
+   "theme": {
+      "message": "Тема"
+   },
+   "theme_by_default": {
+      "message": "Тема за замовчуванням"
+   },
+   "third_choice": {
+      "message": "Третій вибір:"
+   },
+   "toolbar": {
+      "message": "Панель інструментів"
+   },
+   "toolbar_label": {
+      "message": "Панель інструментів:"
+   },
+   "tooltips": {
+      "message": "Підказки"
+   },
+   "top_left_corner": {
+      "message": "Вгорі зліва"
+   },
+   "top_right_corner": {
+      "message": "Вгорі справа"
+   },
+   "translate": {
+      "message": "Перекласти"
+   },
+   "transparency": {
+      "message": "Прозорість:"
+   },
+   "video_player": {
+      "message": "Відеопрогравач"
+   },
+   "video_player_pinned": {
+      "message": "Відеопрогравач було прикріплено"
+   },
+   "video_player_resized": {
+      "message": "Розмір відеоплеєра було змінено"
+   },
+   "volume_booster_enabled_disabled": {
+      "message": "Volume booster has been enabled/disabled"
+   },
+   "volume_variation": {
+      "message": "Зміна гучності, коли колесо миші обертається:"
+   },
+   "whitelisted_channels": {
+      "message": "Білий список каналів:"
+   }
+}

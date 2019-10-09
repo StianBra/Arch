@@ -1,0 +1,398 @@
+{
+   "add": {
+      "message": "添加"
+   },
+   "ads_removed": {
+      "message": "广告被去除"
+   },
+   "annotations_shown_hidden": {
+      "message": "注解被显示或隐藏"
+   },
+   "auto_cinema_mode": {
+      "message": "自动启用剧场模式"
+   },
+   "auto_enable_filters": {
+      "message": "自动启用滤镜"
+   },
+   "auto_enable_theater_mode": {
+      "message": "自动启用YouTube的 “剧院模式”"
+   },
+   "auto_enlarge_player": {
+      "message": "自动切换到大尺寸播放器"
+   },
+   "auto_execute_script": {
+      "message": "播放 YouTube™ 视频时自动执行该脚本"
+   },
+   "auto_expand_description": {
+      "message": "自动展开视频介绍"
+   },
+   "auto_focus_video_player": {
+      "message": "当……时自动使播放器重新获得焦点:"
+   },
+   "auto_pause_videos": {
+      "message": "自动暂停在后台标签中打开的视频"
+   },
+   "auto_remove_ads": {
+      "message": "自动去除广告"
+   },
+   "auto_remove_annotations": {
+      "message": "自动去除注解"
+   },
+   "auto_select_quality": {
+      "message": "自动切换视频清晰度"
+   },
+   "auto_sort_comments": {
+      "message": "自动将评论按从新到旧排序"
+   },
+   "backup": {
+      "message": "备份"
+   },
+   "boost_button_instructions": {
+      "message": "提示：单击此按钮可启用/禁用音量增强器。"
+   },
+   "boost_volume": {
+      "message": "增强音量"
+   },
+   "border": {
+      "message": "边框:"
+   },
+   "bottom_left_corner": {
+      "message": "左下"
+   },
+   "bottom_right_corner": {
+      "message": "右下"
+   },
+   "brightness": {
+      "message": "亮度:"
+   },
+   "buttons": {
+      "message": "按钮"
+   },
+   "buttons_active_label": {
+      "message": "按钮激活:"
+   },
+   "buttons_label": {
+      "message": "按钮:"
+   },
+   "cinema_button_instructions": {
+      "message": "提示：单击此按钮可启用/禁用影院模式。"
+   },
+   "cinema_enabled_disabled": {
+      "message": "剧院模式被启用或禁用"
+   },
+   "cinema_mode": {
+      "message": "剧场模式"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "剧场模式自动切换到大尺寸播放器"
+   },
+   "clean_button_instructions": {
+      "message": "提示：单击此按钮可删除广告。右击工具栏的改按钮以切换显示或隐藏注解。"
+   },
+   "color": {
+      "message": "背景色:"
+   },
+   "color_inversion": {
+      "message": "色彩反转:"
+   },
+   "colors": {
+      "message": "颜色"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "说明: 若需要配置快捷键，请通过地址栏打开 chrome://extensions/configureCommands 页面后根据提示操作。"
+   },
+   "contrast": {
+      "message": "对比度:"
+   },
+   "control_volume": {
+      "message": "当鼠标指针浮在视频播放器上时滑动滚轮来调节音量"
+   },
+   "control_volume_mouse_button": {
+      "message": "仅在按下鼠标右键时"
+   },
+   "custom_script": {
+      "message": "自定义脚本"
+   },
+   "custom_script_instructions": {
+      "message": "在此输入或粘贴您的 JavaScript 代码，点击下面的按钮保存后，即可随时通过工具栏中的“自定义脚本”按钮执行。"
+   },
+   "custom_script_warning": {
+      "message": "警告：出于安全原因，您应该只使用您能够读懂的或者由您信任的开发人员编写的代码。"
+   },
+   "custom_theme": {
+      "message": "自定义主题"
+   },
+   "custom_theme_instructions": {
+      "message": "在这里输入或者粘贴 CSS 代码，然后点击下面的保存按钮。"
+   },
+   "default_playback_speed": {
+      "message": "默认播放速度:"
+   },
+   "default_volume_level": {
+      "message": "默认音量:"
+   },
+   "description": {
+      "message": "海量自定义功能提升您的 YouTube™ 用户体验。"
+   },
+   "detach_button_instructions": {
+      "message": "提示：单击此按钮可分离视频播放器。右键单击此按钮可停止YouTube™上的视频，而不是在分离视频播放器时暂停视频。要使分离的视频播放器始终位于其他窗口之上，请访问以下页面："
+   },
+   "detach_player": {
+      "message": "分离播放器"
+   },
+   "disable_autoplay": {
+      "message": "禁用“自动播放下一视频”功能"
+   },
+   "disable_preloading": {
+      "message": "当视频被自动暂停时禁止预缓冲"
+   },
+   "donate": {
+      "message": "捐助"
+   },
+   "enlarged_player_viewport": {
+      "message": "若在非剧场模式下切换到大尺寸播放器，拉伸到整个网页可见区域"
+   },
+   "export": {
+      "message": "导出"
+   },
+   "export_instructions": {
+      "message": "创建一个新的文本文件并粘贴下面的代码而不进行修改。"
+   },
+   "filters": {
+      "message": "滤镜"
+   },
+   "filters_button_instructions": {
+      "message": "提示：单击此按钮可启用/禁用过滤器。右击工具栏的该按钮来修改滤镜设置。也可以在按住 Control 和 Shift 键的同时单击视频来启用/禁用滤镜。"
+   },
+   "filters_enabled_disabled": {
+      "message": "滤镜被开启或禁用"
+   },
+   "fourth_choice": {
+      "message": "第四选择:"
+   },
+   "gaussian_blur": {
+      "message": "高斯模糊:"
+   },
+   "grayscale": {
+      "message": "灰度:"
+   },
+   "html5_player_only": {
+      "message": "（只适用于 HTML5 播放器）"
+   },
+   "hue_rotation": {
+      "message": "色调偏移:"
+   },
+   "ignore_playlists": {
+      "message": "播放视频列表时不自动暂停"
+   },
+   "import": {
+      "message": "导入"
+   },
+   "import_error": {
+      "message": "备份文件的内容无效！"
+   },
+   "import_instructions": {
+      "message": "粘贴备份文件的内容，然后单击 “导入” 按钮。如果成功导入设置，将自动重新加载页面。"
+   },
+   "keyboard_shortcuts": {
+      "message": "快捷键"
+   },
+   "keyboard_shortcuts_list": {
+      "message": "有关 YouTube™ 键盘快捷方式的完整列表，请访问以下页面："
+   },
+   "locale_code": {
+      "message": "zh_CN"
+   },
+   "loop_button_instructions": {
+      "message": "提示：单击此按钮可启用/禁用循环模式。"
+   },
+   "loop_enabled_disabled": {
+      "message": "循环播放被启用或禁用"
+   },
+   "loop_video": {
+      "message": "循环播放"
+   },
+   "message": {
+      "message": "信息"
+   },
+   "miscellaneous": {
+      "message": "杂项"
+   },
+   "not_now": {
+      "message": "暂不"
+   },
+   "opacity": {
+      "message": "不透明度:"
+   },
+   "options": {
+      "message": "选项"
+   },
+   "options_button_instructions": {
+      "message": "提示：单击此按钮可打开选项页面。"
+   },
+   "override_playback_speeds": {
+      "message": "自定义默认播放速度"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ 已更新，此页面必须重新加载。"
+   },
+   "pause_foreground_tab": {
+      "message": "也自动暂停在前台标签中打开的视频"
+   },
+   "pause_videos": {
+      "message": "当前台标签页中的视频开始播放时，暂停后台标签页中正在播放的视频"
+   },
+   "pin_video_player": {
+      "message": "向下滚动页面后浮动显示一个迷你播放器"
+   },
+   "pinned_video_player_position": {
+      "message": "迷你播放器显示位置:"
+   },
+   "pinned_video_player_size": {
+      "message": "迷你播放器大小:"
+   },
+   "playback_speed_modified": {
+      "message": "播放速度被调整"
+   },
+   "preferred_quality": {
+      "message": "首选清晰度:"
+   },
+   "preview": {
+      "message": "效果预览"
+   },
+   "rate": {
+      "message": "评分"
+   },
+   "remove": {
+      "message": "删除"
+   },
+   "remove_ads": {
+      "message": "去除广告"
+   },
+   "reset_filters": {
+      "message": "重置滤镜"
+   },
+   "resize_button_instructions": {
+      "message": "提示：单击此按钮可调整视频播放器的大小。"
+   },
+   "resize_player": {
+      "message": "切换播放器尺寸"
+   },
+   "restore_default_colors": {
+      "message": "恢复默认颜色"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "反转鼠标滚轮方向以控制播放速度和音量级别"
+   },
+   "saturation": {
+      "message": "饱和度:"
+   },
+   "save": {
+      "message": "保存"
+   },
+   "script_button_instructions": {
+      "message": "提示：单击此按钮可执行自定义脚本。"
+   },
+   "second_choice": {
+      "message": "第二选择:"
+   },
+   "sepia": {
+      "message": "褐色:"
+   },
+   "share": {
+      "message": "分享"
+   },
+   "share_message": {
+      "message": "请把 Enhancer for YouTube™ 介绍给您的朋友和粉丝。非常感谢！"
+   },
+   "share_on_facebook": {
+      "message": "分享到 Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "分享到 Google+"
+   },
+   "share_on_pinterest": {
+      "message": "分享到 Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "分享到 Reddit"
+   },
+   "share_on_twitter": {
+      "message": "分享到 Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "显示/隐藏注解"
+   },
+   "slide_effect": {
+      "message": "自动收起"
+   },
+   "slow_down_button_instructions": {
+      "message": "提示：单击此按钮可降低播放速度。"
+   },
+   "speed": {
+      "message": "速度"
+   },
+   "speed_button_instructions": {
+      "message": "提示：将鼠标指针悬停在工具栏的该按钮上，滑动鼠标滚轮即可调节播放速度。点击该按钮可恢复为默认速度。也可以在按住 Control 键的同时，在视频上滑动鼠标滚轮或单击来实现同样功能。"
+   },
+   "speed_up_button_instructions": {
+      "message": "提示：单击此按钮可加快播放速度。"
+   },
+   "speed_variation": {
+      "message": "使用滑鼠滾輪或點擊“-”和 “+”調整播放速度: "
+   },
+   "support": {
+      "message": "获取支持"
+   },
+   "support_request_instructions": {
+      "message": "当获取支持或报告问题时请一并提供下列信息。"
+   },
+   "theme": {
+      "message": "主题"
+   },
+   "theme_by_default": {
+      "message": "原始样式"
+   },
+   "third_choice": {
+      "message": "第三选择:"
+   },
+   "toolbar": {
+      "message": "工具栏"
+   },
+   "toolbar_label": {
+      "message": "工具栏:"
+   },
+   "tooltips": {
+      "message": "鼠标悬浮提示"
+   },
+   "top_left_corner": {
+      "message": "左上"
+   },
+   "top_right_corner": {
+      "message": "右上"
+   },
+   "translate": {
+      "message": "翻译"
+   },
+   "transparency": {
+      "message": "半透明样式:"
+   },
+   "video_player": {
+      "message": "视频播放器"
+   },
+   "video_player_pinned": {
+      "message": "浮动播放器被启用"
+   },
+   "video_player_resized": {
+      "message": "播放器大小被调整"
+   },
+   "volume_booster_enabled_disabled": {
+      "message": "音量增强器已启用/禁用"
+   },
+   "volume_variation": {
+      "message": "每次滚动鼠标滚轮时音量的调节幅度:"
+   },
+   "whitelisted_channels": {
+      "message": "频道白名单:"
+   }
+}

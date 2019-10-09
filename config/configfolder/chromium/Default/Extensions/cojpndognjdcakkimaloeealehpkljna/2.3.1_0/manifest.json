@@ -1,0 +1,25 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "js/update.js" ]
+   },
+   "chrome_url_overrides": {
+      "newtab": "carettab.htm"
+   },
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "icons": {
+      "128": "assets/img/icon128.png",
+      "16": "assets/img/icon16.png",
+      "48": "assets/img/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAldym8oJ/Vi6AYj8WdbE3cblSyrd+2MyPFwAV8hYuaah9RCTc/ag+FHZPeuEIf6SHL49cI9mvFXs+zAHrU8q5xnVGhZdOvdISUCUinKZzGkEKbadkfHhrfgZs30xP7QuZCB/mrpqvNl13WkQSnLwV1blWeJnJIqsts92UJKL7P30Skm+b2mChWLkjRZQmUjxwy2xP+GlNa7ug2iWB0VpWO7mshjrC2kfan52sfzgyXUVl8mqk8vy9kbrIxU1FcNrmOQVhhhWQkcTrOYhyAhyN48L2eae+bNkuJnbUX3Clm2L5FRlHYRgUEDfvviTJEKS5E5R0CaWRF7QVtKlQMdD7bwIDAQAB",
+   "manifest_version": 2,
+   "name": "__MSG_appName__",
+   "offline_enabled": true,
+   "permissions": [ "storage" ],
+   "short_name": "CaretTab",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.3.1",
+   "version_name": "2.3.1"
+}

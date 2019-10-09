@@ -1,0 +1,398 @@
+{
+   "add": {
+      "message": "Add"
+   },
+   "ads_removed": {
+      "message": "Ads have been removed"
+   },
+   "annotations_shown_hidden": {
+      "message": "Annotations have been shown/hidden"
+   },
+   "auto_cinema_mode": {
+      "message": "Automatically enable the cinema mode"
+   },
+   "auto_enable_filters": {
+      "message": "Automatically enable filters"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Automatically enable YouTube's ‘Theater mode’"
+   },
+   "auto_enlarge_player": {
+      "message": "Automatically enlarge the video player"
+   },
+   "auto_execute_script": {
+      "message": "Automatically execute the script when YouTube™ is loaded in a tab"
+   },
+   "auto_expand_description": {
+      "message": "Automatically expand the videos descriptions"
+   },
+   "auto_focus_video_player": {
+      "message": "Automatically give the focus back to the video player when:"
+   },
+   "auto_pause_videos": {
+      "message": "Automatically pause videos opened in background tabs"
+   },
+   "auto_remove_ads": {
+      "message": "Automatically remove ads"
+   },
+   "auto_remove_annotations": {
+      "message": "Automatically remove annotations"
+   },
+   "auto_select_quality": {
+      "message": "Automatically play videos at my preferred quality"
+   },
+   "auto_sort_comments": {
+      "message": "Automatically sort comments from newest to oldest"
+   },
+   "backup": {
+      "message": "Backup"
+   },
+   "boost_button_instructions": {
+      "message": "Info: Click this button to enable/disable the volume booster."
+   },
+   "boost_volume": {
+      "message": "Boost volume"
+   },
+   "border": {
+      "message": "Border:"
+   },
+   "bottom_left_corner": {
+      "message": "Bottom left corner"
+   },
+   "bottom_right_corner": {
+      "message": "Bottom right corner"
+   },
+   "brightness": {
+      "message": "Brightness:"
+   },
+   "buttons": {
+      "message": "Buttons"
+   },
+   "buttons_active_label": {
+      "message": "Buttons active:"
+   },
+   "buttons_label": {
+      "message": "Buttons:"
+   },
+   "cinema_button_instructions": {
+      "message": "Info: Click this button to enable/disable the cinema mode."
+   },
+   "cinema_enabled_disabled": {
+      "message": "Cinema mode has been enabled/disabled"
+   },
+   "cinema_mode": {
+      "message": "Cinema mode"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Automatically enlarge the video player when the cinema mode is enabled"
+   },
+   "clean_button_instructions": {
+      "message": "Info: Click this button to remove ads. Make a right click on this button to show/hide annotations."
+   },
+   "color": {
+      "message": "Colour:"
+   },
+   "color_inversion": {
+      "message": "Color inversion:"
+   },
+   "colors": {
+      "message": "Colours"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Info: Type chrome://extensions/configureCommands in the address bar to configure keyboard shortcuts."
+   },
+   "contrast": {
+      "message": "Contrast:"
+   },
+   "control_volume": {
+      "message": "Control the volume level with the mouse wheel when hovering the video player with the mouse cursor"
+   },
+   "control_volume_mouse_button": {
+      "message": "Only when the right mouse button is pressed"
+   },
+   "custom_script": {
+      "message": "Custom script"
+   },
+   "custom_script_instructions": {
+      "message": "Paste or type your JavaScript code here, save it using the button below, then click on the ‘Custom script’ button on the toolbar when you want to execute it."
+   },
+   "custom_script_warning": {
+      "message": "Warning: For security reasons you should only use code that you understand or code that has been written by a developer you trust."
+   },
+   "custom_theme": {
+      "message": "Custom theme"
+   },
+   "custom_theme_instructions": {
+      "message": "Paste or type your CSS code here, then save it using the button below."
+   },
+   "default_playback_speed": {
+      "message": "Default playback speed:"
+   },
+   "default_volume_level": {
+      "message": "Default volume level:"
+   },
+   "description": {
+      "message": "Tons of features to improve your user experience on YouTube™."
+   },
+   "detach_button_instructions": {
+      "message": "Info: Click this button to detach the video player. Make a right click on this button to stop the video on YouTube™ instead of pausing it when the video player is detached. To make the detached video player stay always on top of other windows visit the following page:"
+   },
+   "detach_player": {
+      "message": "Detach player"
+   },
+   "disable_autoplay": {
+      "message": "Disable YouTube's ‘Autoplay’ feature"
+   },
+   "disable_preloading": {
+      "message": "Disable preloading when videos are automatically paused"
+   },
+   "donate": {
+      "message": "Donate"
+   },
+   "enlarged_player_viewport": {
+      "message": "Use the whole viewport for the enlarged video player when the cinema mode is not enabled, without altering the 16:9 aspect ratio"
+   },
+   "export": {
+      "message": "Export"
+   },
+   "export_instructions": {
+      "message": "Create a new text file and paste the code below without modifying it."
+   },
+   "filters": {
+      "message": "Filters"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Click this button to enable/disable filters. Make a right click on this button to modify filters. You can also enable/disable filters if you maintain the ‘Control’ key (Ctrl) and the ‘Shift’ key pressed when you click the video player."
+   },
+   "filters_enabled_disabled": {
+      "message": "Filters have been enabled/disabled"
+   },
+   "fourth_choice": {
+      "message": "Fourth choice:"
+   },
+   "gaussian_blur": {
+      "message": "Gaussian blur:"
+   },
+   "grayscale": {
+      "message": "Grayscale:"
+   },
+   "html5_player_only": {
+      "message": "(HTML5 player only)"
+   },
+   "hue_rotation": {
+      "message": "Hue rotation:"
+   },
+   "ignore_playlists": {
+      "message": "Do not pause videos in playlists"
+   },
+   "import": {
+      "message": "Import"
+   },
+   "import_error": {
+      "message": "The content of the backup file is not valid!"
+   },
+   "import_instructions": {
+      "message": "Paste the content of the backup file and click the ‘Import’ button. The page will be automatically reloaded if settings are successfully imported."
+   },
+   "keyboard_shortcuts": {
+      "message": "Keyboard shortcuts"
+   },
+   "keyboard_shortcuts_list": {
+      "message": "For a complete list of keyboard shortcuts for YouTube™ visit the following page:"
+   },
+   "locale_code": {
+      "message": "en_GB"
+   },
+   "loop_button_instructions": {
+      "message": "Info: Click this button to enable/disable the loop mode."
+   },
+   "loop_enabled_disabled": {
+      "message": "Loop mode has been enabled/disabled"
+   },
+   "loop_video": {
+      "message": "Loop video"
+   },
+   "message": {
+      "message": "Message"
+   },
+   "miscellaneous": {
+      "message": "Miscellaneous"
+   },
+   "not_now": {
+      "message": "Not now"
+   },
+   "opacity": {
+      "message": "Opacity:"
+   },
+   "options": {
+      "message": "Options"
+   },
+   "options_button_instructions": {
+      "message": "Info: Click this button to open the options page."
+   },
+   "override_playback_speeds": {
+      "message": "Override default playback speeds"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ has been updated, this page must be reloaded."
+   },
+   "pause_foreground_tab": {
+      "message": "Pause videos opened in the foreground tab too"
+   },
+   "pause_videos": {
+      "message": "Pause videos playing in background tabs when a video starts playing in the foreground tab"
+   },
+   "pin_video_player": {
+      "message": "Pin the video player when scrolling down the page"
+   },
+   "pinned_video_player_position": {
+      "message": "Pinned video player position:"
+   },
+   "pinned_video_player_size": {
+      "message": "Pinned video player size:"
+   },
+   "playback_speed_modified": {
+      "message": "Playback speed has been modified"
+   },
+   "preferred_quality": {
+      "message": "Preferred quality:"
+   },
+   "preview": {
+      "message": "Preview"
+   },
+   "rate": {
+      "message": "Rate"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "remove_ads": {
+      "message": "Remove ads"
+   },
+   "reset_filters": {
+      "message": "Reset filters"
+   },
+   "resize_button_instructions": {
+      "message": "Info: Click this button to resize the video player. Make a right click on this button to center the video player within the viewport."
+   },
+   "resize_player": {
+      "message": "Resize player"
+   },
+   "restore_default_colors": {
+      "message": "Restore default colours"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Reverse the mouse wheel direction to control the playback speed and the volume level"
+   },
+   "saturation": {
+      "message": "Saturation:"
+   },
+   "save": {
+      "message": "Save"
+   },
+   "script_button_instructions": {
+      "message": "Info: Click this button to execute the custom script."
+   },
+   "second_choice": {
+      "message": "Second choice:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Share"
+   },
+   "share_message": {
+      "message": "Tell your friends and followers about Enhancer for YouTube™. Thank you!"
+   },
+   "share_on_facebook": {
+      "message": "Share on Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Share on Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Share on Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Share on Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Share on Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Show/hide annotations"
+   },
+   "slide_effect": {
+      "message": "Slide up/down effect"
+   },
+   "slow_down_button_instructions": {
+      "message": "Info: Click this button to slow down playback speed."
+   },
+   "speed": {
+      "message": "Speed"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Use the mouse wheel to control playback speed when hovering this button with the mouse cursor. Click it to use the default playback speed. You can also use the mouse wheel to control playback speed when hovering the video player, and click it to use the default playback speed, if you maintain the ‘Control’ key (Ctrl) pressed."
+   },
+   "speed_up_button_instructions": {
+      "message": "Info: Click this button to speed up playback speed."
+   },
+   "speed_variation": {
+      "message": "Speed variation when the mouse wheel rotates or when the speed buttons ‘-’ and ‘+’ are clicked:"
+   },
+   "support": {
+      "message": "Support"
+   },
+   "support_request_instructions": {
+      "message": "Provide these infos when requesting support or reporting an issue."
+   },
+   "theme": {
+      "message": "Theme"
+   },
+   "theme_by_default": {
+      "message": "Theme by default"
+   },
+   "third_choice": {
+      "message": "Third choice:"
+   },
+   "toolbar": {
+      "message": "Toolbar"
+   },
+   "toolbar_label": {
+      "message": "Toolbar:"
+   },
+   "tooltips": {
+      "message": "Tooltips"
+   },
+   "top_left_corner": {
+      "message": "Top left corner"
+   },
+   "top_right_corner": {
+      "message": "Top right corner"
+   },
+   "translate": {
+      "message": "Translate"
+   },
+   "transparency": {
+      "message": "Transparency:"
+   },
+   "video_player": {
+      "message": "Video player"
+   },
+   "video_player_pinned": {
+      "message": "Video player has been pinned"
+   },
+   "video_player_resized": {
+      "message": "Video player has been resized"
+   },
+   "volume_booster_enabled_disabled": {
+      "message": "Volume booster has been enabled/disabled"
+   },
+   "volume_variation": {
+      "message": "Volume variation when the mouse wheel rotates:"
+   },
+   "whitelisted_channels": {
+      "message": "Whitelisted channels:"
+   }
+}

@@ -1,0 +1,437 @@
+{
+   "addLink": {
+      "message": "Verknüpfung hinzufügen"
+   },
+   "additionalClocks": {
+      "message": "Zusätzliche Uhren"
+   },
+   "animation": {
+      "message": "Animation"
+   },
+   "animationDesc": {
+      "message": "Animiert die Objekte beim Start der Seite."
+   },
+   "anythingHelps": {
+      "message": "Alles\u003Cbr>hilft!"
+   },
+   "appDesc": {
+      "message": "Eine wunderschön einfache Neuer Tab-Seite, die mehrere Uhren, Datum, Suche, Schnellzugriffe und mehr! Vollständig anpassbar!"
+   },
+   "appName": {
+      "message": "CaretTab - Neuer Tab-Seite mit Uhrzeit und Datum"
+   },
+   "april": {
+      "message": "April"
+   },
+   "august": {
+      "message": "August"
+   },
+   "bg": {
+      "message": "Hintergrundfarbe"
+   },
+   "bgDesc": {
+      "message": "Farbe der Seite."
+   },
+   "blinkDelimiter": {
+      "message": "Blinkende Trennzeichen"
+   },
+   "blinkDelimiterDesc": {
+      "message": "Lässt die Trennzeichen der Primäruhr blinken."
+   },
+   "brackets": {
+      "message": "Klammern"
+   },
+   "bracketsDesc": {
+      "message": "Zeigt Klammern um die Hauptuhr an (nur wenn Anzeige digital ist)."
+   },
+   "bracketsType": {
+      "message": "Klammertyp"
+   },
+   "clockStyle": {
+      "message": "Uhrendesign"
+   },
+   "clockStyleDesc": {
+      "message": "Wechseln Sie zwischen einer digitalen und analogen Uhr (Klammern werden nicht angezeit wenn aktiviert)."
+   },
+   "configureEverything": {
+      "message": "Klicken Sie auf das Pfeil-Symbol um alles anzupassen!"
+   },
+   "credit": {
+      "message": "\u003Ca href=\"http://bluecaret.com/project/carettab\">CaretTab\u003C/a> wurde designed und entwickelt von \u003Ca href=\"http://jwh.design\">JWH Design, LLC\u003C/a> (\u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a>) und ist lizensiert unter der \u003Ca href=\"https://opensource.org/licenses/MIT\">MIT License\u003C/a>."
+   },
+   "customColor": {
+      "message": "Eigene Farben"
+   },
+   "customMessage": {
+      "message": "Eigene Nachricht"
+   },
+   "customMessageDesc": {
+      "message": "Zeigt eine eigene Nachricht an."
+   },
+   "customMessageText": {
+      "message": "Nachrichtentext"
+   },
+   "customMessageTextDesc": {
+      "message": "Geben Sie einen Text für Ihre Nachricht an."
+   },
+   "customTabText": {
+      "message": "Eigener Titel-Text"
+   },
+   "customTabTextDesc": {
+      "message": "Geben Sie einen eigenen Text für den Titel ein."
+   },
+   "date": {
+      "message": "Datum"
+   },
+   "dateDesc": {
+      "message": "Zeigt das Datum in der Mitte der Seite."
+   },
+   "dateFormat": {
+      "message": "Datumsformat"
+   },
+   "dateFormatDesc": {
+      "message": "Gibt an, wie das Datum angezeigt werden soll."
+   },
+   "day": {
+      "message": "Tag"
+   },
+   "dayDesc": {
+      "message": "Zeigt den Tag der Woche (nur wenn 'Kurzform' deaktiviert ist)."
+   },
+   "december": {
+      "message": "Dezember"
+   },
+   "delimiter": {
+      "message": "Trennzeichen"
+   },
+   "delimiterDesc": {
+      "message": "Zeigt ein Trennzeichen bei allen Uhren."
+   },
+   "dimBrackets": {
+      "message": "Klammern dimmen"
+   },
+   "dimBracketsDesc": {
+      "message": "Zeigt die Klammern mit 50% Tranzparenz an."
+   },
+   "dimDelimiter": {
+      "message": "Trennzeichen dimmen"
+   },
+   "dimDelimiterDesc": {
+      "message": "Setzt die Tranzparenz der Trennzeichen auf 50% (nur wenn das Blinken deaktiviert ist)."
+   },
+   "dimSeconds": {
+      "message": "Sekundenanzeige dimmen"
+   },
+   "dimSecondsDesc": {
+      "message": "Setzt die Tranzparenz der Sekunden auf 50%."
+   },
+   "dimming": {
+      "message": "Dimmen"
+   },
+   "disclaimer": {
+      "message": "CaretTab haftet nicht für Schäden und Probleme die durch die Benutzung der Erweiterung hervorgehen. Wenn Sie zu spät zu Arbeit kommen, weil die Uhrzeit falsch angezeit wurde, ist das Ihr Problem."
+   },
+   "february": {
+      "message": "Februar"
+   },
+   "fg": {
+      "message": "Vordergrundfarbe"
+   },
+   "fgDesc": {
+      "message": "Text- und Symbolfarbe."
+   },
+   "font": {
+      "message": "Schriftart"
+   },
+   "fontDesc": {
+      "message": "Ändert die Schriftart\u003Cbr>für alle Elemente."
+   },
+   "fourthClock": {
+      "message": "Vierte Uhr"
+   },
+   "fourthClockDesc": {
+      "message": "Zeigt eine zusätzliche Uhr unter der Hauptuhr an."
+   },
+   "fourthClockLabel": {
+      "message": "Name der vierten Uhr"
+   },
+   "fourthClockLabelDesc": {
+      "message": "Geben Sie einen Namen für diese Uhr ein (freilassen um keinen Namen zu setzen)."
+   },
+   "fourthClockTimezone": {
+      "message": "Zeitzone der vierten Uhr"
+   },
+   "fourthClockTimezoneDesc": {
+      "message": "Wählen Sie eine Zeitzone für diese Uhr."
+   },
+   "friday": {
+      "message": "Freitag"
+   },
+   "generousTip": {
+      "message": "Großzügige\u003Cbr>Spende von"
+   },
+   "globalStyle": {
+      "message": "Globale Stile"
+   },
+   "hideSettingsButton": {
+      "message": "Einstellungsknopf ausblenden"
+   },
+   "hideSettingsButtonDesc": {
+      "message": "Der Einstellungsknopf öffnet die Einstellungen. Aktivieren um den Knopf auszublenden. Sie können die Einstellungen weiterhin duck klicken auf die rechte obere Ecke des Fensters öffnen."
+   },
+   "january": {
+      "message": "Januar"
+   },
+   "july": {
+      "message": "Juli"
+   },
+   "june": {
+      "message": "Juni"
+   },
+   "keepFree": {
+      "message": "Helfen Sie CaretTab kostenlos zu bleiben"
+   },
+   "keepFreeDesc": {
+      "message": "Wenn Sie CaretTab nützlich finden, bitten wir Sie eine kleine Spende zu hinterlassen. Spenden helfen CaretTab dabei, kostenlos und frei von Werbung zu bleiben. Wir schätzen Ihre Unterstützung sehr!"
+   },
+   "language": {
+      "message": "Sprache"
+   },
+   "languageDesc": {
+      "message": "CaretTab unterstützt mehrere Sprachen, die automatisch basierend auf den Einstellungen Ihres Browsers übersetzt werden (die manuelle Einstellung der Sprache in der Erweiterung wird später erfolgen). Aktuelle unterstützte Sprachen: Englisch, Französisch, Chinesisch (vereinfacht und traditionell), Japanisch, Deutsch."
+   },
+   "largeTip": {
+      "message": "Große\u003Cbr>Spende von"
+   },
+   "latestUpdate": {
+      "message": "Neuestes Update"
+   },
+   "march": {
+      "message": "März"
+   },
+   "massiveTip": {
+      "message": "Massive\u003Cbr>Spende von"
+   },
+   "may": {
+      "message": "Kann"
+   },
+   "meridiem": {
+      "message": "AM/PM"
+   },
+   "meridiemDesc": {
+      "message": "Zeigt AM/PM auf der Hauptuhr."
+   },
+   "messageTitle": {
+      "message": "Nachricht"
+   },
+   "military": {
+      "message": "24 Stunden"
+   },
+   "militaryDesc": {
+      "message": "Benutzt das 24 Stunden Zeitformat (deaktiviert die Anzeige von AM/PM)."
+   },
+   "miscellaneous": {
+      "message": "Weiteres"
+   },
+   "monday": {
+      "message": "Montag"
+   },
+   "november": {
+      "message": "November"
+   },
+   "october": {
+      "message": "Oktober"
+   },
+   "otherTip": {
+      "message": "Beliebig"
+   },
+   "primaryClock": {
+      "message": "Hauptuhr"
+   },
+   "primaryClockDesc": {
+      "message": "Shows the primary clock in the middle of the page."
+   },
+   "quickLinks": {
+      "message": "Schnellzugriffe"
+   },
+   "quickLinksDesc": {
+      "message": "Zeigt einen Link für den Schnellzugriff am Anfang der Seite."
+   },
+   "resetButton": {
+      "message": "Zurücksetzen"
+   },
+   "resetDesc": {
+      "message": "Falls Sie alle Einstellungen auf ihre Standardwerte zurücksetzen möchten, klicken Sie auf folgenden Button."
+   },
+   "saturday": {
+      "message": "Samstag"
+   },
+   "scaleDisplay": {
+      "message": "Skalieren"
+   },
+   "scaleDisplayDesc": {
+      "message": "Ändert die Größe der Elemente. Falls Objekte überlappen, sollte die Größe verringert werden."
+   },
+   "search": {
+      "message": "Suche"
+   },
+   "searchBox": {
+      "message": "Suchfeld"
+   },
+   "searchBoxDesc": {
+      "message": "Zeigt ein Suchfeld über der Uhr an."
+   },
+   "searchEngine": {
+      "message": "Suchmaschine"
+   },
+   "searchEngineDesc": {
+      "message": "Wählen Sie eine Suchmaschine, die vom Suchfeld verwendet werden soll."
+   },
+   "secondClock": {
+      "message": "Zweite Uhr"
+   },
+   "secondClockDesc": {
+      "message": "Zeigt eine zusätzliche Uhr unter der Hauptuhr an."
+   },
+   "secondClockLabel": {
+      "message": "Name der zweiten Uhr"
+   },
+   "secondClockLabelDesc": {
+      "message": "Geben Sie einen Namen für diese Uhr ein (freilassen um keinen Namen zu setzen)."
+   },
+   "secondClockTimezone": {
+      "message": "Zeitzone der zweiten Uhr"
+   },
+   "secondClockTimezoneDesc": {
+      "message": "Wählen Sie eine Zeitzone für diese Uhr."
+   },
+   "seconds": {
+      "message": "Sekunden"
+   },
+   "secondsDesc": {
+      "message": "Zeigt die Sekunden auf der Hauptuhr."
+   },
+   "september": {
+      "message": "September"
+   },
+   "settingsPanel": {
+      "message": "Schauen Sie sich die Tabs an um alle Einstellungen zu sehen."
+   },
+   "shortForm": {
+      "message": "Kurzform"
+   },
+   "shortFormDesc": {
+      "message": "Zeigt das Datum in Kurzform."
+   },
+   "showDelimiter": {
+      "message": "Trennzeichen für Kurzform"
+   },
+   "showDelimiterDesc": {
+      "message": "Zeigt ein Trennzeichen zwischen den Nummern der kurzen Datumsform."
+   },
+   "singleLink": {
+      "message": "Verknüpfung"
+   },
+   "sunday": {
+      "message": "Sonntag"
+   },
+   "supportDesc": {
+      "message": "Falls Sie Unterstützung benötigen, einen Vorschlag oder Kommentar haben, kontaktieren Sie uns, \u003Ca href=\"http://bluecaret.com\">BlueCaret\u003C/a> bei Twitter \u003Ca href=\"https://twitter.com/BlueCaret\">@BlueCaret\u003C/a> oder besuchen Sie CaretTab auf \u003Ca href=\"https://github.com/bluecaret/carettab\">GitHub\u003C/a>."
+   },
+   "supportTitle": {
+      "message": "Hilfe"
+   },
+   "tabAbout": {
+      "message": "Über"
+   },
+   "tabColor": {
+      "message": "Farbe"
+   },
+   "tabDate": {
+      "message": "Datum"
+   },
+   "tabExtras": {
+      "message": "Extras"
+   },
+   "tabLinks": {
+      "message": "Links"
+   },
+   "tabStyle": {
+      "message": "Aussehen"
+   },
+   "tabTime": {
+      "message": "Zeit"
+   },
+   "tabTitle": {
+      "message": "Titel des Tabs"
+   },
+   "tabTitleDesc": {
+      "message": "Wählen Sie, was im Name des Tabs angezeigt werden soll (wird sowohl im Tab selbst, als auch in der Titelleise des Browsers angezeigt)."
+   },
+   "themes": {
+      "message": "Themen"
+   },
+   "thirdClock": {
+      "message": "Dritte Uhr"
+   },
+   "thirdClockDesc": {
+      "message": "Zeigt eine zusätzliche Uhr unter der Hauptuhr an."
+   },
+   "thirdClockLabel": {
+      "message": "Name der dritten Uhr"
+   },
+   "thirdClockLabelDesc": {
+      "message": "Geben Sie einen Namen für diese Uhr ein (freilassen um keinen Namen zu setzen)."
+   },
+   "thirdClockTimezone": {
+      "message": "Zeitzone der dritten Uhr"
+   },
+   "thirdClockTimezoneDesc": {
+      "message": "Wählen Sie eine Zeitzone für diese Uhr."
+   },
+   "thursday": {
+      "message": "Donnerstag"
+   },
+   "timeDisclaimer": {
+      "message": "\u003Cb>Hinweis:\u003C/b> Die Anzeige der Uhrzeit der Haupt- und Zusatzuhren erfolgt nach der Uhrzeit und Zeitzone auf Ihrem Computer. Die automatisch Erratene Zeitzone muss nicht immer zwangsläufig mit Ihrer wirklichen Zeitzone übereinstimmen, was zur Abweichung von den zusätzlichen Uhren führen kann. CaretTab erkennt Ihre aktuelle Zeitzone als:"
+   },
+   "timezone": {
+      "message": "Zeitzone"
+   },
+   "timezoneDesc": {
+      "message": "Zeitzone für die Hauptuhr auswählen (standardmäßig wird Ihre lokale Zeitzone verwendet)."
+   },
+   "tuesday": {
+      "message": "Dienstag"
+   },
+   "viaPaypal": {
+      "message": "Abwicklung\u003Cbr>über PayPal\u003Cbr>\u003Cb>Vielen Dank!\u003C/b>"
+   },
+   "wednesday": {
+      "message": "Mittwoch"
+   },
+   "weekLabel": {
+      "message": "Label für Wochennummer"
+   },
+   "weekLabelDesc": {
+      "message": "Label, das neben der Wochennummer angezeigt werden soll."
+   },
+   "weekNumber": {
+      "message": "Wochennummer"
+   },
+   "weekNumberDesc": {
+      "message": "Zeight die Wochennummer unter dem Datum."
+   },
+   "welcome": {
+      "message": "Willkommen bei CaretTab!"
+   },
+   "welcomeUpdated": {
+      "message": "CaretTab wurde aktualisiert auf"
+   },
+   "year": {
+      "message": "Jahr"
+   },
+   "yearDesc": {
+      "message": "Zeigt das Jahr innerhalb der Datumsanzeige."
+   }
+}

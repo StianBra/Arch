@@ -1,0 +1,734 @@
+{
+   "aboutBackupButton": {
+      "description": "",
+      "message": "Crea file di backup..."
+   },
+   "aboutBackupFilename": {
+      "description": "default filename to use",
+      "message": "mio-umatrix-backup.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/releases'>Change log\u003C/a>"
+   },
+   "aboutCode": {
+      "description": "",
+      "message": "Codice sorgente (GPLv3)"
+   },
+   "aboutCodeContributors": {
+      "description": "",
+      "message": "Codice:"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Collaboratori"
+   },
+   "aboutDoc": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/wiki'>Documentazione\u003C/a>"
+   },
+   "aboutIssueContributors": {
+      "description": "",
+      "message": "Problemi:"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "Bugs e problemi"
+   },
+   "aboutOr": {
+      "description": "English: ... or ...",
+      "message": "... o ..."
+   },
+   "aboutPageName": {
+      "description": "a tab in dashboard",
+      "message": "Info"
+   },
+   "aboutPermissions": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/httpswitchboard/wiki/Permissions'>Permessi\u003C/a>"
+   },
+   "aboutResetButton": {
+      "description": "English: Reset to default settings",
+      "message": "Torna ai parametri di default"
+   },
+   "aboutResetConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Attenzione! Questo rimuoverà tutte le impostazioni personalizzate. Sei sicuro di voler procedere?"
+   },
+   "aboutRestoreButton": {
+      "description": "",
+      "message": "Ripristina dal file..."
+   },
+   "aboutRestoreConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Tutte le impostazioni verranno sovrascritte utilizzando i dati di backup del {{time}}, e uMatrix sarà riavviato. \n\nSovrascrivere tutte le impostazioni esistenti con quelle del backup?"
+   },
+   "aboutRestoreError": {
+      "description": "",
+      "message": "I dati non possono essere letti o sono invalidi"
+   },
+   "aboutStorageUsed": {
+      "description": "",
+      "message": "Spazio utilizzato: {{storageUsed}} bytes"
+   },
+   "aboutTranslationContributors": {
+      "description": "",
+      "message": "Traduzioni:"
+   },
+   "aboutUserDataHeader": {
+      "description": "",
+      "message": "Tuoi dati"
+   },
+   "allPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "tutto"
+   },
+   "assetsHostsSection": {
+      "description": "header to identify the hosts files section",
+      "message": "File Hosts"
+   },
+   "assetsImportLabel": {
+      "description": "",
+      "message": "Importa..."
+   },
+   "assetsInlineHostsLabel": {
+      "description": "",
+      "message": "Miei host"
+   },
+   "assetsInlineRecipesLabel": {
+      "description": "",
+      "message": "Mie ricette"
+   },
+   "assetsRecipesSection": {
+      "description": "header to identify the ruleset files section",
+      "message": "Ricette di regole"
+   },
+   "assetsRecipesSummary": {
+      "description": "",
+      "message": "Le ricette di regole vengono importate dal pannello popup \u003Cem>on demand\u003C/em>, cioè \u003Cb>solo\u003C/b> da interazione dell'utente."
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "Il nome del dispositivo:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "...\n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Importa dall'archivio cloud"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Esporta nell'archivio cloud"
+   },
+   "commandOpenDashboard": {
+      "description": "",
+      "message": "Apri la dashboard"
+   },
+   "commandRevertAll": {
+      "description": "",
+      "message": "Ripristina tutte le modifiche temporanee"
+   },
+   "commandWhitelistAll": {
+      "description": "",
+      "message": "Permetti temporaneamente tutto"
+   },
+   "commandWhitelistPageDomain": {
+      "description": "",
+      "message": "Permetti temporaneamente il dominio"
+   },
+   "cookiePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "cookie"
+   },
+   "cssPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "css"
+   },
+   "dashboardPageName": {
+      "description": "",
+      "message": "uMatrix — Pannello di controllo"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} giorni fa"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} ore fa"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} minuti fa"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "un giorno fa"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "un'ora fa"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "un minuto fa"
+   },
+   "errorCantConnectTo": {
+      "description": "",
+      "message": "Errore di rete: Impossibile connettersi a {{url}}"
+   },
+   "extName": {
+      "description": "",
+      "message": "uMatrix"
+   },
+   "extShortDesc": {
+      "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS",
+      "message": "Punta & clicca per bloccare/consentire qualunque categoria di richieste fatte dal browser."
+   },
+   "framePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "frame"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Applica modifiche"
+   },
+   "genericRevert": {
+      "description": "for generic 'revert' buttons",
+      "message": "Ripristina"
+   },
+   "genericSubmit": {
+      "description": "for generic 'submit' buttons",
+      "message": "Invia"
+   },
+   "hostsFilesApplyChanges": {
+      "description": "",
+      "message": "Salva i cambiamenti"
+   },
+   "hostsFilesAutoUpdatePrompt": {
+      "description": "",
+      "message": "Attivazione automatica"
+   },
+   "hostsFilesExternalListNew": {
+      "description": "",
+      "message": "nuova versione disponibile"
+   },
+   "hostsFilesExternalListObsolete": {
+      "description": "",
+      "message": "obsoleta"
+   },
+   "hostsFilesExternalListPurge": {
+      "description": "",
+      "message": "elimina cache"
+   },
+   "hostsFilesExternalListsHint": {
+      "description": "",
+      "message": "Un URL per riga. Le righe che cominciano con &lsquo;#&rsquo; saranno ignorate. Gli Url non validi saranno silenziosamente ignorati."
+   },
+   "hostsFilesExternalListsParse": {
+      "description": "",
+      "message": "Analizza"
+   },
+   "hostsFilesLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Ultimo aggiornamento: {{ago}}"
+   },
+   "hostsFilesPerFileStats": {
+      "description": "",
+      "message": "{{used}} usati su {{total}}"
+   },
+   "hostsFilesPrompt": {
+      "description": "",
+      "message": "Tutti i nomi in un file hosts vengono caricati come nomi host bloccati in ambito generale."
+   },
+   "hostsFilesPurgeAll": {
+      "description": "",
+      "message": "Cancella tutte le cache"
+   },
+   "hostsFilesStats": {
+      "description": "",
+      "message": "{{blockedHostnameCount}} nomi host bloccati da:"
+   },
+   "hostsFilesUpdateNow": {
+      "description": "",
+      "message": "Aggiorna ora"
+   },
+   "imagePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "immagine"
+   },
+   "loggerEntryAssetUpdated": {
+      "description": "An entry for when an asset was updated",
+      "message": "asset aggiornato: {{value}}"
+   },
+   "loggerEntryBrowserCacheCleared": {
+      "description": "An entry for when a cookie can't be deleted",
+      "message": "cache del browser svuotata"
+   },
+   "loggerEntryCookieDeleted": {
+      "description": "An entry for when a cookie is deleted",
+      "message": "cookie eliminato: {{value}}"
+   },
+   "loggerEntryDeleteCookieError": {
+      "description": "An entry for when the browser cache is cleared",
+      "message": "impossibile eliminare il cookie: {{value}}"
+   },
+   "loggerFilterInputPlaceholder": {
+      "description": "Appears in the input filed where filter expressions are entered",
+      "message": "espressione/i filtro"
+   },
+   "loggerMaxEntriesTip": {
+      "description": "Appears as a tooltip when hovering the input field",
+      "message": "Numero massimo di voci"
+   },
+   "loggerPageName": {
+      "description": "Title for the logger window",
+      "message": "uMatrix — Registro"
+   },
+   "mainBlockedBack": {
+      "description": "English: Go back",
+      "message": "Torna indietro"
+   },
+   "mainBlockedClose": {
+      "description": "English: Close",
+      "message": "Chiudi"
+   },
+   "mainBlockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "senza parametri"
+   },
+   "mainBlockedPrompt1": {
+      "description": "English: uMatrix has prevented the following page from loading:",
+      "message": "uMatrix ha impedito alla seguente pagina di caricarsi:"
+   },
+   "mainBlockedPrompt2": {
+      "description": "English: Because of the following rule",
+      "message": "A causa della regola seguente"
+   },
+   "matrix1stPartyLabel": {
+      "description": "1st-party",
+      "message": "Dominio corrente"
+   },
+   "matrixBlacklistedHostnames": {
+      "description": "Appears in the metadata row of bottom-most group: **mind the limited width**",
+      "message": "Hostname in blacklist"
+   },
+   "matrixDashboardMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Vai al pannello di controllo"
+   },
+   "matrixGlobalScopeTip": {
+      "description": "Tool tip for the global scope button",
+      "message": "Seleziona lo scopo globale per vedere/creare regole che si applicano ovunque"
+   },
+   "matrixLocalScopeTip": {
+      "description": "Tool tip for the local scope button",
+      "message": "Seleziona un ambito locale per vedere/creare regole che si applicano solo in tale ambito"
+   },
+   "matrixLoggerMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Vai al registro delle richieste"
+   },
+   "matrixMtxButtonTip": {
+      "description": "Tool tip for matrix button",
+      "message": "Disabilita/abilita filtro a matrice per questa pagina.\nRichieste bloccate dal filtro a matrice in questa pagina: {{count}}."
+   },
+   "matrixNoNetTrafficPrompt": {
+      "description": "",
+      "message": "Nessun traffico visto per questa tab, per ora."
+   },
+   "matrixNoTabFound": {
+      "description": "Displays in place of matrix when no data is found for the current page",
+      "message": "Nessuna pagina trovata"
+   },
+   "matrixPersistButtonTip": {
+      "description": "Tool tip for the persist button",
+      "message": "Salva tutti i cambiamenti temporanei per questa pagina."
+   },
+   "matrixRecipeImportTip": {
+      "description": "Used as a tooltip for the recipe import button",
+      "message": "Importa regole"
+   },
+   "matrixRecipeSaveTip": {
+      "description": "Used as a tooltip for the recipe padlock button",
+      "message": "Salva regole"
+   },
+   "matrixReloadButton": {
+      "description": "Tool tip for the reload button",
+      "message": "Ricarica la pagina."
+   },
+   "matrixRevertAllEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Ripristina tutte le modifiche temporanee"
+   },
+   "matrixRevertButtonTip": {
+      "description": "Tool tip for the revert local permission button",
+      "message": "Rimuovi i cambiamenti temporanei per questa pagina."
+   },
+   "matrixSwitchNoMixedContent": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Proibisci i contenuti misti"
+   },
+   "matrixSwitchNoWorker": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Proibisci i web worker"
+   },
+   "matrixSwitchNoscriptSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Spoof dei tag \u003Ccode>\u003Cnoscript>\u003C/code>"
+   },
+   "matrixSwitchReferrerSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Spoof referer"
+   },
+   "mediaPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "media"
+   },
+   "otherPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "altro"
+   },
+   "pluginPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "plugin"
+   },
+   "privacyClearCacheHelp": {
+      "description": "",
+      "message": "\u003Cp>Alcuni siti sono davvero inclini a tracciarti, tanto che utilizzeranno trucchi non molto carini per sorpassare qualsiasi misura prendi per non essere monitorato.\u003C/p>\u003Cp>Alcuni di questi trucchi si basano\u003Csup>[1, 2]\u003C/sup> sulla \u003Ca href='https://it.wikipedia.org/wiki/Web_cache'>cache del browser\u003C/a>, il quale contenuto è spesso di lunga durata, dato che raramente gli utenti si prendono il tempo di cancellare regolarmente la cache del loro browser.\u003C/p>\u003Cp>C'è poco disagio nel cancellare la cache del browser regolarmente (probabilmente non te ne renderai conto), e il vantaggio è quello di evitare che questi infelici tracker invadano la tua privacy.\u003C/p>\u003Cp>Seleziona questa opzione se vuoi che \u003Ci>uMatrix\u003C/i> lo faccia per te, a intervalli scelti.\u003C/p>\u003Cp>[1]\u003Ca href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;\u003C/a> [2] \u003Ca href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;\u003C/a>\u003C/p>"
+   },
+   "privacyClearCachePrompt1": {
+      "description": "First part of 'Clear browser cache every [n] minutes'",
+      "message": "Elimina la cache del browser ogni"
+   },
+   "privacyClearCachePrompt2": {
+      "description": "Second part of 'Clear browser cache every [n] minutes'",
+      "message": "minuti."
+   },
+   "privacyDeleteBlockedCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>\u003Ci>uMatrix\u003C/i> non può impedire ai cookie bloccati di entrare nel tuo browser. Tuttavia impedisce che lascino il tuo browser, che è la cosa che conta. Non bloccare i cookie prima che entrino nel tuo browser ti dà la possibilità di sapere che un sito ha provato ad utilizzare cookie, e anche di ispezionarne il contenuto se lo desideri.\u003C/p>\u003Cp>Quando questi cookie bloccati vengono presi in gestione da \u003Ci>uMatrix\u003C/i>, possono essere rimossi dal browser se lo desideri.\u003C/p>\u003Cp>\u003Cb>Nota importante:\u003C/b> Le estensioni possono fare richieste web durante il loro normale funzionamento. Queste richieste possono portare alla creazione di cookie nel browser. Se il nome dell'host da cui proviene un cookie non è presente nella lista bianca, il cookie verrà rimosso dal browser da \u003Ci>uMatrix\u003C/i> se l'opzione è selezionata. Assicurati quindi che il/i nome/i dell'host con cui un'estensione comunica sia in lista bianca.\u003C/p>"
+   },
+   "privacyDeleteBlockedCookiesPrompt": {
+      "description": "",
+      "message": "Cancella cookies bloccati."
+   },
+   "privacyDeleteBlockedLocalStorageHelp": {
+      "description": "",
+      "message": "DA FARE"
+   },
+   "privacyDeleteBlockedLocalStoragePrompt": {
+      "description": "",
+      "message": "Elimina il contenuto del \u003Ca href='https://en.wikipedia.org/wiki/Web_storage'>local storage\u003C/a> dei nomi host bloccati"
+   },
+   "privacyDeleteNonBlockedSessionCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>\u003Ca href='http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html'>W3C\u003C/a>: &ldquo;Un cookie di sessione ... viene cancellato al termine della sessione del browser. Il cookie di sessione è memorizzato nella memoria temporanea e non viene conservato dopo la chiusura del browser.&rdquo;\u003C/p>\u003Cp>A parte il fatto che ciò \u003Ca href='https://code.google.com/p/chromium/issues/detail?id=128513'>potrebbe non accadere\u003C/a> in alcuni browser. Inoltre, per alcuni, dover chiudere il browser per eliminare i cookie di sessione potrebbe non essere abbastanza presto.\u003C/p>"
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt1": {
+      "description": "First part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": "Elimina i cookie di sessione non bloccati "
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt2": {
+      "description": "Second part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": " minuti dopo l'ultima volta che sono stati usati."
+   },
+   "privacyNoMixedContentHelp": {
+      "description": "",
+      "message": "\u003Cp>Da \u003Ca href='https://developer.mozilla.org/it/docs/Security/MixedContent'>Mozilla Developer Network\u003C/a>:\u003C/p>\u003Cblockquote>Se [a] la pagina HTTPS include contenuti recuperati attraverso richieste HTTP regolari (non crittografate), la connessione risulterà solo parzialmente criptata: il contenuto non crittografato è accessibile a sniffer e potrebbe essere modificato da attacchi man-in-the-middle. In questo caso la connessione non è più considerata protetta. Quando una pagina web presenta questo comportamento si parla di una pagina con Contenuto Misto.\u003C/blockquote>"
+   },
+   "privacyNoMixedContentPrompt": {
+      "description": "",
+      "message": "Strict HTTPS: proibisci i contenuti misti."
+   },
+   "privacyPageName": {
+      "description": "a tab in dashboard",
+      "message": "Privacy"
+   },
+   "privacyPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Privacy"
+   },
+   "privacyProcessHyperlinkAuditingHelp": {
+      "description": "",
+      "message": "\u003Cp>La revisione degli hyperlink è un meccanismo che consente a una parte, \u003Cb>qualsiasi parte\u003C/b>, di essere informata su quale link ha cliccato l'utente in una pagina web. Si tratta essenzialmente di una funzione di tracciamento: permette a un sito, o a qualsiasi terza parte di quel sito, di essere informato su quale link hai cliccato su quale delle sue pagine web. L'unico scopo è quello di tracciare la tua attività di navigazione.\u003C/p>"
+   },
+   "privacyProcessHyperlinkAuditingPrompt": {
+      "description": "",
+      "message": "Blocca tutti i tentativi di \u003Ca href='https://html.spec.whatwg.org/multipage/semantics.html#hyperlink-auditing'>revisione degli hyperlink\u003C/a>."
+   },
+   "privacyProcessRefererHelp": {
+      "description": "",
+      "message": "Da Wikipedia (en):\u003Cblockquote>Un referer HTTP è un campo di intestazione HTTP che identifica l'indirizzo della pagina web di provenienza verso la risorsa richiesta. ... \u003Cb>Poiché le informazioni del referer possono violare la privacy, alcuni browser consentono all'utente di disabilitare l'invio delle informazioni del referer.\u003C/b>\u003C/blockquote>Se questa opzione è selezionata, \u003Ci>uMatrix\u003C/i> falsificherà (spoof) le informazioni del referrer HTTP se il nome di dominio del referrer HTTP è di terze parti."
+   },
+   "privacyProcessRefererPrompt": {
+      "description": "",
+      "message": "Falsifica (spoof) la stringa \u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referer\u003C/a> di richieste di terze parti."
+   },
+   "rawSettingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Altro"
+   },
+   "rawSettingsWarning": {
+      "description": "",
+      "message": "Attenzione! Modifica queste impostazioni grezze a tuo rischio."
+   },
+   "scriptPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "script"
+   },
+   "settingsCloudStorageEnabled": {
+      "description": "",
+      "message": "Attiva il supporto all'archiviazione sul cloud"
+   },
+   "settingsCollapseBlacklisted": {
+      "description": "A setting in the dashboard's Settings pane: 'blacklisted' means 'for which there is a specific block rule', 'specific' means 'a rule for which the destination hostname is not `*`'",
+      "message": "Nascondi lo spazio riservato agli elementi bloccati"
+   },
+   "settingsCollapseBlocked": {
+      "description": "English: Collapse placeholder of blocked elements",
+      "message": "Nascondi lo spazio riservato agli elementi bloccati"
+   },
+   "settingsDefaultScopeLevel": {
+      "description": "Label for default scope level selector in Settings pane",
+      "message": "Ambito predefinito:"
+   },
+   "settingsDefaultScopeLevel0": {
+      "description": "Scope will be global",
+      "message": "Globale"
+   },
+   "settingsDefaultScopeLevel1": {
+      "description": "Scope will be base domain",
+      "message": "Dominio"
+   },
+   "settingsDefaultScopeLevel2": {
+      "description": "Scope will be full hostname of site",
+      "message": "Sito"
+   },
+   "settingsIconBadgeEnabled": {
+      "description": "",
+      "message": "Mostra il numero di richieste sull'icona"
+   },
+   "settingsMatrixConvenienceHeader": {
+      "description": "English: Convenience",
+      "message": "Comodità"
+   },
+   "settingsMatrixDisplayColorBlind": {
+      "description": "",
+      "message": "Adatto ai daltonici"
+   },
+   "settingsMatrixDisplayHeader": {
+      "description": "header for matrix settings used in Settings page",
+      "message": "Aspetto"
+   },
+   "settingsMatrixDisplayTextSizePrompt": {
+      "description": "",
+      "message": "Dimensione del testo:"
+   },
+   "settingsMatrixNoTooltips": {
+      "description": "",
+      "message": "Disattiva i suggerimenti"
+   },
+   "settingsNoscriptTagsSpoofed": {
+      "description": "This appears in the Settings pane in the dashboard",
+      "message": "Falsifica i tag \u003Ccode>\u003Cnoscript>\u003C/code> quando gli script del dominio sono bloccati"
+   },
+   "settingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Opzioni"
+   },
+   "settingsPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Impostazioni"
+   },
+   "showDashboardButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Pannello di controllo"
+   },
+   "showLoggerButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Registro"
+   },
+   "statsPageAll": {
+      "description": "",
+      "message": "Tutto"
+   },
+   "statsPageAllowed": {
+      "description": "header for the allowed requests column",
+      "message": "Consentite"
+   },
+   "statsPageBlocked": {
+      "description": "header for the blocked requests column",
+      "message": "Bloccate"
+   },
+   "statsPageBrowserCacheCleared": {
+      "description": "",
+      "message": "Cache del browser pulite: {{count}}"
+   },
+   "statsPageCSS": {
+      "description": "",
+      "message": "CSS"
+   },
+   "statsPageCookieHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='http://it.wikipedia.org/wiki/Cookie'>HTTP cookie\u003C/a> headers bloccati: {{count}}"
+   },
+   "statsPageCookies": {
+      "description": "",
+      "message": "Cookies"
+   },
+   "statsPageCookiesRemoved": {
+      "description": "",
+      "message": "Cookies locali eliminati: {{count}}"
+   },
+   "statsPageDetailed": {
+      "description": "",
+      "message": "Registro delle richieste"
+   },
+   "statsPageDetailedAllPages": {
+      "description": "",
+      "message": "Tutto"
+   },
+   "statsPageDetailedBehindTheScenePage": {
+      "description": "",
+      "message": "Dietro le quinte"
+   },
+   "statsPageDetailedStats": {
+      "description": "",
+      "message": "Statistiche dettagliate"
+   },
+   "statsPageFrames": {
+      "description": "",
+      "message": "Frames"
+   },
+   "statsPageGenericStats": {
+      "description": "",
+      "message": "Statistiche generali"
+   },
+   "statsPageHyperlinkAuditingFoiled": {
+      "description": "",
+      "message": "Tentativi sventati di \u003Ca href='https://html.spec.whatwg.org/multipage/semantics.html#hyperlink-auditing'>revisione hyperlink\u003C/a>: {{count}}"
+   },
+   "statsPageImages": {
+      "description": "",
+      "message": "Immagini"
+   },
+   "statsPageLocalStoragesCleared": {
+      "description": "",
+      "message": "\u003Ca href='http://diveintohtml5.info/storage.html'>Local storages\u003C/a> svuotati: {{count}}"
+   },
+   "statsPageLogSizeHelp": {
+      "description": "To help user understand the purpose of the log size value",
+      "message": "\u003Cp>Puoi ispezionare i dettagli della richiesta HTTP raw più recente fatta da una pagina web (vedi sotto).\u003C/p>\u003Cp>Questo è utile soprattutto per gli utenti avanzati che vogliono investigare su cosa fa esattamente una pagina web. Tuttavia registrare queste richieste HTTP richiede memoria, e se non ti interessano le informazioni tecniche, allora è uno spreco di memoria.\u003C/p>\u003Cp>Ecco questo campo per regolare il massimo numero di richieste HTTP recenti da registrare per ulteriori ispezioni.\u003C/p>\u003Cp>Inserisci &ldquo;\u003Ccode>0\u003C/code>&rdquo; per disattivare la registrazione (e di conseguenza ridurre l'ingombro di memoria di \u003Ci>uMatrix\u003C/i>).\u003C/p>"
+   },
+   "statsPageLogSizePrompt1": {
+      "description": "First part of Remember the last [n] HTTP requests per page",
+      "message": "Ricorda le ultime"
+   },
+   "statsPageLogSizePrompt2": {
+      "description": "Second part of Remember the last [n] HTTP requests per page",
+      "message": "richieste HTTP  \u003Cb>per pagina\u003C/b>."
+   },
+   "statsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Statistiche"
+   },
+   "statsPageOthers": {
+      "description": "",
+      "message": "Altro"
+   },
+   "statsPageOverview": {
+      "description": "",
+      "message": "Panoramica"
+   },
+   "statsPagePages": {
+      "description": "",
+      "message": "Pagine"
+   },
+   "statsPagePlugins": {
+      "description": "",
+      "message": "Plugins"
+   },
+   "statsPageRefererHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://it.wikipedia.org/wiki/Referer'>HTTP referer\u003C/a> headers bloccati: {{count}}"
+   },
+   "statsPageRefresh": {
+      "description": "",
+      "message": "Aggiorna"
+   },
+   "statsPageRequests": {
+      "description": "header for the stat type column",
+      "message": "Richieste"
+   },
+   "statsPageScripts": {
+      "description": "",
+      "message": "Scripts"
+   },
+   "statsPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Statistiche"
+   },
+   "statsPageXHRs": {
+      "description": "",
+      "message": "XHRs"
+   },
+   "ubiquitousRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Attività"
+   },
+   "userRulesCommit": {
+      "description": "Will save all temporary rules",
+      "message": "Applica"
+   },
+   "userRulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "mie-regole-umatrix.txt"
+   },
+   "userRulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Modifica"
+   },
+   "userRulesEditDicard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Annulla"
+   },
+   "userRulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Salva"
+   },
+   "userRulesExport": {
+      "description": "",
+      "message": "Esporta in un file..."
+   },
+   "userRulesFormatHint": {
+      "description": "",
+      "message": "Vedi questa pagina per la sintassi delle regole."
+   },
+   "userRulesImport": {
+      "description": "",
+      "message": "Importa da file..."
+   },
+   "userRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Regole personalizzate"
+   },
+   "userRulesPermanentHeader": {
+      "description": "",
+      "message": "Regole permanenti"
+   },
+   "userRulesRevert": {
+      "description": "Will remove all temporary rules",
+      "message": "Ripristina"
+   },
+   "userRulesTemporaryHeader": {
+      "description": "",
+      "message": "Regole temporanee"
+   },
+   "xhrPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "XHR"
+   }
+}

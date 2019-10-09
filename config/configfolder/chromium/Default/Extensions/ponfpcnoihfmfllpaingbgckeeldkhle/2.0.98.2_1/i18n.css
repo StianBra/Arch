@@ -1,0 +1,76 @@
+/*
+##
+##	Enhancer for YouTube™ | Chrome Extension
+##	========================================
+##
+##	Author: Maxime RF <https://www.mrfdev.com>
+##
+##	This file is protected by copyright laws and international copyright
+##	treaties, as well as other intellectual property laws and treaties.
+##
+##	All rights not expressly granted to you are retained by the author.
+##	Read the license.txt file for more details.
+##
+##	If it's not enough clear for you Baris Derin, you have no rights to use my work,
+##	neither as-is nor modified! Improve your coding logic instead of using others work!
+##
+##	© MRFDEV.com - All Rights Reserved
+##
+*/
+body {
+  color: #555;
+  direction: ltr;
+  font-family: "Segoe UI", "Helvetica Neue", sans-serif;
+  font-size: 1em;
+  line-height: 1.33333333;
+  margin: 0 auto;
+  padding: 1em 0 2.667em;
+  width: 990px;
+}
+.hidden {
+  display: none;
+}
+.blue {
+  color: #00a8e6;
+}
+.alert-info {
+  background-color: #b7e0f5;
+  border-radius: 0.231em;
+  color: #276786;
+  padding: 0.462em;
+}
+a {
+  color: #00a8e6;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+a:hover,
+a:active {
+  text-decoration: underline;
+}
+.locales-codes span {
+  color: #00a8e6;
+  cursor: pointer;
+  margin-right: 0.533em;
+}
+.locales-codes span:hover {
+  text-decoration: underline;
+}
+.locales-codes span.selected {
+  font-weight: bold;
+}
+pre {
+  background-color: #f5f5f5;
+  border: 0.067em solid #ccc;
+  border-radius: 0.267em;
+  display: none;
+  font-family: monospace;
+  font-size: 1.125em;
+  overflow-x: scroll;
+  padding: 0.333em;
+}
+pre.selected {
+  display: block;
+}

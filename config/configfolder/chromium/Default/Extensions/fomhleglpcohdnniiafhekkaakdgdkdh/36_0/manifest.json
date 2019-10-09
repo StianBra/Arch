@@ -1,0 +1,17 @@
+{
+   "content_scripts": [ {
+      "js": [ "plotly-latest.min.js", "main.js" ],
+      "matches": [ "*://*.myfitnesspal.com/food/diary*", "*://*.myfitnesspal.com/*/food/diary*" ]
+   } ],
+   "icons": {
+      "128": "foodfastfit128.png",
+      "16": "foodfastfit16.png",
+      "48": "foodfastfit48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhVymDGPORFSEIACgKTG8COf5tR07MNrAnvKaC8i1g93brOaVSCc/8PxxlxDtHdlxIELCxTfeZonnS0OHKyOQB2bBbuDjt+S6Y5zy19B4fo1QZ6+U5/EHFasv8PQg2wUCeXWvDd6kRQqegHQAr24cz/MMEZk8k27IKhShvb2BlnCbkMvR9kp5eIFvpObBM4DhUe/QxkyjytVrq/GGzxQU0J0UBoi1p+ghSVVx4gfU491Suksvb6mtmdgQbCCqvf4YpTLDWUAqeNT8nBwRrSyjP3DRBlct/p6lAdiqaUYJ7Ru2e3QzjMGST5qRY7KkQ6VrK69cEs4y12OJZFGcmSfywQIDAQAB",
+   "manifest_version": 2,
+   "name": "MyFitnessPal Pie Chart by FOODFASTFIT",
+   "permissions": [ "http://foodfastfit.com/", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "36"
+}

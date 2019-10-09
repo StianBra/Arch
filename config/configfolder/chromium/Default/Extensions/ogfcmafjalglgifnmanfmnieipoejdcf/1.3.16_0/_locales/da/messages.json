@@ -1,0 +1,734 @@
+{
+   "aboutBackupButton": {
+      "description": "",
+      "message": "Backup til fil..."
+   },
+   "aboutBackupFilename": {
+      "description": "default filename to use",
+      "message": "my-umatrix-backup.txt"
+   },
+   "aboutChangelog": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/releases'>Change log\u003C/a>"
+   },
+   "aboutCode": {
+      "description": "",
+      "message": "Source code (GPLv3)"
+   },
+   "aboutCodeContributors": {
+      "description": "",
+      "message": "Kode:"
+   },
+   "aboutContributors": {
+      "description": "English: Contributors",
+      "message": "Bidragydere"
+   },
+   "aboutDoc": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/uMatrix/wiki'>Dokumentation\u003C/a>"
+   },
+   "aboutIssueContributors": {
+      "description": "",
+      "message": "Problemstillinger:"
+   },
+   "aboutIssues": {
+      "description": "Text for a link to official issue tracker",
+      "message": "Fejl og problemer"
+   },
+   "aboutOr": {
+      "description": "English: ... or ...",
+      "message": "... eller ..."
+   },
+   "aboutPageName": {
+      "description": "a tab in dashboard",
+      "message": "Om"
+   },
+   "aboutPermissions": {
+      "description": "",
+      "message": "\u003Ca href='https://github.com/gorhill/httpswitchboard/wiki/Permissions'>Tilladelser\u003C/a>"
+   },
+   "aboutResetButton": {
+      "description": "English: Reset to default settings",
+      "message": "Gendan til fabriksindstillinger"
+   },
+   "aboutResetConfirm": {
+      "description": "Message asking user to confirm reset",
+      "message": "Forsigtig! Dette slette alle brugerdefinerede indstillinger. Er du sikker på, at du vil fortsætte?"
+   },
+   "aboutRestoreButton": {
+      "description": "",
+      "message": "Gendan fra fil..."
+   },
+   "aboutRestoreConfirm": {
+      "description": "Message asking user to confirm restore",
+      "message": "Alle dine indstillinger vil blive overskrevet med data fra backupfilen fra {{time}}, herefter vil uMatrix genstarte.\n\nGendan fra backupfilen?"
+   },
+   "aboutRestoreError": {
+      "description": "",
+      "message": "Dataen er enten ugyldig eller kunne ikke læses"
+   },
+   "aboutStorageUsed": {
+      "description": "",
+      "message": "Lagerplads brugt: {{storageUsed}} bytes"
+   },
+   "aboutTranslationContributors": {
+      "description": "",
+      "message": "Oversættelser:"
+   },
+   "aboutUserDataHeader": {
+      "description": "",
+      "message": "Din data"
+   },
+   "allPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "alle"
+   },
+   "assetsHostsSection": {
+      "description": "header to identify the hosts files section",
+      "message": "Hosts files"
+   },
+   "assetsImportLabel": {
+      "description": "",
+      "message": "Import..."
+   },
+   "assetsInlineHostsLabel": {
+      "description": "",
+      "message": "My hosts"
+   },
+   "assetsInlineRecipesLabel": {
+      "description": "",
+      "message": "My recipes"
+   },
+   "assetsRecipesSection": {
+      "description": "header to identify the ruleset files section",
+      "message": "Ruleset recipes"
+   },
+   "assetsRecipesSummary": {
+      "description": "",
+      "message": "Ruleset recipes are imported from the popup panel \u003Cem>on demand\u003C/em>, i.e. \u003Cb>only\u003C/b> through user interaction."
+   },
+   "cloudDeviceNamePrompt": {
+      "description": "used as a prompt for the user to provide a custom device name",
+      "message": "Denne enheds navn:"
+   },
+   "cloudNoData": {
+      "description": "",
+      "message": "...\n..."
+   },
+   "cloudPull": {
+      "description": "tooltip",
+      "message": "Eksporter fra skyen"
+   },
+   "cloudPush": {
+      "description": "tooltip",
+      "message": "Eksporter til skyen"
+   },
+   "commandOpenDashboard": {
+      "description": "",
+      "message": "Åbn kontrolpanel"
+   },
+   "commandRevertAll": {
+      "description": "",
+      "message": "Fortryd alle midlertidige ændringer"
+   },
+   "commandWhitelistAll": {
+      "description": "",
+      "message": "Tillad midlertidigt alt trafik på alle domæner"
+   },
+   "commandWhitelistPageDomain": {
+      "description": "",
+      "message": "Tillad midlertidigt alt traffik på dette domæne"
+   },
+   "cookiePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "cookie"
+   },
+   "cssPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "css"
+   },
+   "dashboardPageName": {
+      "description": "",
+      "message": "uMatrix — Kontrolpanel"
+   },
+   "elapsedManyDaysAgo": {
+      "description": "English: {{value}} days ago",
+      "message": "{{value}} dage siden"
+   },
+   "elapsedManyHoursAgo": {
+      "description": "English: {{value}} hours ago",
+      "message": "{{value}} timer siden"
+   },
+   "elapsedManyMinutesAgo": {
+      "description": "English: {{value}} minutes ago",
+      "message": "{{value}} minutter siden"
+   },
+   "elapsedOneDayAgo": {
+      "description": "English: a day ago",
+      "message": "en dag siden"
+   },
+   "elapsedOneHourAgo": {
+      "description": "English: an hour ago",
+      "message": "en time sider"
+   },
+   "elapsedOneMinuteAgo": {
+      "description": "English: a minute ago",
+      "message": "et minut siden"
+   },
+   "errorCantConnectTo": {
+      "description": "",
+      "message": "Netværksfejl: Kan ikke oprette forbindelse til {{url}}"
+   },
+   "extName": {
+      "description": "",
+      "message": "uMatrix"
+   },
+   "extShortDesc": {
+      "description": "this will be used as short description in web stores: MUST BE 132 characters OR LESS",
+      "message": "Peg og klik for at forbyde/tillade bestemte former for anmodninger. Brug det til at blokere scripts, iframes, annoncer, Facebook, etc."
+   },
+   "framePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "frame"
+   },
+   "genericApplyChanges": {
+      "description": "for generic 'Apply changes' buttons",
+      "message": "Apply changes"
+   },
+   "genericRevert": {
+      "description": "for generic 'revert' buttons",
+      "message": "Gendan"
+   },
+   "genericSubmit": {
+      "description": "for generic 'submit' buttons",
+      "message": "Indsend"
+   },
+   "hostsFilesApplyChanges": {
+      "description": "",
+      "message": "Anvend ændringer"
+   },
+   "hostsFilesAutoUpdatePrompt": {
+      "description": "",
+      "message": "Auto-update assets"
+   },
+   "hostsFilesExternalListNew": {
+      "description": "",
+      "message": "Ny version tilgængelig"
+   },
+   "hostsFilesExternalListObsolete": {
+      "description": "",
+      "message": "Forældet"
+   },
+   "hostsFilesExternalListPurge": {
+      "description": "",
+      "message": "Slet cache"
+   },
+   "hostsFilesExternalListsHint": {
+      "description": "",
+      "message": "Et URL per linje. Linjer der begynder med &lsquo;#&rsquo; vil blive ignoreret. Ugyldige URLs vil lydløst blive ignoreret."
+   },
+   "hostsFilesExternalListsParse": {
+      "description": "",
+      "message": "Parse"
+   },
+   "hostsFilesLastUpdate": {
+      "description": "English: Last update: {{ago}}, where 'ago' will be replaced with something like '2 days ago'",
+      "message": "Sidst opdateret: {{ago}}"
+   },
+   "hostsFilesPerFileStats": {
+      "description": "",
+      "message": "{{used}} forbrug ud af {{total}}"
+   },
+   "hostsFilesPrompt": {
+      "description": "",
+      "message": "Alle hostnavne der forefindes i en host fil vil blive sortlistet, og blokeret overalt."
+   },
+   "hostsFilesPurgeAll": {
+      "description": "",
+      "message": "Slet alt caches"
+   },
+   "hostsFilesStats": {
+      "description": "",
+      "message": "{{blockedHostnameCount}} blokerede unikke hostnavne fra:"
+   },
+   "hostsFilesUpdateNow": {
+      "description": "",
+      "message": "Opdater nu"
+   },
+   "imagePrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "medier"
+   },
+   "loggerEntryAssetUpdated": {
+      "description": "An entry for when an asset was updated",
+      "message": "Komponenter opdateret: {{value}}"
+   },
+   "loggerEntryBrowserCacheCleared": {
+      "description": "An entry for when a cookie can't be deleted",
+      "message": "browser cache slettet"
+   },
+   "loggerEntryCookieDeleted": {
+      "description": "An entry for when a cookie is deleted",
+      "message": "cookie slettet: {{value}}"
+   },
+   "loggerEntryDeleteCookieError": {
+      "description": "An entry for when the browser cache is cleared",
+      "message": "Mislykkedes med at slette cookie: {{value}}"
+   },
+   "loggerFilterInputPlaceholder": {
+      "description": "Appears in the input filed where filter expressions are entered",
+      "message": "filter expression(s)"
+   },
+   "loggerMaxEntriesTip": {
+      "description": "Appears as a tooltip when hovering the input field",
+      "message": "Det maksimale antal af linjer"
+   },
+   "loggerPageName": {
+      "description": "Title for the logger window",
+      "message": "uMatrix — Logger"
+   },
+   "mainBlockedBack": {
+      "description": "English: Go back",
+      "message": "Tilbage"
+   },
+   "mainBlockedClose": {
+      "description": "English: Close",
+      "message": "Luk"
+   },
+   "mainBlockedNoParamsPrompt": {
+      "description": "label to be used for the parameter-less URL: https://cloud.githubusercontent.com/assets/585534/9832014/bfb1b8f0-593b-11e5-8a27-fba472a5529a.png",
+      "message": "without parameters"
+   },
+   "mainBlockedPrompt1": {
+      "description": "English: uMatrix has prevented the following page from loading:",
+      "message": "uMatrix har blokeret den følgende webside:"
+   },
+   "mainBlockedPrompt2": {
+      "description": "English: Because of the following rule",
+      "message": "På grund af den følgende regel"
+   },
+   "matrix1stPartyLabel": {
+      "description": "1st-party",
+      "message": "1.-parts"
+   },
+   "matrixBlacklistedHostnames": {
+      "description": "Appears in the metadata row of bottom-most group: **mind the limited width**",
+      "message": "{{count}} sortlistede værtsnavne"
+   },
+   "matrixDashboardMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Gå til kontrolpanel"
+   },
+   "matrixGlobalScopeTip": {
+      "description": "Tool tip for the global scope button",
+      "message": "Select the global scope to see/create rules which apply everywhere"
+   },
+   "matrixLocalScopeTip": {
+      "description": "Tool tip for the local scope button",
+      "message": "Select a local scope to see/create rules which apply only in that scope"
+   },
+   "matrixLoggerMenuEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Gå til logger"
+   },
+   "matrixMtxButtonTip": {
+      "description": "Tool tip for matrix button",
+      "message": "Deaktiver/aktiver matrix-filtrering på dette område."
+   },
+   "matrixNoNetTrafficPrompt": {
+      "description": "",
+      "message": "Endnu ingen trafik registreret på denne fane."
+   },
+   "matrixNoTabFound": {
+      "description": "Displays in place of matrix when no data is found for the current page",
+      "message": "No web page found"
+   },
+   "matrixPersistButtonTip": {
+      "description": "Tool tip for the persist button",
+      "message": "Gem alle midlertidige ændringer på dette område."
+   },
+   "matrixRecipeImportTip": {
+      "description": "Used as a tooltip for the recipe import button",
+      "message": "Import rules"
+   },
+   "matrixRecipeSaveTip": {
+      "description": "Used as a tooltip for the recipe padlock button",
+      "message": "Save rules"
+   },
+   "matrixReloadButton": {
+      "description": "Tool tip for the reload button",
+      "message": "Genindlæs siden."
+   },
+   "matrixRevertAllEntry": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Tilbagestil alle midlertidige ændringer"
+   },
+   "matrixRevertButtonTip": {
+      "description": "Tool tip for the revert local permission button",
+      "message": "Fortryd alle midlertidige ændringer på dette område."
+   },
+   "matrixSwitchNoMixedContent": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Benyt kun HTTPS"
+   },
+   "matrixSwitchNoWorker": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Forbid web workers"
+   },
+   "matrixSwitchNoscriptSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Spoof \u003Ccode>\u003Cnoscript>\u003C/code> tags"
+   },
+   "matrixSwitchReferrerSpoof": {
+      "description": "A menu entry in the matrix popup",
+      "message": "Forfalsking af referer"
+   },
+   "mediaPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "media"
+   },
+   "otherPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "andre"
+   },
+   "pluginPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "plugin"
+   },
+   "privacyClearCacheHelp": {
+      "description": "",
+      "message": "\u003Cp>Nogle hjemmesider er meget opsatte på at tracke din færden på internettet, faktisk så meget at de er villige til at benytte sig af ikke-så-flinke metoder til at omgå de tiltag du tager for at beskytte dig selv mod tracking.\u003C/p>\u003Cp>Nogle af disse metoder benytter sig af\u003Csup style='font-size:smaller'>[1, 2]\u003C/sup> af din \u003Ca href='https://en.wikipedia.org/wiki/Web_cache'>browsers cache\u003C/a>, hvis indhold ofte bliver gemt meget længe, og ydermere er der nogle brugere der ikke sletter deres browers cache ofte.\u003C/p>\u003Cp>Der er ikke rigtigt nogen negative effekter ved at slette din browers cache ofte (højst sandsynligt vil du ikke opdage det), men derimod er gevinsten stor ift. at stoppe trackers fra at invadere dit privatliv.\u003C/p>\u003Cp>Vælg denne indstilling, hvis du vil have \u003Ci>uMatrix\u003C/i> til at slette din browsers cache for dig, så ofte du ønsker det.\u003C/p>\u003Cp style='font-size:smaller'>[1] \u003Ca href='https://grepular.com/Preventing_Web_Tracking_via_the_Browser_Cache'>&ldquo;Preventing Web Tracking via the Browser Cache&rdquo;\u003C/a>\u003Cbr>[2] \u003Ca href='http://lucb1e.com/rp/cookielesscookies/'>&ldquo;Cookieless cookies&rdquo;\u003C/a>\u003C/p>"
+   },
+   "privacyClearCachePrompt1": {
+      "description": "First part of 'Clear browser cache every [n] minutes'",
+      "message": "Slet browser cache hvert"
+   },
+   "privacyClearCachePrompt2": {
+      "description": "Second part of 'Clear browser cache every [n] minutes'",
+      "message": "minutter."
+   },
+   "privacyDeleteBlockedCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>Sortlistede cookies bliver ikke forhindret af \u003Ci>uMatrix\u003C/i> i at trænge ind i din browser. Derimod bliver de forhindret i at forlade din browser igen, hvilket faktisk er det vigtige. Ved ikke at blokere cookies inden de trænger ind i din browser, gøres det muligt for brugeren at undersøge indholdet og antallet af de cookies diverse websteder placerer i din browser.\u003C/p>\u003Cp>Når disse sortlistede cookies er blevet undersøgt af \u003Ci>uMatrix\u003C/i>, kan de blive slettet, hvis brugeren ønsker det.\u003C/p>\u003Cp>\u003Cb>Vigtig bemærkning:\u003C/b> Udvidelser kan benytte sig af cookies i deres helt legale webkommunikation. Hvis det værtsnavn, som en cookie kommer fra, ikke er hvidlistet, vil denne cookie blive fjernet fra browseren af \u003Ci>uMatrix\u003C/i>, hvis denne indstilling er slået til. Du skal derfor sikre dig, at de værtsnavne, som en udvidelse kommunikerer med, er hvidlistede.\u003C/p>"
+   },
+   "privacyDeleteBlockedCookiesPrompt": {
+      "description": "",
+      "message": "Slet blokerede cookies."
+   },
+   "privacyDeleteBlockedLocalStorageHelp": {
+      "description": "",
+      "message": "TODO"
+   },
+   "privacyDeleteBlockedLocalStoragePrompt": {
+      "description": "",
+      "message": "Slet \u003Ca href='https://en.wikipedia.org/wiki/Web_storage'>lokal lagret\u003C/a> indhold fra blokerede hostnavne"
+   },
+   "privacyDeleteNonBlockedSessionCookiesHelp": {
+      "description": "",
+      "message": "\u003Cp>\u003Ca href='http://www.w3.org/2001/tag/2010/09/ClientSideStorage.html'>W3C\u003C/a>:&ldquo;A session cookie ... is erased when you end the browser session. The session cookie is stored in temporary memory and is not retained after the browser is closed.&rdquo;\u003C/p>\u003Cp>Forvent at dette \u003Ca href='https://code.google.com/p/chromium/issues/detail?id=128513'>ikke altid sker\u003C/a> i alle browsere. For nogen kan det også være et problem, at man skal lukke sin browser helt før disse cookies slettes.\u003C/p>"
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt1": {
+      "description": "First part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": "Slet ikke-blokerede session cookies "
+   },
+   "privacyDeleteNonBlockedSessionCookiesPrompt2": {
+      "description": "Second part of 'Delete non-blocked session cookies [n] minutes after the last time they have been used'",
+      "message": " minutter efter de sidst er blevet brugt."
+   },
+   "privacyNoMixedContentHelp": {
+      "description": "",
+      "message": "\u003Cp>Fra \u003Ca href='https://developer.mozilla.org/en-US/docs/Security/MixedContent'>Mozilla Developer Network\u003C/a>:\u003C/p>\u003Cblockquote>If [a] HTTPS page includes content retrieved through regular, cleartext HTTP, then the connection is only partially encrypted: the unencrypted content is accessible to sniffers and can be modified by man-in-the-middle attackers, and therefore the connection is not safeguarded anymore. When a webpage exhibits this behavior, it is called a mixed content page.\u003C/blockquote>"
+   },
+   "privacyNoMixedContentPrompt": {
+      "description": "",
+      "message": "Streng HTTPS: forbyd blandet indhold."
+   },
+   "privacyPageName": {
+      "description": "a tab in dashboard",
+      "message": "Privatliv"
+   },
+   "privacyPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Privatliv"
+   },
+   "privacyProcessHyperlinkAuditingHelp": {
+      "description": "",
+      "message": "\u003Cp>Hyperlink overvågning er en mekanisme der gør det muligt for første eller \u003Cb>tredjepart\u003C/b>, at indsamle data om hvilke brugeren klikker på en hjemmeside. Det er altså tale om en tracking funktion, der gør informerer første eller tredjepart om, hvilke links en bruger vælger at klikke på under sit besøg på en hvilken som helst hjemmeside. Det eneste formål med hyperlink overvågning er altså, at tracke din browser aktivitet.\u003C/p>"
+   },
+   "privacyProcessHyperlinkAuditingPrompt": {
+      "description": "",
+      "message": "Bloker alle \u003Ca href='http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#hyperlink-auditing'>hyperlink overvågnings\u003C/a>forsøg."
+   },
+   "privacyProcessRefererHelp": {
+      "description": "",
+      "message": "\u003Cp>Fra Wikipedia:\u003C/p>\u003Cblockquote>HTTP referer is an HTTP header field that identifies the address of the webpage that linked to the resource being requested. ... \u003Cb>Because referer information can violate privacy, some web browsers allow the user to disable the sending of referer information.\u003C/b>\u003C/blockquote>\u003Cp>Hvis denne indstilling vælges, \u003Ci>vil uMatrix\u003C/i> forfalske den information som HTTP referreren indeholder, hvis netanmodningen om HTTP referreren kommer fra en tredjepart."
+   },
+   "privacyProcessRefererPrompt": {
+      "description": "",
+      "message": "Forfalsk\u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referrer\u003C/a> string fra tredjeparts forespørgsler."
+   },
+   "rawSettingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "More"
+   },
+   "rawSettingsWarning": {
+      "description": "",
+      "message": "Warning! Change these raw configuration settings at your own risk."
+   },
+   "scriptPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "script"
+   },
+   "settingsCloudStorageEnabled": {
+      "description": "",
+      "message": "Aktiver lagring i skyen"
+   },
+   "settingsCollapseBlacklisted": {
+      "description": "A setting in the dashboard's Settings pane: 'blacklisted' means 'for which there is a specific block rule', 'specific' means 'a rule for which the destination hostname is not `*`'",
+      "message": "Collapse placeholder of blacklisted elements"
+   },
+   "settingsCollapseBlocked": {
+      "description": "English: Collapse placeholder of blocked elements",
+      "message": "Sammenfold pladsholder for blokerede elementer"
+   },
+   "settingsDefaultScopeLevel": {
+      "description": "Label for default scope level selector in Settings pane",
+      "message": "Default scope level:"
+   },
+   "settingsDefaultScopeLevel0": {
+      "description": "Scope will be global",
+      "message": "Global"
+   },
+   "settingsDefaultScopeLevel1": {
+      "description": "Scope will be base domain",
+      "message": "Domain"
+   },
+   "settingsDefaultScopeLevel2": {
+      "description": "Scope will be full hostname of site",
+      "message": "Site"
+   },
+   "settingsIconBadgeEnabled": {
+      "description": "",
+      "message": "Vis antal separate forespørgsler på ikonet"
+   },
+   "settingsMatrixConvenienceHeader": {
+      "description": "English: Convenience",
+      "message": "Bekvemmelighed"
+   },
+   "settingsMatrixDisplayColorBlind": {
+      "description": "",
+      "message": "Optimeret til farveblindhed"
+   },
+   "settingsMatrixDisplayHeader": {
+      "description": "header for matrix settings used in Settings page",
+      "message": "Udseende"
+   },
+   "settingsMatrixDisplayTextSizePrompt": {
+      "description": "",
+      "message": "Skriftstørrelse:"
+   },
+   "settingsMatrixNoTooltips": {
+      "description": "",
+      "message": "Disable tooltips"
+   },
+   "settingsNoscriptTagsSpoofed": {
+      "description": "This appears in the Settings pane in the dashboard",
+      "message": "Spoof \u003Ccode>\u003Cnoscript>\u003C/code> tags when 1st-party scripts are blocked"
+   },
+   "settingsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Indstillinger"
+   },
+   "settingsPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Indstillinger"
+   },
+   "showDashboardButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Kontrolpanel"
+   },
+   "showLoggerButton": {
+      "description": "Appears in Firefox's add-on preferences",
+      "message": "Logger"
+   },
+   "statsPageAll": {
+      "description": "",
+      "message": "Alle"
+   },
+   "statsPageAllowed": {
+      "description": "header for the allowed requests column",
+      "message": "Tilladte"
+   },
+   "statsPageBlocked": {
+      "description": "header for the blocked requests column",
+      "message": "Blokerede"
+   },
+   "statsPageBrowserCacheCleared": {
+      "description": "",
+      "message": "Browser-cacher tømt: {{count}}"
+   },
+   "statsPageCSS": {
+      "description": "",
+      "message": "CSS"
+   },
+   "statsPageCookieHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://en.wikipedia.org/wiki/HTTP_cookie'>HTTP-cookie\u003C/a>-headere forhindret: {{count}}"
+   },
+   "statsPageCookies": {
+      "description": "",
+      "message": "Cookies"
+   },
+   "statsPageCookiesRemoved": {
+      "description": "",
+      "message": "Lokale cookies fjernet: {{count}}"
+   },
+   "statsPageDetailed": {
+      "description": "",
+      "message": "Logger"
+   },
+   "statsPageDetailedAllPages": {
+      "description": "",
+      "message": "Alle"
+   },
+   "statsPageDetailedBehindTheScenePage": {
+      "description": "",
+      "message": "Baggrundsanmodninger"
+   },
+   "statsPageDetailedStats": {
+      "description": "",
+      "message": "Detaljeret statistik"
+   },
+   "statsPageFrames": {
+      "description": "",
+      "message": "Frames"
+   },
+   "statsPageGenericStats": {
+      "description": "",
+      "message": "Generisk statistik"
+   },
+   "statsPageHyperlinkAuditingFoiled": {
+      "description": "",
+      "message": "\u003Ca href='http://www.whatwg.org/specs/web-apps/current-work/multipage/links.html#hyperlink-auditing'>Hyperlink overvågnings\u003C/a> forsøg forhindret: {{count}}"
+   },
+   "statsPageImages": {
+      "description": "",
+      "message": "Billeder"
+   },
+   "statsPageLocalStoragesCleared": {
+      "description": "",
+      "message": "\u003Ca href='http://diveintohtml5.info/storage.html'>Lokale lagre\u003C/a> tømt: {{count}}"
+   },
+   "statsPageLogSizeHelp": {
+      "description": "To help user understand the purpose of the log size value",
+      "message": "\u003Cp>Du kan inspicerer detaljerne for de seneste \"rå\" HTTP-forespørgsler, der er blevet foretaget af en webside (se nedenfor).\u003C/p>\u003Cp>Dette er mest nyttigt for erfarne brugere, der ønsker at undersøge præcis hvad en webside har lavet. Men logningen af disse HTTP-forespørgsler kræver hukommelse, så hvis du er ligeglad med denne tekniske information, er det øgede forbrug af hukommelse spildt.\u003C/p>\u003Cp>Derfor dette felt, som lader dig justere det maskimale antal nyeste HTTP-forespørgsler, som skal logges til yderligere inspektion.\u003C/p>\u003Cp>Skriv &ldquo;\u003Ccode>0\u003C/code>&rdquo; for at slå detaljeret logning fra (og dermed reducere hukommelsesforbruget for \u003Ci>uMatrix\u003C/i>).\u003C/p>"
+   },
+   "statsPageLogSizePrompt1": {
+      "description": "First part of Remember the last [n] HTTP requests per page",
+      "message": "Husk de sidste"
+   },
+   "statsPageLogSizePrompt2": {
+      "description": "Second part of Remember the last [n] HTTP requests per page",
+      "message": "HTTP-forespørgsler \u003Cb>per side\u003C/b>."
+   },
+   "statsPageName": {
+      "description": "a tab in dashboard",
+      "message": "Statistik"
+   },
+   "statsPageOthers": {
+      "description": "",
+      "message": "Andre"
+   },
+   "statsPageOverview": {
+      "description": "",
+      "message": "Oversigt"
+   },
+   "statsPagePages": {
+      "description": "",
+      "message": "Sider"
+   },
+   "statsPagePlugins": {
+      "description": "",
+      "message": "Plugins"
+   },
+   "statsPageRefererHeadersFoiled": {
+      "description": "",
+      "message": "\u003Ca href='https://en.wikipedia.org/wiki/HTTP_referer'>HTTP referer\u003C/a>-headere forhindret: {{count}}"
+   },
+   "statsPageRefresh": {
+      "description": "",
+      "message": "Genindlæs"
+   },
+   "statsPageRequests": {
+      "description": "header for the stat type column",
+      "message": "Forespørgsler"
+   },
+   "statsPageScripts": {
+      "description": "",
+      "message": "Scripts"
+   },
+   "statsPageTitle": {
+      "description": "",
+      "message": "uMatrix &ndash; Statistik"
+   },
+   "statsPageXHRs": {
+      "description": "",
+      "message": "XHRs"
+   },
+   "ubiquitousRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Assets"
+   },
+   "userRulesCommit": {
+      "description": "Will save all temporary rules",
+      "message": "Tilføj"
+   },
+   "userRulesDefaultFileName": {
+      "description": "default file name to use",
+      "message": "my-umatrix-rules.txt"
+   },
+   "userRulesEdit": {
+      "description": "Will enable manual-edit mode (textarea)",
+      "message": "Rediger"
+   },
+   "userRulesEditDicard": {
+      "description": "Will discard manually-edited content and exit manual-edit mode",
+      "message": "Kassér"
+   },
+   "userRulesEditSave": {
+      "description": "Will save manually-edited content and exit manual-edit mode",
+      "message": "Gem"
+   },
+   "userRulesExport": {
+      "description": "",
+      "message": "Eksporter fil til..."
+   },
+   "userRulesFormatHint": {
+      "description": "",
+      "message": "Gå til denne side for at se syntaks regler."
+   },
+   "userRulesImport": {
+      "description": "",
+      "message": "Importer fra fil..."
+   },
+   "userRulesPageName": {
+      "description": "a tab in dashboard",
+      "message": "Mine regler"
+   },
+   "userRulesPermanentHeader": {
+      "description": "",
+      "message": "Permanente regler"
+   },
+   "userRulesRevert": {
+      "description": "Will remove all temporary rules",
+      "message": "Fortryd"
+   },
+   "userRulesTemporaryHeader": {
+      "description": "",
+      "message": "Midlertidige regler"
+   },
+   "xhrPrettyName": {
+      "description": "HAS TO FIT IN MATRIX HEADER!",
+      "message": "XHR"
+   }
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+##
+##  Enhancer for YouTube™ | Chrome Extension
+##  ========================================
+##
+##  Author: Maxime RF <https://www.mrfdev.com>
+##
+##  This file is protected by copyright laws and international copyright
+##  treaties, as well as other intellectual property laws and treaties.
+##
+##  All rights not expressly granted to you are retained by the author.
+##  Read the license.txt file for more details.
+##
+##  If it's not enough clear for you Baris Derin, you have no rights to use my work,
+##  neither as-is nor modified! Improve your coding logic instead of using others work!
+##
+##  © MRFDEV.com - All Rights Reserved
+##
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Permissions</title>
+<link rel="stylesheet" href="message.css">
+</head>
+<body>
+<h2>More permissions, less issues, better user experience.</h2>
+<p>During years, and obviously not without countless updates, this extension has been able to remove ads, but as you may have already noticed the YouTube developers have introduced new ad formats that cannot be removed without causing issues. I have tried to fix them without total success so I have decided to give you the possibility to grant additional permissions to block ads before they get loaded.</p>
+<h4>How does it work?</h4>
+<p>When optional permissions have been granted and when the extension is configured to automatically remove ads (like on the image below), the extension will block web requests made by YouTube to load video ads. I use the <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/permissions" target="_blank" rel="noopener">permissions</a> API to let you decide when you want to grant or revoke permissions.<br><img src="permissions.png" alt=""></p>
+<h4>Which permissions are needed for this to work?</h4>
+<p>The <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs" target="_blank" rel="noopener">tabs</a>, <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation" target="_blank" rel="noopener">webNavigation</a>, <a href="https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/webRequest" target="_blank" rel="noopener">webRequest</a>, and the webRequestBlocking permissions.</p>
+<h4>Will it impact my browser's performance?</h4>
+<p>No. There should be no noticeable impact because unlike well-known ad blockers who parse all web requests as soon as you open your browser, this extension will parse web requests <strong>only when all the following conditions are met:</strong><ul><li>when the extension is configured to automatically remove ads</li><li>when permissions have been granted</li><li>when YouTube is loaded in a tab</li></ul>As soon as you leave YouTube the extension will stop parsing web requests. I have coded this feature with performance in mind.</p>
+<h4>Will it block ads displayed next to the video player?</h4>
+<p>No. Unlike well-known ad blockers who block all ads, I don't want this extension to block ads that do not interrupt videos, and I want to permit creators to earn revenues from those ads because the "Whitelisted channels" feature does not work when ads are blocked before they get loaded.</p>
+<h4>What about privacy?</h4>
+<p>Nothing has changed, Enhancer for YouTube™ has always been a safe, trustworthy, and privacy-preserving extension. Even if you grant permissions that give access to your browsing activity they are only used to block ads, nothing else. I am a developer but I am a user too so I treat your privacy like I would like mine to be treated.</p>
+<h4>You are an awesome dev Maxime!</h4>
+<p>Yeah, sometimes it happens (ツ)<br>More seriously, I implement and improve features based on users' feedbacks so thank you if you plan to write a positive review about this feature, the way it is implemented, or the extension in general. You can also write a comment or simply vote up comments directly on my website: <a href="https://www.mrfdev.com/how-to-use-enhancer-for-youtube" target="_blank" rel="noopener">https://www.mrfdev.com/how-to-use-enhancer-for-youtube</a> (scroll down to the comments section).</p>
+<p>-----<br>The Developer</p>
+<p class="portrait"></p>
+</body>
+</html>

@@ -1,0 +1,314 @@
+{
+   "alleanzeigen": {
+      "message": "Показать все"
+   },
+   "appDesc": {
+      "message": "Загружайте видео с веб-сайтов или просто собирайте их в свой список видео, не загружая их."
+   },
+   "appName": {
+      "message": "Video Downloader professional"
+   },
+   "apply": {
+      "message": "Применить"
+   },
+   "apps": {
+      "message": "приложение"
+   },
+   "cancel": {
+      "message": "Отменить"
+   },
+   "close": {
+      "message": "близко"
+   },
+   "country": {
+      "message": "ru"
+   },
+   "deffolder": {
+      "message": "Папка"
+   },
+   "done": {
+      "message": "Применить изменения"
+   },
+   "downloads": {
+      "message": "Загрузка"
+   },
+   "filter": {
+      "message": "Фильтровать видео"
+   },
+   "home": {
+      "message": "Главная"
+   },
+   "idTL": {
+      "message": "Создать верхнюю ссылку для этой страницы"
+   },
+   "idVDL": {
+      "message": "Найдено видеофайлов:"
+   },
+   "idYT": {
+      "message": "Примечание. Интернет-магазин Chrome больше не позволяет расширениям, которые загружают видео с YouTube.\u003Cbr/>\u003Cbr/>Нажмите \u003Ca href='#' id='idUltimate'>здесь\u003C/a> чтобы найти больше информации "
+   },
+   "idYT3": {
+      "message": "Примечание. Интернет-магазин Chrome больше не позволяет расширениям, которые загружают видео с YouTube. Нажмите, чтобы получить дополнительную информацию"
+   },
+   "idadded": {
+      "message": "Страница была добавлена"
+   },
+   "idadded2": {
+      "message": "был добавлен в список видео"
+   },
+   "idaddvideo": {
+      "message": "Добавить видео в список видео"
+   },
+   "idbegin": {
+      "message": "Переместить верхнюю ссылку в начало"
+   },
+   "idbeginf": {
+      "message": "Переместить папку в начало"
+   },
+   "idcc": {
+      "message": "Отправьте это видео в Google Chromecast, чтобы воспроизвести его на своем телевизоре"
+   },
+   "idcc1": {
+      "message": "Вам необходимо установить расширение Google Chromecast, чтобы включить функцию приведения в Video Downloader Professional. Хотите установить это расширение сейчас?"
+   },
+   "idcc2": {
+      "message": "Вам необходимо включить расширение chromecast, чтобы включить функцию приведения в Video Downloader professional. Хотите включить расширение chromecast сейчас?"
+   },
+   "iddel": {
+      "message": "Удалить верхнюю ссылку"
+   },
+   "iddelf": {
+      "message": "Удалить папку"
+   },
+   "iddownload": {
+      "message": "Скачать"
+   },
+   "idedit": {
+      "message": "Изменить верхнюю ссылку"
+   },
+   "ideditf": {
+      "message": "Изменить имя папки"
+   },
+   "idend": {
+      "message": "Переместить верхнюю ссылку в конец"
+   },
+   "idendf": {
+      "message": "Переместить папку в конец"
+   },
+   "idmb": {
+      "message": "MB"
+   },
+   "idnovideo": {
+      "message": "Видео не найдено."
+   },
+   "idnovideo1": {
+      "message": "На этой странице не найдено видео"
+   },
+   "idnovideo2": {
+      "message": "Вы пытались начать воспроизведение? Некоторые сайты требовали воспроизведения видео, прежде чем его можно будет загрузить.\u003Cbr/>\u003Cbr/>Некоторые видео-сайты пытаются усложнить загрузку видео. видео. Если вы хотите, чтобы мы попытались найти путь для этой страницы, \u003Ca href='#' id='idSubmit'> отправьте нам этот URL-адрес \u003C/a>. "
+   },
+   "idnovideo3": {
+      "message": "Спасибо, мы также сделаем все возможное, чтобы поддержать этот сайт!"
+   },
+   "idreview": {
+      "message": "Вы загрузили несколько видео с помощью Video Downloader professional. Пожалуйста, поделитесь своим опытом с другими и оставьте отзыв для нас."
+   },
+   "idsimil": {
+      "message": "Найти похожие видео"
+   },
+   "idvideo": {
+      "message": "Показать список видео"
+   },
+   "idwait1": {
+      "message": "Ожидание ответа видеосервера"
+   },
+   "idwait2": {
+      "message": "Ожидание сервера"
+   },
+   "idwhy": {
+      "message": "Почему?"
+   },
+   "langKey_addToplink": {
+      "message": "Добавить верхнюю ссылку"
+   },
+   "langKey_addfolder": {
+      "message": "Добавить папку"
+   },
+   "langKey_bkcolor": {
+      "message": "Выберите цвет фона"
+   },
+   "langKey_border": {
+      "message": "Выбрать границу"
+   },
+   "langKey_bordercolor": {
+      "message": "Выберите цвет границы ниже"
+   },
+   "langKey_checknodefaults": {
+      "message": "Настроить цвета и стиль"
+   },
+   "langKey_country": {
+      "message": "Выбрать язык"
+   },
+   "langKey_de": {
+      "message": "Немецкий"
+   },
+   "langKey_delall": {
+      "message": "Удалить все главные ссылки"
+   },
+   "langKey_editToplinks": {
+      "message": "Переместить видео"
+   },
+   "langKey_en": {
+      "message": "Английский"
+   },
+   "langKey_firststart": {
+      "message": "Startpage24"
+   },
+   "langKey_helpdrag": {
+      "message": "Чтобы переместить верхнюю ссылку, просто нажмите на нее и переместите в нужную вам позицию"
+   },
+   "langKey_helpedit": {
+      "message": "Чтобы переместить, удалить или отредактировать верхние ссылки, нажмите« Редактировать верхние ссылки "
+   },
+   "langKey_helpsearch": {
+      "message": "Самые важные поисковые запросы всегда доступны: введите слово для поиска и щелкните, например, по изображениям"
+   },
+   "langKey_helpsettings": {
+      "message": "Нажмите \"Настройки\", чтобы настроить дизайн Startpage24"
+   },
+   "langKey_helpslideshow": {
+      "message": "Для управления фоновыми изображениями вы можете скрыть верхние ссылки с помощью этой кнопки: \u003Cimg src = './png/slide_toggle_dark.png' />"
+   },
+   "langKey_helptoggle": {
+      "message": "Нажмите на фон, чтобы снова показать Топ-ссылки"
+   },
+   "langKey_helpvideo": {
+      "message": "Чтобы добавить элементы в свой список видео, воспроизведите видео с сайтов, перечисленных в нижней части этой страницы, а затем щелкните этот значок выше:"
+   },
+   "langKey_settings": {
+      "message": "Настройки"
+   },
+   "langKey_sync": {
+      "message": "Синхронизировать главные ссылки с вашей учетной записью Google"
+   },
+   "langKey_textcolor": {
+      "message": "Выберите цвет текста"
+   },
+   "langKey_trans": {
+      "message": "Непрозрачность верхних ссылок"
+   },
+   "langkey_bilder": {
+      "message": "Фотографии"
+   },
+   "langkey_maps": {
+      "message": "Карты"
+   },
+   "langkey_preis": {
+      "message": "Shopping"
+   },
+   "langkey_translate": {
+      "message": "Перевести"
+   },
+   "langkey_videos": {
+      "message": "Видео"
+   },
+   "language": {
+      "message": "ru"
+   },
+   "more": {
+      "message": "Найдены дальнейшие решения"
+   },
+   "name": {
+      "message": "Имя:"
+   },
+   "noborder": {
+      "message": "Нет границы"
+   },
+   "noentries": {
+      "message": "нет доступных записей"
+   },
+   "ok": {
+      "message": "Хорошо"
+   },
+   "original": {
+      "message": "Перейти на исходный сайт"
+   },
+   "ratetext": {
+      "message": "Пожалуйста, оцените это расширение"
+   },
+   "resethelp": {
+      "message": "Сбросить справочные баллоны"
+   },
+   "resethelp2": {
+      "message": "Вы действительно хотите сбросить все настройки?"
+   },
+   "resettheme": {
+      "message": "Сбросить все"
+   },
+   "search": {
+      "message": "Поиск"
+   },
+   "searchurl": {
+      "message": "Поиск адреса (необязательно)"
+   },
+   "searchurl2": {
+      "message": "Использовать% P1% в качестве заполнителя для текста для поиска"
+   },
+   "shops": {
+      "message": "Магазины"
+   },
+   "supported": {
+      "message": "Поддерживаемые видео-сайты:"
+   },
+   "theme100": {
+      "message": "Монеты"
+   },
+   "theme101": {
+      "message": "Лифс"
+   },
+   "theme102": {
+      "message": "Цветы"
+   },
+   "theme103": {
+      "message": "Сердца"
+   },
+   "theme104": {
+      "message": "Teddies"
+   },
+   "theme105": {
+      "message": "Футбол"
+   },
+   "theme106": {
+      "message": "Конфета"
+   },
+   "theme107": {
+      "message": "Искусство"
+   },
+   "theme108": {
+      "message": "Шары"
+   },
+   "theme109": {
+      "message": "Автомобили"
+   },
+   "theme110": {
+      "message": "Дети"
+   },
+   "theme111": {
+      "message": "Домашние животные"
+   },
+   "theme112": {
+      "message": "Лес"
+   },
+   "theme113": {
+      "message": "Камни"
+   },
+   "url": {
+      "message": "Адрес:"
+   },
+   "videolist": {
+      "message": "видео"
+   },
+   "wunschliste": {
+      "message": "Список пожеланий"
+   }
+}

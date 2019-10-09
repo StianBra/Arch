@@ -1,0 +1,398 @@
+{
+   "add": {
+      "message": "Dodaj"
+   },
+   "ads_removed": {
+      "message": "Reklamy zostały usunięte"
+   },
+   "annotations_shown_hidden": {
+      "message": "Adnotacje zostały pokazane/ukryte"
+   },
+   "auto_cinema_mode": {
+      "message": "Włącz automatycznie tryb kinowy"
+   },
+   "auto_enable_filters": {
+      "message": "Automatyczne włączanie filtrów"
+   },
+   "auto_enable_theater_mode": {
+      "message": "Automatycznie uruchamiaj „Tryb Teatralny”"
+   },
+   "auto_enlarge_player": {
+      "message": "Automatyczne powiększanie odtwarzacza filmów"
+   },
+   "auto_execute_script": {
+      "message": "Automatycznie wykonaj skrypt po wczytaniu YouTube™ do karty"
+   },
+   "auto_expand_description": {
+      "message": "Automatyczne rozwijanie całego opisu filmu"
+   },
+   "auto_focus_video_player": {
+      "message": "Automatycznie przywróć kontrolę nad odtwarzaczem wideo kiedy:"
+   },
+   "auto_pause_videos": {
+      "message": "Automatycznie zatrzymaj filmy otwarte w zakładkach w tle"
+   },
+   "auto_remove_ads": {
+      "message": "Automatyczne usuwanie wykrytych reklam"
+   },
+   "auto_remove_annotations": {
+      "message": "Automatyczne usuwanie adnotacji"
+   },
+   "auto_select_quality": {
+      "message": "Automatyczne odtwarzanie filmów z preferowaną jakością"
+   },
+   "auto_sort_comments": {
+      "message": "Automatyczne sortowanie komentarzy od najnowszych do najstarszych"
+   },
+   "backup": {
+      "message": "Kopia zapasowa"
+   },
+   "boost_button_instructions": {
+      "message": "Info: Kliknij by włączyć/wyłączyć zwiększenie głośności."
+   },
+   "boost_volume": {
+      "message": "Zwiększ głośność"
+   },
+   "border": {
+      "message": "Ramka:"
+   },
+   "bottom_left_corner": {
+      "message": "Dolny lewy"
+   },
+   "bottom_right_corner": {
+      "message": "Dolny prawy"
+   },
+   "brightness": {
+      "message": "Jasność:"
+   },
+   "buttons": {
+      "message": "Przyciski"
+   },
+   "buttons_active_label": {
+      "message": "Przyciski aktywowane:"
+   },
+   "buttons_label": {
+      "message": "Przyciski:"
+   },
+   "cinema_button_instructions": {
+      "message": "Info: Kliknij by włączyć/wyłączyć tryb kinowy."
+   },
+   "cinema_enabled_disabled": {
+      "message": "Tryb kinowy został włączony/wyłączony"
+   },
+   "cinema_mode": {
+      "message": "Tryb kinowy"
+   },
+   "cinema_mode_enlarge_player": {
+      "message": "Automatyczne powiększanie odtwarzacza filmów w trybie kinowym"
+   },
+   "clean_button_instructions": {
+      "message": "Info: Click this button to remove ads. Kliknij prawym przyciskiem, aby pokazać/ukryć adnotacje."
+   },
+   "color": {
+      "message": "Kolor:"
+   },
+   "color_inversion": {
+      "message": "Odwrócenie kolorów:"
+   },
+   "colors": {
+      "message": "Kolory"
+   },
+   "configure_keyboard_shortcuts": {
+      "message": "Informacje: Wpisz „chrome://extensions/configureCommands” w pasku adresu by skonfigurować skróty klawiszowe."
+   },
+   "contrast": {
+      "message": "Kontrast:"
+   },
+   "control_volume": {
+      "message": "Sterowanie głośnością za pomocą kółka po wskazaniu odtwarzacza filmów wskaźnikiem"
+   },
+   "control_volume_mouse_button": {
+      "message": "Tylko gdy prawy przycisk myszy jest wciśnięty"
+   },
+   "custom_script": {
+      "message": "Skrypt niestandardowy"
+   },
+   "custom_script_instructions": {
+      "message": "Wklej lub wpisz tutaj kod JavaScript, zapisz go za pomocą poniższego przycisku, następnie naciśnij „Skrypt niestandardowy” na pasku zadań gdy zechcesz go wykonać."
+   },
+   "custom_script_warning": {
+      "message": "Ostrzeżenie: Dla Twojego bezpieczeństwa powinieneś używać tylko tego kodu, który w pełni rozumiesz lub został napisany przez zaufanego programistę."
+   },
+   "custom_theme": {
+      "message": "Motyw niestandardowy"
+   },
+   "custom_theme_instructions": {
+      "message": "Wklej lub wpisz swój kod CSS, a następnie zapisz używając przycisku poniżej."
+   },
+   "default_playback_speed": {
+      "message": "Domyślna szybkość odtwarzania:"
+   },
+   "default_volume_level": {
+      "message": "Domyślny poziom natężenia dźwięku:"
+   },
+   "description": {
+      "message": "Mnóstwo funkcji usprawniająych korzystanie z YouTube™."
+   },
+   "detach_button_instructions": {
+      "message": "Info: Kliknij by odczepić odtwarzacz. Użyj prawego przycisku myszy na tym przycisku by zamknąć wideo w YouTube™ zamiast zatrzymywać je kiedy odtwarzacz jest odczepiony. W celu uzyskania odczepionego odtwarzacza znajdującego się zawsze nad innymi oknami odwiedź tą stronę:"
+   },
+   "detach_player": {
+      "message": "Odczep odtwarzacz"
+   },
+   "disable_autoplay": {
+      "message": "Wyłącz funkcję „Autoodtwarzanie”"
+   },
+   "disable_preloading": {
+      "message": "Wyłącz wstępne ładowanie, kiedy filmy są autmatycznie zatrzymywane"
+   },
+   "donate": {
+      "message": "Wspomóż"
+   },
+   "enlarged_player_viewport": {
+      "message": "Użyj całego okna podglądowego dla powiększonego odtwarzacza wideo kiedy tryb kinowy jest niedostępny"
+   },
+   "export": {
+      "message": "Eksportuj"
+   },
+   "export_instructions": {
+      "message": "Utwórz nowy plik tekstowy i wklej kod nie modyfikując go."
+   },
+   "filters": {
+      "message": "Filtry"
+   },
+   "filters_button_instructions": {
+      "message": "Info: Kliknij by włączyć/wyłączyć filtry. Naciśnij prawy przycisk myszy, aby edytować ustawienia flitrów. Aby włączyć/wyłączyć filtry naciśnij lewy przycisk myszy lub przytrzymaj klawisz „Control” (Ctrl) oraz „Shift”, a następnie kliknij na filmie."
+   },
+   "filters_enabled_disabled": {
+      "message": "Filtry zostały włączone/wyłączone"
+   },
+   "fourth_choice": {
+      "message": "Czwarty wybór:"
+   },
+   "gaussian_blur": {
+      "message": "Rozmycie gaussowskie:"
+   },
+   "grayscale": {
+      "message": "Skala szarości:"
+   },
+   "html5_player_only": {
+      "message": "(tylko odtwarzacz HTML5)"
+   },
+   "hue_rotation": {
+      "message": "Odcień światła:"
+   },
+   "ignore_playlists": {
+      "message": "Nie zatrzymuj filmów w playlistach"
+   },
+   "import": {
+      "message": "Importuj"
+   },
+   "import_error": {
+      "message": "Zawartość pliku zapasowego jest niewłaściwa!"
+   },
+   "import_instructions": {
+      "message": "Wklej zawartość pliku zapasowego i kliknij przycisk „Importuj”. W przypadku powodzenia strona automatycznie się odświeży."
+   },
+   "keyboard_shortcuts": {
+      "message": "Skróty klawiszowe"
+   },
+   "keyboard_shortcuts_list": {
+      "message": "Kompletna lista skrótów klawiszowych YouTube™ na stronie:"
+   },
+   "locale_code": {
+      "message": "pl"
+   },
+   "loop_button_instructions": {
+      "message": "Info: Kliknij by włączyć/wyłączyć tryb „powtarzania”."
+   },
+   "loop_enabled_disabled": {
+      "message": "Tryb zapętlenia został włączony/wyłączony"
+   },
+   "loop_video": {
+      "message": "Zapętl film"
+   },
+   "message": {
+      "message": "Wiadomość"
+   },
+   "miscellaneous": {
+      "message": "Inne/Różne"
+   },
+   "not_now": {
+      "message": "Nie teraz"
+   },
+   "opacity": {
+      "message": "Przezroczystość:"
+   },
+   "options": {
+      "message": "Opcje"
+   },
+   "options_button_instructions": {
+      "message": "Info: Kliknij by włączyć ustawienia."
+   },
+   "override_playback_speeds": {
+      "message": "Zmiana domyślnej szybkości odtwarzania"
+   },
+   "page_reload_required": {
+      "message": "Enhancer for YouTube™ został zaktualizowany, storna musi zostać odświeżona."
+   },
+   "pause_foreground_tab": {
+      "message": "Zatrzymaj filmy otwarte w zakładce na pierwszym planie"
+   },
+   "pause_videos": {
+      "message": "Zatrzymanie odtwarzania filmu w tle, gdy w innej karcie został włączony inny film"
+   },
+   "pin_video_player": {
+      "message": "Przypninanie odtwarzacza wideo, podczas przewijania strony"
+   },
+   "pinned_video_player_position": {
+      "message": "Pozycja przypiętego odtwarzacza wideo:"
+   },
+   "pinned_video_player_size": {
+      "message": "Rozmiar przypiętego odtwarzacza wideo:"
+   },
+   "playback_speed_modified": {
+      "message": "Prędkość odtwarzania została zmieniona"
+   },
+   "preferred_quality": {
+      "message": "Preferowana jakość:"
+   },
+   "preview": {
+      "message": "Podgląd"
+   },
+   "rate": {
+      "message": "Oceń"
+   },
+   "remove": {
+      "message": "Usuń"
+   },
+   "remove_ads": {
+      "message": "Usuń reklamy"
+   },
+   "reset_filters": {
+      "message": "Resetuj filtry"
+   },
+   "resize_button_instructions": {
+      "message": "Info: Kliknij by zmienić wielkość odtwarzacza."
+   },
+   "resize_player": {
+      "message": "Zmień rozmiar odtwarzacza"
+   },
+   "restore_default_colors": {
+      "message": "Przywróć domyślne kolory"
+   },
+   "reverse_mouse_wheel_direction": {
+      "message": "Zamień kierunek kółka myszki podczas kontroli prędkości i głośności"
+   },
+   "saturation": {
+      "message": "Saturacja:"
+   },
+   "save": {
+      "message": "Zapisz"
+   },
+   "script_button_instructions": {
+      "message": "Info: Kliknij aby wykonać niestandardowy skrypt."
+   },
+   "second_choice": {
+      "message": "Drugi wybór:"
+   },
+   "sepia": {
+      "message": "Sepia:"
+   },
+   "share": {
+      "message": "Podziel się"
+   },
+   "share_message": {
+      "message": "Powiedz swoim znajomym i obserwującym o rozszerzeniu Enhancer for YouTube™. Dziękuję!"
+   },
+   "share_on_facebook": {
+      "message": "Podziel się na Facebook"
+   },
+   "share_on_google_plus": {
+      "message": "Podziel się na Google+"
+   },
+   "share_on_pinterest": {
+      "message": "Podziel się na Pinterest"
+   },
+   "share_on_reddit": {
+      "message": "Podziel się na Reddit"
+   },
+   "share_on_twitter": {
+      "message": "Podziel się na Twitter"
+   },
+   "show_hide_annotations": {
+      "message": "Pokaż/ukryj adnotacje"
+   },
+   "slide_effect": {
+      "message": "Automatyczne ukrywanie"
+   },
+   "slow_down_button_instructions": {
+      "message": "Info: Kliknij by zmniejszyć prędkość odtwarzania."
+   },
+   "speed": {
+      "message": "Prędkość"
+   },
+   "speed_button_instructions": {
+      "message": "Info: Użyj kółka myszy, aby kontrolować tempo odtwarzania jednocześnie trzymając kursor na tym przycisku. Naciśnij lewy przycisk myszy, by przywrócić domyślną prędkość. Możesz także użyć kółka myszy, by zmieniać tempo odtwarzania filmu mając kursor bezpośrednio na nim i trzymając przycisk „Control” (Ctrl)."
+   },
+   "speed_up_button_instructions": {
+      "message": "Info: Kliknij by zwiększyć prędkość odtwarzania."
+   },
+   "speed_variation": {
+      "message": "Zmiana prędkości podczas ruchu kółkiem myszy albo albo gdy klawisze „-” i „+” są wciśnietę:"
+   },
+   "support": {
+      "message": "Wesprzyj"
+   },
+   "support_request_instructions": {
+      "message": "Podaj te informacje podczas zapytania o pomoc lub zgłaszania problemu."
+   },
+   "theme": {
+      "message": "Motyw"
+   },
+   "theme_by_default": {
+      "message": "Motyw standardowy"
+   },
+   "third_choice": {
+      "message": "Trzeci wybór:"
+   },
+   "toolbar": {
+      "message": "Pasek narzędzi"
+   },
+   "toolbar_label": {
+      "message": "Pasek narzędzi:"
+   },
+   "tooltips": {
+      "message": "Podpowiedzi"
+   },
+   "top_left_corner": {
+      "message": "Górny lewy"
+   },
+   "top_right_corner": {
+      "message": "Górny prawy"
+   },
+   "translate": {
+      "message": "Przetłumacz"
+   },
+   "transparency": {
+      "message": "Przezroczystość:"
+   },
+   "video_player": {
+      "message": "Odtwarzacz filmów"
+   },
+   "video_player_pinned": {
+      "message": "Przypięto odtwarzacz wideo"
+   },
+   "video_player_resized": {
+      "message": "Zmieniono rozmiar odtwarzacza wideo"
+   },
+   "volume_booster_enabled_disabled": {
+      "message": "Zwiększenie głośności zostało włączone/wyłączone"
+   },
+   "volume_variation": {
+      "message": "Zmiana głośności używając kółka myszy:"
+   },
+   "whitelisted_channels": {
+      "message": "Biała lista kanałów:"
+   }
+}

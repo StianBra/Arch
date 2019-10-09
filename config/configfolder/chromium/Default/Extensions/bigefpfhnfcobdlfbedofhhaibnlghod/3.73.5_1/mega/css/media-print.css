@@ -1,0 +1,63 @@
+/* frienldy printing */
+@media print {
+/* remove all single page styles */
+    * {
+        -webkit-print-color-adjust: exact !important;
+        color-adjust: exact !important;
+    }
+    .bottom-page .top-head {
+        position: absolute !important;
+    }
+    /* FM */
+    body, body * {
+        max-width: 100% !important;
+    }
+    .data-block-view {
+    position: relative !important;
+    left: auto !important;
+    top: auto !important;
+    }
+    /* Bottom Pages */
+        body.bottom-page, body.bottom-pages .fmholder {
+        overflow:  visible !important;
+    }
+    #help2-main .support-section-header {
+        position: absolute !important;
+    }
+    #help2-main .sidebar-menu-container.fixed {
+        position: absolute !important;
+    }
+    .contact-us-revamp h1 {
+        margin-bottom: 0;
+    }
+    .bottom-page.img.mobile-top {
+        margin: 0 0 0 38px;
+    }
+    .bottom-page.img.megasync {
+        padding: 0;
+    }
+    .bottom-page.img.mobile-app {
+        padding: 0;
+    }
+    .bottom-page.full-block {
+        overflow: hidden;
+    }
+    .megasync .bottom-page img {
+        width: 60%;
+    }
+    .bottom-page.img-wrap::before {
+        display: none;
+    }
+    .bottom-page .security-illustration {
+        margin-left: auto;
+        position: static; 
+        left: auto;
+    }
+    .bottom-page.table {
+        table-layout: auto;
+    }
+}
+@page {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+}

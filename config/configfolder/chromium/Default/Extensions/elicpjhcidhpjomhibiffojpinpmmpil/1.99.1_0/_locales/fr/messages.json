@@ -1,0 +1,314 @@
+{
+   "alleanzeigen": {
+      "message": "Afficher tout"
+   },
+   "appDesc": {
+      "message": "Téléchargez des vidéos à partir de sites Web ou rassemblez-les simplement dans votre liste de vidéos sans les télécharger."
+   },
+   "appName": {
+      "message": "Video Downloader professional"
+   },
+   "apply": {
+      "message": "Appliquer"
+   },
+   "apps": {
+      "message": "Apps"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "close": {
+      "message": "près"
+   },
+   "country": {
+      "message": "fr"
+   },
+   "deffolder": {
+      "message": "Dossier"
+   },
+   "done": {
+      "message": "Appliquer les modifications"
+   },
+   "downloads": {
+      "message": "Téléchargements"
+   },
+   "filter": {
+      "message": "Filtrer les vidéos"
+   },
+   "home": {
+      "message": "Home"
+   },
+   "idTL": {
+      "message": "Créer une liaison supérieure pour cette page"
+   },
+   "idVDL": {
+      "message": "Fichiers vidéo trouvés:"
+   },
+   "idYT": {
+      "message": "Remarque: Le Chrome Web Store n'autorise plus les extensions permettant de télécharger des vidéos à partir de YouTube.\u003Cbr/>\u003Cbr/>Cliquez \u003Ca href='#' id='idUltimate'>ici\u003C/a> pour trouver plus d'informations "
+   },
+   "idYT3": {
+      "message": "Remarque: Le Chrome Web Store n'autorise plus les extensions permettant de télécharger des vidéos à partir de YouTube. Cliquez pour obtenir plus d'informations"
+   },
+   "idadded": {
+      "message": "La page a été ajoutée"
+   },
+   "idadded2": {
+      "message": "a été ajouté à la liste de vidéos"
+   },
+   "idaddvideo": {
+      "message": "Ajouter une vidéo à la liste de vidéos"
+   },
+   "idbegin": {
+      "message": "Déplacer le lien en haut au début"
+   },
+   "idbeginf": {
+      "message": "Déplacer le dossier au début"
+   },
+   "idcc": {
+      "message": "Envoyez cette vidéo à votre chromecast Google pour la lire sur votre téléviseur"
+   },
+   "idcc1": {
+      "message": "Vous devez installer l'extension Google chromecast pour activer la fonction de diffusion dans Video Downloader professional. Souhaitez-vous installer cette extension maintenant?"
+   },
+   "idcc2": {
+      "message": "Vous devez activer l'extension Chromecast afin d'activer la fonction de diffusion dans Video Downloader Professional. Voulez-vous l'activer maintenant?"
+   },
+   "iddel": {
+      "message": "Supprimer le lien du haut"
+   },
+   "iddelf": {
+      "message": "Supprimer le dossier"
+   },
+   "iddownload": {
+      "message": "Télécharger"
+   },
+   "idedit": {
+      "message": "Modifier le lien du haut"
+   },
+   "ideditf": {
+      "message": "Modifier le nom du dossier"
+   },
+   "idend": {
+      "message": "Déplacer le lien du haut vers la fin"
+   },
+   "idendf": {
+      "message": "Déplacer le dossier à la fin"
+   },
+   "idmb": {
+      "message": "MO"
+   },
+   "idnovideo": {
+      "message": "Aucune vidéo trouvée."
+   },
+   "idnovideo1": {
+      "message": "Aucune vidéo trouvée sur cette page"
+   },
+   "idnovideo2": {
+      "message": "Avez-vous essayé de démarrer la lecture? Certains sites vous ont demandé de lire la vidéo avant de pouvoir la télécharger.\u003Cbr/>\u003Cbr/>Certains sites vidéo tentent de rendre le téléchargement plus difficile. Si vous souhaitez que nous essayions de trouver une solution pour cette page, \u003Ca href='#' id='idSubmit'>soumettez-nous cette URL\u003C/a>."
+   },
+   "idnovideo3": {
+      "message": "Merci, nous ferons de notre mieux pour soutenir ce site!"
+   },
+   "idreview": {
+      "message": "Vous avez téléchargé plusieurs vidéos avec Video Downloader professional. Partagez votre expérience avec d'autres et faites une revue à notre propos."
+   },
+   "idsimilar": {
+      "message": "Trouver des vidéos similaires"
+   },
+   "idvideo": {
+      "message": "Afficher la liste des vidéos"
+   },
+   "idwait1": {
+      "message": "Attendre que le serveur vidéo réponde"
+   },
+   "idwait2": {
+      "message": "En attente du serveur"
+   },
+   "idwhy": {
+      "message": "Pourquoi?"
+   },
+   "langKey_addToplink": {
+      "message": "Ajouter un lien en haut"
+   },
+   "langKey_addfolder": {
+      "message": "Ajouter un dossier"
+   },
+   "langKey_bkcolor": {
+      "message": "Sélectionner la couleur d'arrière-plan"
+   },
+   "langKey_border": {
+      "message": "Sélectionner une bordure"
+   },
+   "langKey_bordercolor": {
+      "message": "Sélectionnez la couleur de la bordure ci-dessous"
+   },
+   "langKey_checknodefaults": {
+      "message": "Personnaliser les couleurs et le style"
+   },
+   "langKey_country": {
+      "message": "Choisir la langue"
+   },
+   "langKey_de": {
+      "message": "allemand"
+   },
+   "langKey_delall": {
+      "message": "Supprimer tous les liens principaux"
+   },
+   "langKey_editToplinks": {
+      "message": "Déplacer des vidéos"
+   },
+   "langKey_en": {
+      "message": "anglais"
+   },
+   "langKey_firststart": {
+      "message": "Startpage24"
+   },
+   "langKey_helpdrag": {
+      "message": "Pour déplacer un lien supérieur, cliquez simplement dessus et déplacez-le à la position souhaitée"
+   },
+   "langKey_helpedit": {
+      "message": "Pour déplacer, supprimer ou modifier les liens principaux, cliquez sur \"Modifier les liens supérieurs\""
+   },
+   "langKey_helpsearch": {
+      "message": "Les recherches les plus importantes toujours disponibles: entrez votre mot de recherche et cliquez, par exemple, sur des images"
+   },
+   "langKey_helpsettings": {
+      "message": "Cliquez sur les paramètres pour personnaliser le design de Startpage24"
+   },
+   "langKey_helpslideshow": {
+      "message": "Pour contrôler les images d'arrière-plan, vous pouvez masquer les liens en haut par ce bouton: \u003Cimg src = './png/slide_toggle_dark.png' />"
+   },
+   "langKey_helptoggle": {
+      "message": "Cliquez sur l'arrière-plan pour afficher à nouveau les liens principaux"
+   },
+   "langKey_helpvideo": {
+      "message": "Pour ajouter des éléments à votre liste de vidéos, lisez une vidéo des sites énumérés au bas de cette page, puis cliquez sur cette icône ci-dessus:"
+   },
+   "langKey_settings": {
+      "message": "Paramètres"
+   },
+   "langKey_sync": {
+      "message": "Synchroniser les principaux liens avec votre compte Google"
+   },
+   "langKey_textcolor": {
+      "message": "Sélectionner la couleur du texte"
+   },
+   "langKey_trans": {
+      "message": "Opacité des principaux liens"
+   },
+   "langkey_bilder": {
+      "message": "Images"
+   },
+   "langkey_maps": {
+      "message": "Maps"
+   },
+   "langkey_preis": {
+      "message": "Shopping"
+   },
+   "langkey_translate": {
+      "message": "Traduire"
+   },
+   "langkey_videos": {
+      "message": "Vidéos"
+   },
+   "language": {
+      "message": "fr"
+   },
+   "more": {
+      "message": "Trouvé d'autres résolutions"
+   },
+   "name": {
+      "message": "Nom:"
+   },
+   "noborder": {
+      "message": "Pas de bordure"
+   },
+   "noentries": {
+      "message": "aucune entrée disponible"
+   },
+   "ok": {
+      "message": "Ok"
+   },
+   "original": {
+      "message": "Accéder au site d'origine"
+   },
+   "ratetext": {
+      "message": "Veuillez noter cette extension"
+   },
+   "resethelp": {
+      "message": "Réinitialiser les bulles d'aide"
+   },
+   "resethelp2": {
+      "message": "Voulez-vous vraiment que tous les paramètres soient réinitialisés?"
+   },
+   "resettheme": {
+      "message": "Réinitialiser tout"
+   },
+   "search": {
+      "message": "Rechercher"
+   },
+   "searchurl": {
+      "message": "Adresse de recherche (facultatif)"
+   },
+   "searchurl2": {
+      "message": "Utilisez %P1% comme espace réservé pour le texte à rechercher"
+   },
+   "shops": {
+      "message": "Boutiques"
+   },
+   "supported": {
+      "message": "Sites vidéo pris en charge:"
+   },
+   "theme100": {
+      "message": "Pièces de monnaie"
+   },
+   "theme101": {
+      "message": "Feuilles"
+   },
+   "theme102": {
+      "message": "Fleurs"
+   },
+   "theme103": {
+      "message": "Cœurs"
+   },
+   "theme104": {
+      "message": "Nounours"
+   },
+   "theme105": {
+      "message": "Football"
+   },
+   "theme106": {
+      "message": "Bonbons"
+   },
+   "theme107": {
+      "message": "Art"
+   },
+   "theme108": {
+      "message": "Des balles"
+   },
+   "theme109": {
+      "message": "Constructeurs automobiles"
+   },
+   "theme110": {
+      "message": "Enfants"
+   },
+   "theme111": {
+      "message": "Animaux domestiques"
+   },
+   "theme112": {
+      "message": "Bois"
+   },
+   "theme113": {
+      "message": "Des pierres"
+   },
+   "url": {
+      "message": "Adresse:"
+   },
+   "videolist": {
+      "message": "videos"
+   },
+   "wunschliste": {
+      "message": "Liste de souhaits"
+   }
+}

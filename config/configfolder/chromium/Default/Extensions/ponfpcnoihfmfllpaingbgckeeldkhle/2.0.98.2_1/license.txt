@@ -1,0 +1,47 @@
+© MRFDEV.com - All Rights Reserved.
+
+By downloading, installing, or otherwise using Enhancer for YouTube™, you acknowledge and agree to be bound by this license.
+If you do not agree to the terms of this license, then do not download, do not install, and do not use Enhancer for YouTube™.
+
+1. Definitions.
+
+    1.1. "License" means this document.
+    1.2. "The Developer" means the individual (Maxime RF) who has created Enhancer for YouTube™ and who has full rights on it.
+    1.3. "Source Code" means all the files that compose Enhancer for YouTube™, except files contained in the "vendor" directory.
+    1.4. "Google Services" means applications or services provided by Google.
+    1.5. "You" (or "Your") means an individual or a legal entity exercising rights under, and complying with all of the terms of, this License or a future version of this License. For legal entities, "You" includes any entity which controls, is controlled by, or is under common control with You.
+    1.6. "Authorized Persons" means people who have been granted rights by The Developer.
+
+2. Distribution and Use.
+
+    2.1. The Developer grants You the right to use Enhancer for YouTube™ with any of the compatible Google Services.
+
+    2.2. The Developer grants to Google and its affiliates a non-exclusive, worldwide, royalty-free, sublicensable license to distribute, transmit, publish, publicly and privately perform and display and otherwise use Enhancer for YouTube™, including any updates, solely in connection with Google’s provision of the Google Services. Google and its affiliates may also (i) maintain and/or update Enhancer for YouTube™ for the purpose of providing compatibility with current and new versions of Google Services that Enhancer for YouTube™ interoperates with if The Developer is unable to respond to Google's requests asking him to make changes and (ii) include The Developer's name, and/or the Enhancer for YouTube™ logo and title in menus and other categories relating to the selection of Google Chrome Extensions.
+
+    2.3. Except Authorized Persons, nobody has the right to distribute Enhancer for YouTube™.
+
+3. Source Code License.
+
+    3.1. The Source Code is protected by copyright laws and international copyright treaties, as well as other intellectual property laws and treaties. Except where otherwise noted, and except Authorized Persons, nobody (i) has the right to reverse-engineer, modify, reproduce, copy, duplicate, or use any part of the Source Code without The Developer's consent, neither "as-is" nor modified; (ii) has the right to distribute or in any way expose the Source Code over the web without The Developer's consent. All rights not expressly granted to You are retained by The Developer.
+
+    3.2. In the event of any violation of these terms, legal action will be taken against anyone involved in the copyright infringement.
+
+4. Disclaimer of Warranties.
+
+    4.1. Enhancer for YouTube™ is provided "as-is". It is distributed in the hope that it will be useful, but without any warranty and "with all faults". The Developer, and its third party software suppliers, disclaim all warranties, whether express or implied, including without limitation, warranties that Enhancer for YouTube™ is free of defects, implied warranties of merchantability, fitness for a particular purpose and non-infringement. The entire risk arising out of installing and using Enhancer for YouTube™ with or without using Google Services remains with You.
+
+5. Limitation of Liability.
+
+    5.1. In no event shall The Developer, and its third party software suppliers, be liable to You or any other party for any direct, indirect, special, consequential or exemplary damages, including without limitation any lost profits, business interruption, or loss of data, any claim regardless of the basis or nature of the claim, resulting from any use of Enhancer for YouTube™, or the failure to provide support services, even if The Developer was expressly advised of the possibility of such damages.
+
+6. Indemnification.
+
+    6.1. If anyone brings a claim against The Developer, or its third party software suppliers, related to Your use of Enhancer for YouTube™, You will indemnify and hold The Developer, or its third party software suppliers, harmless from and against all damages, losses, and expenses of any kind (including reasonable legal fees and costs) related to such claim.
+
+7. Changes.
+
+    7.1. This license may be updated along with Enhancer for YouTube™. You are bound by any such updates or changes, and so should periodically review these terms.
+
+8. Termination.
+
+    8.1. You may terminate Your use of Enhancer for YouTube™ at any time by uninstalling it. The Developer may modify or discontinue Enhancer for YouTube™ at its sole discretion.
