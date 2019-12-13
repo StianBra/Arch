@@ -5,7 +5,6 @@
 # Used for installing fonts (files with type .ttf and .otf) from a given folder, 
 # to another folder (typically the system-folder for fonts).
 # TODO #1: Parse command-line arguments properly
-# TODO #2: Correct directory-checking on line 23
 
 # Username of the current user
 username=$(whoami)
@@ -19,11 +18,8 @@ targetDir="/usr/share/fonts/$username"
 echo "Installing fonts..."
 
 # Creates targetDir if it does not already exist
-if [[ ! -d "$targetDir" ]]
-then
-	echo "Creating '$targetDir'..."
-	sudo mkdir "$targetDir"
-fi
+echo "Creating '$targetDir'..."
+sudo mkdir -p "$targetDir"
 
 # Moves (installs) the fonts
 echo "Moving fonts from '$sourceDir' to '$targetDir'..."
